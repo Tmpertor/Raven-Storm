@@ -1,7 +1,14 @@
 import socket
 from threading import Thread
 import os
-import sys
+import nmap
+
+def scann(ifconfig):
+   nm = nmap.PortScanner()
+   nm.scan(ifconfig, '10-1500')
+   print(" ")
+   print(nm.csv())
+   print(" ")
 
 def ddos():
    while True:
@@ -52,7 +59,9 @@ while i < 6:
     set threads = Set the number of threads (set threads) (Best=8) (=!Not working yet!)
     set ip      = Set the ip (set ip)
     get ip      = Get ip of website (get ip).  
-    get ip      = Get ip of website (get ip)
+    get ip      = Get ip of website (get ip).
+    get port i  = Get port of ip (get port i)
+    get port w  = Get port of web (get port w).
     run         = To run
     quit        = Quit ; Exit
     
@@ -90,6 +99,18 @@ while i < 6:
       
    elif com == 'run':
       ddos()
+      
+   elif com == 'get port i':
+      print(" ")
+      psi = raw_input("\033[1;32;40mIp: ")
+      
+      scann(psi)
+      
+   elif com == 'get port w':
+      print(" ")
+      psw = raw_input("\033[1;32;40mWebsite: ")
+      psww = socket.gethostbyname(psw)
+      scann(psww)
       
    else:
       print("""\033[1;32;40m
