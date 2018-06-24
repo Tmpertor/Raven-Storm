@@ -7,6 +7,7 @@ Python2
 ## Imports:
 threading = Thread
 socket
+nmap
 
 ## Running:
 python2 ddos.py
