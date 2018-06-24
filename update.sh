@@ -1,3 +1,9 @@
-git clone --depth=1 https://github.com/Manisso/fsociety.git
-sudo chmod +x fsociety/install.sh
-bash fsociety/install.sh
+cd $HOME
+rm -rf Raven-Storm
+git clone https://github.com/Taguar258/Raven-Storm
+echo " "
+echo "Finished!"
+echo "Now type cd $HOME/Raven-Storm
+echo " "
+
+
