@@ -112,11 +112,17 @@ while i < 6:
    elif com == 'run':
       ddos()
    
-   elif com == 'get port w'
+   elif com == 'get port w':
       print(" ")
       hbw = raw_input("\033[1;32;40mWebsite: ")
       hbwtxt = socket.gethostbyname(hbw)
       portscanner(hbwtxt)
+      
+   elif com == 'get port i':
+      print(" ")
+      hbi = raw_input("\033[1;32;40mIp: ")
+      portscanner(hbi)
+      print(" ")
    else:
       print("""
       Error
