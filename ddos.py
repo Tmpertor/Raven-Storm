@@ -7,7 +7,7 @@ import sys
 def portscanner(targetIP):
    print(" ")
    try:
-       for p in range(1, 30):
+       for p in range(1, 45000):
        socki = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
        res = sock.connect_ex((targetIP, p))
        if res == 0:
