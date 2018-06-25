@@ -11,7 +11,7 @@ threads = 10
 def scann(targetIP):
    print(" ")
    try:
-      for p in range(30, 600):
+      for p in range(1, 1500):
          sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
          res = sock.connect_ex((targetIP, p))
          if res == 0:
