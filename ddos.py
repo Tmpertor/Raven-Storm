@@ -1,19 +1,28 @@
 import socket
 from threading import Thread
 import os
-import nmap
+import sys
+
 
 port = 80
 message = 'hello its me'
 threads = 10
 
-def scann(ifconfig):
-   nm = nmap.PortScanner()
-   nm.scan(ifconfig, '10-1500')
+def scann(targetIP):
    print(" ")
-   print(nm.csv())
-   print(" ")
-
+   try:
+    for p in range(1, 30):
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        res = sock.connect_ex((targetIP, p))
+        if res == 0:
+            print("Offene Verbindung in Port " + str(p))
+        sock.close()
+except Exception:
+    print("There was an error.")
+    sys.exit()
+    print(" ")
+    print("scanner was original made by Morpheus! youtube")
+   
 def ddos():
    while True:
       mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
