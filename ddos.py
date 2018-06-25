@@ -78,6 +78,7 @@ while i < 6:
     get port i  = Get port of ip (get port i)
     get port w  = Get port of web (get port w).
     run         = To run
+    update      = Update script
     quit        = Quit ; Exit
     
     To stop running attack >>> [Crtl + z]
@@ -130,6 +131,13 @@ while i < 6:
       print(" ")
       message = raw_input("\033[1;32;40mMessage: ")
       print(" ")
+   elif com == 'update':
+      updatexx = "cd"
+      os.system(updatexx)
+      updatexx = "cd Raven-Storm"
+      os.system(updatexx)
+      updatexx = "chmod 777 update.sh ; ./update.sh"
+      os.system(updatexx)
    else:
       print("""\033[1;32;40m
       Error
