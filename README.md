@@ -6,12 +6,16 @@ Python2
 
 ## Imports:
 threading = Thread
+
 socket
+
 sys
+
 os
 
 ## Running:
 (pip2 install -r requirements.txt) if existing.
+
 python2 ddos.py
 
 ## Warning:
