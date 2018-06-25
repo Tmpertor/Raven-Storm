@@ -7,7 +7,8 @@ Python2
 ## Imports:
 threading = Thread
 socket
-nmap
+sys
+os
 
 ## Running:
 (pip2 install -r requirements.txt) if existing.
