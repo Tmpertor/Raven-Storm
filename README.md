@@ -23,6 +23,13 @@ chmod 777 update.sh
 
 ./update.sh
 
+#### or:
+
+
+python2 ddos.py
+
+update
+
 ## Warning:
 onley for legal use!Test your own server.
 
