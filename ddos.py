@@ -21,7 +21,9 @@ def scann(targetIP):
       print("There was an error.")
       sys.exit()
       print(" ")
-      print("scanner was original made by Morpheus! youtube")
+   print(" ")
+   print("scanner was original made by Morpheus! youtube")
+   print(" ")
    
 def ddos():
    while True:
