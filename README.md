@@ -38,3 +38,6 @@ I am not responsible for your activities.
 ## Screenshot:
 
 ![img_20180624_115754](https://user-images.githubusercontent.com/36562445/41817976-e78f6d6e-77a5-11e8-873a-5bc4e7957ca9.png)
+
+## Tip:
+Use long ASCII text as message for aggressive attack.
