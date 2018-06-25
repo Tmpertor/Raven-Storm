@@ -18,6 +18,11 @@ os
 
 python2 ddos.py
 
+## Install updates:
+chmod 777 update.sh
+
+./update.sh
+
 ## Warning:
 onley for legal use!Test your own server.
 
