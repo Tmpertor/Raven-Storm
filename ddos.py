@@ -63,8 +63,7 @@ while i < 6:
     set threads = Set the number of threads (set threads) (Best=8) (=!Not working yet!)
     set ip      = Set the ip (set ip)
     set message = Set message (set message)
-    get ip      = Get ip of website (get ip).  
-    get ip      = Get ip of website (get ip).
+    set web     = Set ip of website (set web). 
     get port i  = Get port of ip (get port i)
     get port w  = Get port of web (get port w).
     run         = To run
@@ -94,13 +93,13 @@ while i < 6:
       ip = raw_input("\033[1;32;40mIp: ")
       print(" ")
       
-   elif com == 'get ip':
+   elif com == 'set web':
       print(" ")
       webtoip = raw_input("\033[1;32;40mWebsite: ")
       print(" ")
       webtoiptxt = socket.gethostbyname(webtoip)
-      print(webtoiptxt)
-      print(" ")
+      ip = webtoiptxt
+
       
    elif com == 'run':
       ddos()
