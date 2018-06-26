@@ -154,7 +154,7 @@ while i < 6:
       print(" ")
    elif com == 'set r':
       print(" ")
-      rtxt = int(raw_input("Number to Repeat: "))
+      rtxt = int(raw_input("\033[1;32;40mNumber to Repeat: "))
       print(" ")
    else:
       print("""\033[1;32;40m
