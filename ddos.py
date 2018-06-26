@@ -73,10 +73,10 @@ while i < 6:
      print("""\033[1;32;40m
      
     help        = This help message
-    set port    = Set the port (set port) (Best=80)
-    set threads = Set the number of threads (set threads) (Best=8) (=!Not working yet!)
+    set port    = Set the port (set port) (=Default 80)
+    set threads = Set the number of threads (set threads) (=Default 8)
     set ip      = Set the ip (set ip)
-    set message = Set message (set message)
+    set message = Set message (set message)(=Default hello its me)
     set mode h  = Set mode to Hadcore to exit mode,change message.
     set web     = Set ip of website (set web). 
     get port i  = Get port of ip (get port i)
