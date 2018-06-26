@@ -136,7 +136,7 @@ while i < 6:
       scann(psww)
    elif com == 'set message':
       print(" ")
-      message = raw_input("\033[1;32;40mMessage: ")
+      messages = raw_input("\033[1;32;40mMessage: ")
       print(" ")
    elif com == 'update':
       updatexx = "cd"
