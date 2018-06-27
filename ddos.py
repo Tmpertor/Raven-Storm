@@ -126,6 +126,7 @@ while i < 6:
       for i in range(threads):
          t = Thread(target=ddos)
          t.start()
+         time.sleep(2)
       
    elif com == 'get port i':
       print(" ")
