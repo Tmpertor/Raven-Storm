@@ -6,7 +6,7 @@ import time
 
 port = 80
 messages = 'hello its me'
-threads = 8
+threads = 7
 rtxt = 1
 
 def scann(targetIP):
