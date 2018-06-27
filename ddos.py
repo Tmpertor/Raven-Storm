@@ -28,10 +28,6 @@ def scann(targetIP):
    
 def ddos():
    
-   for i in range(threads):
-      t = threading.Thread(target=dos)
-      t.start()
-   
    print("\033[1;32;40mGenerating...")
    message = (messages * rtxt)
    primt("\033[1;32;40mOk!")
@@ -125,7 +121,9 @@ while i < 6:
 
       
    elif com == 'run':
-      ddos()
+      for i in range(threads):
+         t = threading.Thread(target=ddos)
+         t.start()
       
    elif com == 'get port i':
       print(" ")
