@@ -122,7 +122,7 @@ while i < 6:
       
    elif com == 'run':
       for i in range(threads):
-         t = threading.Thread(target=ddos)
+         t = Thread(target=ddos)
          t.start()
       
    elif com == 'get port i':
