@@ -29,7 +29,7 @@ def scann(targetIP):
 def ddos():
    
    for i in range(threads):
-      t = Thread(target=dos)
+      t = threading.Thread(target=dos)
       t.start()
    
    print("\033[1;32;40mGenerating...")
