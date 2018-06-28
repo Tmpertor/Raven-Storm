@@ -14,7 +14,7 @@ def printerr():
       print(printe)
       time.sleep(1)
    
-def printer(ala)
+def printer(ala):
    printe = ("\033[1;32;40m\n" + ala + "\n")
    
    
