@@ -29,7 +29,7 @@ def scann(targetIP):
    
 def ddos():
    
-   printerr()
+   
    message = (messages * rtxt)
    print("\033[1;32;40m\nOk!")
    while True:
