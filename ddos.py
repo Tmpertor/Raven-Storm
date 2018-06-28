@@ -4,6 +4,8 @@ import os
 import sys
 import time
 
+# Please Read  : READMEPLEASE.md
+
 port = 80
 messages = 'hello its me'
 threads = 12
