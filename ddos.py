@@ -53,7 +53,7 @@ def ddos():
             lkfj = "Failed! Retry..."
             printer(lkfj)
          
-         mysocket.close()
+            mysocket.close()
 
    for i in range(threads):
       t = threading.Thread(target=ddos)
