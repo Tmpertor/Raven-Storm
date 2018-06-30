@@ -27,14 +27,12 @@ def scann(targetIP):
          sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
          res = sock.connect_ex((targetIP, p))
          if res == 0:
-            print("Open Port " + str(p))
+            print("Port: " + str(p))
             sock.close()
    except Exception:
       print("There was an error.")
       sys.exit()
       print(" ")
-   print(" ")
-   print("scanner was original made by Morpheus! youtube")
    print(" ")
    
 def ddos():
