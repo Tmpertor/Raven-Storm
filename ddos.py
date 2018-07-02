@@ -181,7 +181,7 @@ while i < 6:
       print(" ")
       if outtxt == 'true':
          print("\033[1;32;40mdisabled")
-         outtxt = 'false"
+         outtxt = "false"
       else:
          print("\033[1;32;40menabled")
          outtxt = 'true'
