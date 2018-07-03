@@ -1,5 +1,5 @@
 # Raven-Storm
-A strong , personalstabile ddos script for testing your own server!(^^)
+A strong , personalstabile dos script for testing your own server!(^^)
 
 ## Python version:
 Python2
@@ -18,7 +18,7 @@ time
 ## Running:
 (pip2 install -r requirements.txt) if existing.
 
-python2 ddos.py
+python2 dos.py
 
 ## Install updates:
 chmod 777 update.sh
@@ -28,7 +28,7 @@ chmod 777 update.sh
 #### or:
 
 
-python2 ddos.py
+python2 dos.py
 
 update
 
