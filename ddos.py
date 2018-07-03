@@ -191,7 +191,7 @@ while i < 6:
       print(" ")
    elif com == 'set sleep':
       print(" ")
-      sleepy = int(raw_input("\033[1;32;40mTime in Seconds (=0.5,...): ")
+      sleepy = int(raw_input("\033[1;32;40mTime in Seconds (=0.5,...): "))
       print(" ")
    else:
       print("""\033[1;32;40m
