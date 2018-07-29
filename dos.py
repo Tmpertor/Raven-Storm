@@ -84,9 +84,7 @@ I am not liable,if you use this tool!
 ----------------------------------------------------------""")
 
 agreement = raw_input("Do you agree to use this tool for educational purposes only? (y/N) ")
-if agreement == 'y':
-   break
-else:
+if agreement != 'y':
    quit()
 
 i = 1
