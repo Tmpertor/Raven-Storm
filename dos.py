@@ -88,6 +88,8 @@ def agreed():
    agreement = raw_input("\033[1;32;40mDo you agree to use this tool for educational purposes only? (y/N) ")
    if agreement != 'y':
       print(" ")
+      print("\033[1;32;40mNot agreed")
+      print(" ")
       quit()
    print(" ")
 
