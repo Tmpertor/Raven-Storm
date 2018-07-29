@@ -80,8 +80,14 @@ print ("""\033[1;32;40m
                                                           
 Made by Taguar258!
 
-I am not responsible for anything!
+I am not liable,if you use this tool!
 ----------------------------------------------------------""")
+
+agreement = raw_input("Do you agree to use this tool for educational purposes only? (y/N) ")
+if agreement == 'y':
+   break
+else:
+   
 
 i = 1
 while i < 6:
