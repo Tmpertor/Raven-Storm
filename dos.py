@@ -87,7 +87,7 @@ agreement = raw_input("Do you agree to use this tool for educational purposes on
 if agreement == 'y':
    break
 else:
-   
+   quit()
 
 i = 1
 while i < 6:
