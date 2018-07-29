@@ -172,6 +172,7 @@ while i < 6:
       os.system(updatexx)
       updatexx = "chmod 777 update.sh ; ./update.sh"
       os.system(updatexx)
+      break
    elif com == 'set mode h':
       print(" ")
       if modeh == 'false':
