@@ -1,6 +1,8 @@
 # Raven-Storm
 A strong , personalstabile dos script for testing your own server!(^^)
 
+This is the official and only repository 
+
 ## Python version:
 Python2
 
