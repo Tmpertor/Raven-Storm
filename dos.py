@@ -83,9 +83,12 @@ Made by Taguar258!
 I am not liable,if you use this tool!
 ----------------------------------------------------------""")
 
-agreement = raw_input("Do you agree to use this tool for educational purposes only? (y/N) ")
+agreement = raw_input("\033[1;32;40mDo you agree to use this tool for educational purposes only? (y/N) ")
 if agreement != 'y':
+   print(" ")
    quit()
+
+print(" ")
 
 i = 1
 while i < 6:
