@@ -20,7 +20,7 @@ time
 ## Running:
 (pip2 install -r requirements.txt) if existing.
 
-python2 dos.py
+python2 dos.pyc
 
 ## Install updates:
 chmod 777 update.sh
@@ -30,7 +30,7 @@ chmod 777 update.sh
 #### or:
 
 
-python2 dos.py
+python2 dos.pyc
 
 update
 
