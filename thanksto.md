@@ -1,5 +1,5 @@
 ## Thanks to:
-@Skizap
+@TammiSkizap
 **The person is supporting me**,thats really **cool!**
 
 ## Thanks to the youtuber :
