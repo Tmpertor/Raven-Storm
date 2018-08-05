@@ -53,4 +53,6 @@ update
 
 
 
-dos2.py onley for test.
+## To-dos:
+
+- [ ] Fix Problems in dos.pyc and remove etc.
