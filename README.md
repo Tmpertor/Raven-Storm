@@ -17,6 +17,9 @@ os
 
 time
 
+py_compile
+
+base64
 ## Running:
 (pip2 install -r requirements.txt) if existing.
 
