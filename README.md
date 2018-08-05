@@ -22,6 +22,14 @@ time
 
 python2 dos.pyc
 
+### If this doesn't work:
+
+Go to etc folder and run:
+
+python2 dos.py
+
+**I am working on it**
+
 ## Install updates:
 chmod 777 update.sh
 
