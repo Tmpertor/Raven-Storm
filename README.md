@@ -22,14 +22,6 @@ time
 
 python2 dos.pyc
 
-### If this doesn't work:
-
-Go to etc folder and run:
-
-python2 dos.py
-
-**I am working on it**
-
 ## Install updates:
 chmod 777 update.sh
 
@@ -52,7 +44,3 @@ update
 ![img_20180624_115754](https://user-images.githubusercontent.com/36562445/41817976-e78f6d6e-77a5-11e8-873a-5bc4e7957ca9.png)
 
 
-
-## To-dos:
-
-- [ ] Fix Problems in dos.pyc and remove etc.
