@@ -23,19 +23,19 @@ base64
 ## Running:
 (pip2 install -r requirements.txt) if existing.
 
-python2 dos.pyc
+`python2 dos.pyc`
 
 ## Install updates:
-chmod 777 update.sh
+`chmod 777 update.sh`
 
-./update.sh
+`./update.sh`
 
 #### or:
 
 
-python2 dos.pyc
+`python2 dos.pyc`
 
-update
+`update`
 
 ## Warning:
 #### onley for legal use!Test your own server.
