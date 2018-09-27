@@ -3,6 +3,17 @@ A strong , personalstabile dos script for testing your own server!(^^)
 
 This is the official and only repository.
 
+## Whats diffrent
+- [x] Really personable
+- [x] Effective
+- [x] You wont need bots
+- [x] Simple
+
+- [ ] Use VPN / Dont use it illegal!
+
+## Version
+Beta 0.8
+
 ## Python version:
 Python2
 
