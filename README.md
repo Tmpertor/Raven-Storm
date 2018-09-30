@@ -36,6 +36,8 @@ base64
 
 `python2 dos.pyc`
 
+Type `help` for help.
+
 ## Install updates:
 `chmod 777 update.sh`
 
