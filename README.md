@@ -14,6 +14,10 @@ This is the official and only repository.
 ## Version
 Beta 0.8
 
+**Maybe for next Version:**
+
+Mass dos attacks
+
 ## Python version:
 Python2
 
