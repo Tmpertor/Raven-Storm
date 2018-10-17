@@ -36,6 +36,8 @@ py_compile
 
 base64
 ## Running:
+`git clone https://github.com/Taguar258/Raven-Storm`
+
 (pip2 install -r requirements.txt) if existing.
 
 `python2 dos.pyc`
