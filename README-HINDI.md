@@ -71,4 +71,4 @@ py_compile
 
 ## स्क्रीनशॉट:
 
-[Img_20180624_115754] (https://user-images.githubusercontent.com/36562445/41817976-e78f6d6e-77a5-11e8-873a-5bc4e7957ca9.png)
+![Img_20180624_115754](https://user-images.githubusercontent.com/36562445/41817976-e78f6d6e-77a5-11e8-873a-5bc4e7957ca9.png)
