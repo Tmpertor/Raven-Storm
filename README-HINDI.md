@@ -55,7 +55,7 @@ py_compile
 ## अद्यतनों को स्थापित करें:
 `chmod 777 update.sh`
 
-`। / Update.sh`
+`./update.sh`
 
 #### या:
 
