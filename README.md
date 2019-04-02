@@ -14,10 +14,6 @@ This is the official and only repository.
 ## Version
 Beta 0.8
 
-**Maybe for next Version:**
-
-Mass dos attacks
-
 ## Python version:
 Python2
 
@@ -35,6 +31,7 @@ time
 py_compile
 
 base64
+
 ## Running:
 `git clone https://github.com/Taguar258/Raven-Storm`
 
