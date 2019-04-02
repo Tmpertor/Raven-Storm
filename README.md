@@ -56,7 +56,7 @@ Type `help` for help.
 `update`
 
 ## Warning:
-#### onley for legal use!Test your own server.
+#### Only for legal use!Test your own server.
 
 #### I am not responsible for your activities.
 
