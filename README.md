@@ -37,7 +37,7 @@ base64
 
 `cd Raven-Storm`
 
-(pip2 install -r requirements.txt) if existing.
+<!--(pip2 install -r requirements.txt) if existing.-->
 
 `python2 dos.pyc`
 
