@@ -60,7 +60,7 @@ Type `help` for help.
 
 #### I am not responsible for your activities.
 
-## Screenshot:
+## Screenshot (old):
 
 ![img_20180624_115754](https://user-images.githubusercontent.com/36562445/41817976-e78f6d6e-77a5-11e8-873a-5bc4e7957ca9.png)
 
