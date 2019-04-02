@@ -14,6 +14,8 @@ This is the official and only repository.
 ## Version
 Beta 0.8
 
+Beta 0.9 is ongoing ;)
+
 ## Python version:
 Python2
 
