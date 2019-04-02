@@ -1,4 +1,4 @@
 ## Thanks to:
-@TammiSkizap
-**The person is supporting me**,thats really **cool!**
+@TammiSkizap and @M0rtale 
+**The persons are supporting me**, **thx!**
 
