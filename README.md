@@ -12,7 +12,7 @@ This is the official and only repository.
 - [ ] Use VPN / Dont use it illegal!
 
 ## Version
-Beta 0.9
+Beta/Alpha 0.9
 
 ## Python version:
 Python2
