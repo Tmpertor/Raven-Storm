@@ -1,6 +1,6 @@
 #   <o)
 #   //)
 #  ==+===
-# version 2.0
+# version 0.9
 
 # https://github.com/Taguar258/Raven-Storm/wiki
