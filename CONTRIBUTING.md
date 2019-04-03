@@ -1,16 +1,13 @@
 # CONTRIBUTING
 A perfect issue, needs an shot and correct example.
 
-Just say which file has an mistake, and say the line + an example:
+Just explains the problem, and includes the error:
 
 ## Example:
 ```
-The file ..., has in line 20 the mistake that an variable is not defined.
+Error: Vriable is not defined.
 
-You need to make an b = 0 before the loop.
-Like this:
+It stops and doesn't work anymore at all.
 
-b = 0
-while True:
 ...
 ```
