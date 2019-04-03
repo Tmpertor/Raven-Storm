@@ -4,7 +4,7 @@ A strong , personalstabile dos script for testing your own server!(^^)
 This is the official and only repository.
 
 ## Whats diffrent
-- [x] Really personable
+- [x] Customizable af ^^
 - [x] Effective
 - [x] You wont need bots
 - [x] Simple
