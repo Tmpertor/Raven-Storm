@@ -18,7 +18,8 @@ Beta/Alpha 0.9
 - [x] Better Help Menu
 - [x] Fast start no start of framework needed, for simple dos.
 - [ ] More Automation = Autostart, Autostop, Autostep.
-- [ ] Choose how much byte you want to send.
+- [x] Choose how much byte you want to send.
+- [ ] Testing in progress...
 
 ## Python version:
 Python2
