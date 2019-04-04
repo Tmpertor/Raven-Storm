@@ -15,8 +15,8 @@ This is the official and only repository.
 Beta/Alpha 0.9
 
 ## In next version(soon):
-- [ ] Better Help Menu
-- [ ] Fast start no start of framework needed, for simple dos.
+- [x] Better Help Menu
+- [x] Fast start no start of framework needed, for simple dos.
 - [ ] More Automation = Autostart, Autostop, Autostep.
 - [ ] Choose how much byte you want to send.
 
