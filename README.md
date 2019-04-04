@@ -14,6 +14,12 @@ This is the official and only repository.
 ## Version
 Beta/Alpha 0.9
 
+## In next version(soon):
+- [ ] Better Help Menu
+- [ ] Fast start no start of framework needed, for simple dos.
+- [ ] More Automation = Autostart, Autostop, Autostep.
+- [ ] Choose how much byte you want to send.
+
 ## Python version:
 Python2
 
