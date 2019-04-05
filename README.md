@@ -23,6 +23,9 @@ Beta/Alpha 0.9
 - [ ] Autostop
 - [ ] Testing in progress...
 
+If everything is checked: 
+Then the update will be uploaded soon.
+
 ## Python version:
 Python2
 
