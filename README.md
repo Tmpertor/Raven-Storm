@@ -8,20 +8,15 @@ This is the official and only repository.
 - [x] Effective
 - [x] You wont need bots
 - [x] Simple
+- [x] Automation
 
 - [ ] Use VPN / Dont use it illegal!
 
 ## Version
-Beta/Alpha 0.9
+(Beta)/Alpha 2.0
 
 ## In next version(soon):
-- [x] Better Help Menu
-- [x] Fast start no start of framework needed, for simple dos.
-- [x] More Automation = Autostart, Autostep.
-- [x] Choose how much byte you want to send.
-- [x] Easy help menu list.
-- [ ] Autostop
-- [ ] Testing in progress...
+- [ ] Planed.
 
 If everything is checked: 
 Then the update will be uploaded soon.
