@@ -17,7 +17,7 @@ This is the official and only repository.
 
 ## In next version(soon):
 - [ ] Attack/Test list of websites.
-...
+- [ ] ...
 
 More will be planed.
 
