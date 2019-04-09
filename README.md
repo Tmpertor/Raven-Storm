@@ -16,10 +16,10 @@ This is the official and only repository.
 (Beta)/Alpha 2.0
 
 ## In next version(soon):
-- [ ] Planed.
+- [ ] Attack/Test list of websites.
+...
 
-If everything is checked: 
-Then the update will be uploaded soon.
+More will be planed.
 
 ## Python version:
 Python2
