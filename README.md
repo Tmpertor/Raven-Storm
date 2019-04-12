@@ -15,7 +15,7 @@ This is the official and only repository.
 ## Version
 (Beta)/Alpha 2.0
 
-## In next version(soon):
+## In next version:
 - [ ] Test list of websites.
 - [ ] ...
 
