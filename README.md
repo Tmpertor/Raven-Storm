@@ -17,6 +17,7 @@ This is the official and only repository.
 
 ## In next version:
 - [ ] Test list of websites.
+- [ ] Set seconds for timeout.
 - [ ] ...
 
 More will be planed.
