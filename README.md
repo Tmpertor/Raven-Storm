@@ -9,6 +9,8 @@ This is the official and only repository.
 - [x] You wont need bots
 - [x] Simple
 - [x] Automation
+- [x] No root needed
+- [x] Test/Optimize
 
 - [ ] Use VPN / Dont use it illegal!
 
@@ -16,8 +18,9 @@ This is the official and only repository.
 (Beta)/Alpha 2.0
 
 ## In next version:
-- [ ] Test list of websites.
+- [ ] Dos list of websites.
 - [ ] Set seconds for timeout.
+- [ ] Dos people in same wifi. (NetCut/KillWifi)
 - [ ] ...
 
 More will be planed.
