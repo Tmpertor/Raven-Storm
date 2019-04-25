@@ -10,11 +10,11 @@ If this is forked just look for the original repository, there are always update
 - [x] Effective
 - [x] You wont need bots
 - [x] Simple
-- [x] Automation
+- [x] Automated
 - [x] No root needed
 - [x] Test/Optimize
 
-- [ ] Use VPN / Dont use it illegal!
+- [ ] Please DONT use it ILLEGAL!
 
 ## Version
 (Beta)/Alpha 2.0
