@@ -13,6 +13,7 @@ If this is forked just look for the original repository, there are always update
 - [x] Automated
 - [x] No root needed
 - [x] Test/Optimize
+- [x] Mostely needs no installation.
 
 - [ ] Please DONT use it ILLEGAL!
 
@@ -22,6 +23,7 @@ If this is forked just look for the original repository, there are always update
 ## In next version:
 - [ ] Dos list of websites.
 - [ ] Set seconds for timeout.
+- [ ] More security against bugs.
 - [ ] ...
 
 More will be planed.
