@@ -20,7 +20,6 @@ This is the official and only repository.
 ## In next version:
 - [ ] Dos list of websites.
 - [ ] Set seconds for timeout.
-- [ ] Dos people in same wifi. (NetCut/KillWifi)
 - [ ] ...
 
 More will be planed.
