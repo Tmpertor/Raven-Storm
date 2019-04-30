@@ -1,7 +1,7 @@
 # Raven-Storm
 A strong , personalstabile dos framework for testing your own server!(^^)
 
-This is the official repository.
+I wanted to make the most costomizable dos framework, here it is.
 
 If this is forked just look for the original repository, there are always updates.
 
