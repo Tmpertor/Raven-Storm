@@ -1,18 +1,3 @@
-## Imports:
-threading = Thread
-
-socket
-
-sys
-
-os
-
-time
-
-py_compile
-
-base64
-
 ## Running:
 `git clone https://github.com/Taguar258/Raven-Storm`
 
