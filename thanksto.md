@@ -3,4 +3,4 @@
 **The persons are supporting me**, **thx!**
 
 
-And ofcourse, **THX TO ALL SUPPORTER**.
+And of course, **THX TO ALL SUPPORTER**.
