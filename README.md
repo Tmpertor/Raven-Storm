@@ -21,10 +21,10 @@ If this is forked just look for the original repository, there are always update
 (Beta)/Alpha 2.0
 
 ## In next version:
-- [ ] Dos list of websites.
-- [ ] Set seconds for timeout.
+- [ ] (Dos list of websites.)
+- [ ] (Set seconds for timeout.)
 - [ ] More security against bugs.
-- [ ] ...
+- [ ] ... Need more ideas ...
 
 More will be planed.
 
