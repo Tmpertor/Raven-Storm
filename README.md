@@ -1,5 +1,5 @@
 # Raven-Storm
-A strong , personalstabile dos script for testing your own server!(^^)
+A strong , personalstabile dos framework for testing your own server!(^^)
 
 This is the official repository.
 
