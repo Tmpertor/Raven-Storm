@@ -17,6 +17,8 @@ If this is forked just look for the original repository, there are always update
 
 - [ ] Please DONT use it ILLEGAL!
 
+![MOSHED-2019-4-30-21-28-15](https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif)
+
 ## Version
 (Beta)/Alpha 2.0
 
@@ -27,6 +29,18 @@ If this is forked just look for the original repository, there are always update
 - [ ] ... Need more ideas ...
 
 More will be planed.
+
+
+## Running:
+`git clone https://github.com/Taguar258/Raven-Storm`
+
+`cd Raven-Storm`
+
+<!--(pip2 install -r requirements.txt) if existing.-->
+
+`python2 dos.pyc`
+
+Type `help` for help.
 
 ## Python version:
 Python2
@@ -46,17 +60,6 @@ py_compile
 
 base64
 
-## Running:
-`git clone https://github.com/Taguar258/Raven-Storm`
-
-`cd Raven-Storm`
-
-<!--(pip2 install -r requirements.txt) if existing.-->
-
-`python2 dos.pyc`
-
-Type `help` for help.
-
 ## Install updates:
 `chmod 777 update.sh`
 
@@ -74,8 +77,8 @@ Type `help` for help.
 
 #### I am not responsible for your activities.
 
-## Screenshot:
+<!--## Screenshot:
 
-![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)
+![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)-->
 
 
