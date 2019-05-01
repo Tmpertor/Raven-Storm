@@ -2,7 +2,6 @@
 A strong , costomizable dos framework for testing your own server!(^^)
 
 I wanted to make the most costomizable dos framework for you, here it is.
-
 It is completely free, if you have problems with the script write me.
 
 If this is forked just look for the original repository, there are always updates.
