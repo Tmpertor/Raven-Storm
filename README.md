@@ -39,9 +39,6 @@ Python2
 (Beta)/Alpha 2.2
 
 ## In next version:
-- [ ] (Dos list of websites.)
-- [ ] (Set seconds for timeout.)
-- [ ] More security against bugs.
 - [ ] ... Need more ideas ...
 
 More will be planed.
