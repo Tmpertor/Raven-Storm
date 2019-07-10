@@ -25,6 +25,7 @@ If this is forked just look for the original repository, there are always update
 
 `cd Raven-Storm`
 
+pip2 install re
 <!--(pip2 install -r requirements.txt) if existing.-->
 
 `python2 dos.pyc`
