@@ -1,7 +1,7 @@
 #   <o)
 #   //)
 #  ==+===
-# version 2.0
+# version 2.2
 
 # https://github.com/Taguar258/Raven-Storm/wiki
 # I would love to get a Star ^^
