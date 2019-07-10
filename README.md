@@ -36,7 +36,7 @@ Type `help` for help.
 Python2
 
 ## Version
-(Beta)/Alpha 2.0
+(Beta)/Alpha 2.2
 
 ## In next version:
 - [ ] (Dos list of websites.)
