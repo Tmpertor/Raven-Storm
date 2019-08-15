@@ -8,7 +8,7 @@ If this is forked just look for the original repository, there are always update
 
 <!--![MOSHED-2019-4-30-21-28-15](https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif)--><img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />
 
-## Whats diffrent!?
+## What makes it different?
 - [x] Pretty Costomizable
 - [x] Effective
 - [x] You wont need bots
