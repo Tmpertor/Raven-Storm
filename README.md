@@ -1,6 +1,8 @@
 # Raven-Storm [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Try%20it%2C%20it%20is%20a%20pretty%20costumizable%20dos%20Framework&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
 A strong , costomizable dos framework with 23 functions/commands for testing your own server!(^^)
 
+**Update soon: Ddos function.**
+
 I wanted to make the most costomizable dos framework for you, here it is.
 It is completely free, if you have problems with the script write me.
 
