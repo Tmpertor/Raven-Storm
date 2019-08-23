@@ -72,6 +72,10 @@ py_compile
 
 base64
 
+urllib2
+
+re
+
 
 ## Warning:
 #### Only for legal use!Test your own server.
