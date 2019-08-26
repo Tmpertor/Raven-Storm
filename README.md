@@ -1,8 +1,7 @@
 # Raven-Storm [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Feel%20free%20to%20try%20it%2C%20it%20is%20a%20costumizable%20ddos%20Framework&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
-A strong , costomizable dos framework with 23 functions/commands for testing your own server!(^^)
+A strong , costomizable dos framework with 25 functions/commands for testing your own server!(^^)
 
-### <ins>Update soon: Ddos function</ins>:
-**<ins>Scroll dow to see more infos, including a screenshot.</ins>**
+Its also special, because it uses a db for ddos.
 
 
 
@@ -30,10 +29,14 @@ If this is forked just look for the original repository, there are always update
 
 `cd Raven-Storm`
 
-pip2 install re
+pip2 install re redis
 <!--(pip2 install -r requirements.txt) if existing.-->
 
-`python2 dos.pyc`
+### Unstable:
+`python2 dos.pyo`
+
+### Stable:
+`python2 dos-stable.pyc`
 
 Type `help` for help.
 
@@ -61,6 +64,13 @@ More will be planed.
 
 `update`
 
+## Use DDOS:
+First of you need to install redis:
+`apt-get/pkg/brew install redis`
+
+Now you need to run `redis-server mac-redis.conf/other-redis.conf`in a new tab.
+Now start up the script and connect to the redis db using: `server ip` and in case you need to: `server port`. 
+Enter: `server start` for the server and `client connect`for the clients.
 ## Imports:
 threading = Thread
 
@@ -80,6 +90,7 @@ urllib2
 
 re
 
+redis
 
 ## Warning:
 #### Only for legal use!Test your own server.
@@ -91,10 +102,10 @@ re
 ![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)-->
 
 
-## Update soon infos:
+<!--## Update soon infos:
 The next update will include the function of connecting multiple scripts together, so you can use instead of one dos script: multiple dos scripts = ddos.
 Alpha update probably in on to two days.
-<img width="1440" alt="Bildschirmfoto 2019-08-26 um 16 00 14" src="https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png">
+<img width="1440" alt="Bildschirmfoto 2019-08-26 um 16 00 14" src="https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png">-->
 
 
 
