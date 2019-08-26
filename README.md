@@ -44,7 +44,7 @@ Type `help` for help.
 Python2
 
 ## Version
-(Beta)/Alpha 2.2
+(Beta)/Alpha 2.3
 
 ## In next version(after ddos update):
 - [ ] Faster performace.
