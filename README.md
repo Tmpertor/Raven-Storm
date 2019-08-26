@@ -43,8 +43,9 @@ Python2
 ## Version
 (Beta)/Alpha 2.2
 
-## In next version:
-- [ ] ... Need more ideas ...
+## In next version(after ddos update):
+- [ ] Faster performace
+- [ ] Bug fixes.
 
 More will be planed.
 
