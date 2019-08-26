@@ -74,6 +74,10 @@ First of you need to install redis:
 Now you need to run `redis-server mac-redis.conf/other-redis.conf`in a new tab.
 Now start up the script and connect to the redis db using: `server ip` and in case you need to: `server port`. 
 Enter: `server start` for the server and `client connect`for the clients.
+
+Config:
+
+Save function removed, securety and bind to 0.0.0.0 .
 ## Imports:
 threading = Thread
 
