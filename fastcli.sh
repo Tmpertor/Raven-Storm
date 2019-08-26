@@ -1,1 +1,1 @@
-python2 dos.pyc <<< "\nclient connect"
+python2 dos.pyo <<< "\nclient connect"
