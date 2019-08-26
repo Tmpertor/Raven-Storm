@@ -68,6 +68,8 @@ More will be planed.
 First of you need to install redis:
 `apt-get/pkg/brew install redis`
 
+<img width="1440" alt="Bildschirmfoto 2019-08-26 um 16 00 14" src="https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png">
+
 Now you need to run `redis-server mac-redis.conf/other-redis.conf`in a new tab.
 Now start up the script and connect to the redis db using: `server ip` and in case you need to: `server port`. 
 Enter: `server start` for the server and `client connect`for the clients.
