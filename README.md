@@ -1,4 +1,4 @@
-# Raven-Storm [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Try%20it%2C%20it%20is%20a%20pretty%20costumizable%20dos%20Framework&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
+# Raven-Storm [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Feel%20free%20to%20try%20it%2C%20it%20is%20a%20costumizable%20ddos%20Framework&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
 A strong , costomizable dos framework with 23 functions/commands for testing your own server!(^^)
 
 ### <ins>Update soon: Ddos function</ins>:
