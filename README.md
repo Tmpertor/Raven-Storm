@@ -47,8 +47,9 @@ Python2
 (Beta)/Alpha 2.2
 
 ## In next version(after ddos update):
-- [ ] Faster performace
+- [ ] Faster performace.
 - [ ] Bug fixes.
+- [ ] Clean github page.
 
 More will be planed.
 
