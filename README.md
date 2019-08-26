@@ -93,6 +93,7 @@ re
 
 ## Update soon infos:
 The next update will include the function of connecting multiple scripts together, so you can use instead of one dos script: multiple dos scripts = ddos.
+Alpha update probably in on to two days.
 <img width="1440" alt="Bildschirmfoto 2019-08-26 um 16 00 14" src="https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png">
 
 
