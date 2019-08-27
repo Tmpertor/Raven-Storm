@@ -3,9 +3,13 @@
 
 `cd Raven-Storm`
 
-<!--(pip2 install -r requirements.txt) if existing.-->
+pip2 install re redis
 
-`python2 dos.pyc`
+### Stable but no ddos:
+`python2 dos-stable.pyc`
+
+### DDos version (newest):
+`python2 dos.pyo`
 
 Type `help` for help.
 
