@@ -34,9 +34,13 @@ pip2 install re redis
 <!--(pip2 install -r requirements.txt) if existing.-->
 
 ### Unstable:
+That's the newest version, with dos + ddos function.
+
 `python2 dos.pyo`
 
 ### Stable:
+The last stable version, no ddos but still the same.
+
 `python2 dos-stable.pyc`
 
 Type `help` for help.
