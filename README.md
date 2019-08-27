@@ -80,25 +80,7 @@ Config:
 
 Save function removed, securety and bind to 0.0.0.0 .
 ## Imports:
-threading = Thread
-
-socket
-
-sys
-
-os
-
-time
-
-py_compile
-
-base64
-
-urllib2
-
-re
-
-redis
+re, redis
 
 ## Warning:
 #### Only for legal use!Test your own server.
