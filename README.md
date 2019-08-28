@@ -41,6 +41,8 @@ That's the newest version, with dos + ddos function.
 `python2 dos.pyo`
 
 ### Stable:
+**I would only recommend this if dos.pyo does not work.**
+
 The last stable version, no ddos but still the same.
 
 `python2 dos-stable.pyc`
