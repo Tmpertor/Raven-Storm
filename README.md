@@ -32,7 +32,7 @@ I would be thankful, if you would give me a star in case you like it.
 
 `cd Raven-Storm`
 
-pip2 install re redis
+pip2 install redis
 <!--(pip2 install -r requirements.txt) if existing.-->
 
 ### Unstable:
@@ -88,7 +88,7 @@ Config:
 
 Save function removed, securety and bind to 0.0.0.0 .
 ## Imports:
-re, redis
+redis
 
 ## Warning:
 #### Only for legal use!Test your own server.
