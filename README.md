@@ -59,6 +59,8 @@ Python2
 - [ ] Faster performace.
 - [ ] Bug fixes.
 - [ ] Clean github page.
+- [ ] Random port (d)dos mode.
+- [ ] Multiple (d)dos methods.
 
 More will be planed.
 
