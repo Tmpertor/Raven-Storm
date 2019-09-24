@@ -56,6 +56,7 @@ Python2
 (Beta)/Alpha 2.3
 
 ## In next version(after ddos update):
+- [ ] DDos will be working.
 - [ ] Faster performace.
 - [ ] Bug fixes.
 - [ ] Clean github page.
