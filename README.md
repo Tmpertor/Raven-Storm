@@ -56,7 +56,7 @@ Python2
 (Beta)/Alpha 2.3
 
 ## In next version(currently under development):
-- [ ] DDos will be working.
+- [x] DDos will be working.
 - [ ] Faster performace.
 - [ ] Bug fixes.
 - [ ] Clean github page.
