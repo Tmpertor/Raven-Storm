@@ -64,7 +64,7 @@ Python2
 - [ ] Multiple (d)dos methods.
 - [ ] Better update system.
 
-More will be planed.
+More will be planed. | Every check, means that its developed and will be published in next version.
 
 ## Install updates:
 `chmod 777 update.sh`
