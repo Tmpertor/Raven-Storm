@@ -55,13 +55,14 @@ Python2
 ## Version
 (Beta)/Alpha 2.3
 
-## In next version(after ddos update):
+## In next version(currently under development):
 - [ ] DDos will be working.
 - [ ] Faster performace.
 - [ ] Bug fixes.
 - [ ] Clean github page.
 - [ ] Random port (d)dos mode.
 - [ ] Multiple (d)dos methods.
+- [ ] Better update system.
 
 More will be planed.
 
