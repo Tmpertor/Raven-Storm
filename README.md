@@ -56,15 +56,7 @@ Python2
 (Beta)/Alpha 2.3
 
 ## In next version(currently under development):
-- [x] DDos will be working.
-- [ ] Faster performace.
-- [ ] Bug fixes.
-- [ ] Clean github page.
-- [ ] Random port (d)dos mode.
-- [ ] Multiple (d)dos methods.
-- [ ] Better update system.
-
-More will be planed. | Every check, means that its developed and will be published in next version.
+Planed, will be a huge update with planty of new features.
 
 ## Install updates:
 `chmod 777 update.sh`
