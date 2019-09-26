@@ -56,7 +56,7 @@ Python2
 (Beta)/Alpha 2.3
 
 ## In next version(currently under development):
-Planed, will be a huge update with planty of new features.
+Planed, will be a huge update with 12 new features.
 
 ## Install updates:
 `chmod 777 update.sh`
