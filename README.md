@@ -1,4 +1,7 @@
 # Raven-Storm [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Feel%20free%20to%20try%20it%2C%20it%20is%20a%20costumizable%20ddos%20Framework&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
+
+## (Soon)Completely new github page, and new gigantic beta update soon.
+
 A strong , costomizable ddos + dos script with 25 functions/commands for testing your own server!(^^)
 
 Its also special, because it uses a db for ddos.
