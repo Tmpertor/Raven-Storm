@@ -1,4 +1,4 @@
-# Raven-Storm [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Feel%20free%20to%20try%20it%2C%20it%20is%20a%20costumizable%20ddos%20Framework&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
+# Raven-Storm Toolkit Beta [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Feel%20free%20to%20try%20it%2C%20it%20is%20a%20costumizable%20ddos%20Framework&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
 A strong , costomizable ddos + dos script with over 30 functions/commands for testing your own server!(^^)
 
 Its also special, because it uses a db for ddos.
@@ -16,7 +16,7 @@ I would be thankful, if you would give me a star in case you like it.
 <!--![MOSHED-2019-4-30-21-28-15](https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif)--><img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />
 
 ## Documentation:
-<a href="https://github.com/Taguar258/Raven-Storm/blob/Newupdatesoon2.4/documentation/raven-storm-documentation-2.4.md">Click Here</a>
+<a href="https://github.com/Taguar258/Raven-Storm/documentation/raven-storm-documentation-2.4.md">Click Here</a>
 
 ## What makes it different?
 - [x] Pretty Costomizable
@@ -34,7 +34,7 @@ I would be thankful, if you would give me a star in case you like it.
 Python2
 
 ## Version
-(Beta)/Alpha 2.3
+(Beta)/Alpha 2.4
 
 <!--## Screenshot:
 
