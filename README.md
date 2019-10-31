@@ -33,6 +33,13 @@ I would be thankful, if you would give me a star in case you like it.
 ## Python version:
 Python2
 
+## Info:
+**MIT Taguar258 2019**
+
+**DO NOT USE IT ILLEGAL.**
+
+**DO NOT USE IT ON NOT OWNED SERVERS.**
+
 ## Version
 (Beta)/Alpha 2.4
 
