@@ -108,11 +108,11 @@ Start your unix terminal and type in following:
 
 ```pip2 install -r requirements.txt```
 
-```python2 rs.py```
+```python2 rs.pyo```
 
 To run it again:
 
-```cd Raven-Storm ; python2 rs.py```
+```cd Raven-Storm ; python2 rs.pyo```
 
 ### #A6:
 First of take a quick internet search to the topics:
@@ -157,24 +157,24 @@ method = tcp/udp.
 
 You will then be able to run this config file using:
 
-```python2 rs.py -c filename.txt```
+```python2 rs.pyo -c filename.txt```
 
 ### #B4:
 Type:
-```python2 rs.py -ros com1, com2, com3...```
+```python2 rs.pyo -ros com1, com2, com3...```
 
 To run commands at the startup.
 
 ### #B5:
 Type:
 
-```python2 rs.py server start```
+```python2 rs.pyo server start```
 
-```python2 rs.py server start ip port```
+```python2 rs.pyo server start ip port```
 
-```python2 rs.py client connect```
+```python2 rs.pyo client connect```
 
-```python2 rs.py client connect ip port```
+```python2 rs.pyo client connect ip port```
 
 To quickstart the connection to the Redis DB.
 
