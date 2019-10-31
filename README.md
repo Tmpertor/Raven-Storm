@@ -5,7 +5,6 @@ Its also special, because it uses a db for ddos.
 
 You can use it's as a strong dos or connect did attacks together = ddos.
 
-
 I wanted to make the most costomizable dos framework for you, here it is. (Still maintained)
 
 It is completely free, if you have problems with the script write me.
