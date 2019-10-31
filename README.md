@@ -16,7 +16,7 @@ I would be thankful, if you would give me a star in case you like it.
 <!--![MOSHED-2019-4-30-21-28-15](https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif)--><img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />
 
 ## Documentation:
-<a href="https://github.com/Taguar258/Raven-Storm/documentation/raven-storm-documentation-2.4.md">Click Here</a>
+<a href="https://github.com/Taguar258/Raven-Storm/blob/master/documentation/raven-storm-documentation-2.4.md">Click Here</a>
 
 ## What makes it different?
 - [x] Pretty Costomizable
