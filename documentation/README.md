@@ -138,21 +138,37 @@ On the next startup you can see the action using the values command.
 You will need to create a file with following values you want to define inside.
 
 ```ip = Set ip.
+
 port = Set port.
+
 threads = Set threads.
+
 message = Set message.
+
 repeat = Set repeat.
+
 sleep = Set delay.
+
 output = true/false. Output toggle.
+
 stress = Activate stress mode.
+
 stressstep = Set stress steping count.
+
 mb = Set mb.
+
 autostart = Set start delay.
+
 autostop = Set auto stop.
+
 autostep = Set the automated stepping.
+
 hip = Redis ip.
+
 hport = Redis port.
+
 runonstart = com1, com2 ... Run on start.
+
 method = tcp/udp.
 ```
 
