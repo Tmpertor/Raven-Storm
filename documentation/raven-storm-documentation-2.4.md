@@ -1,8 +1,9 @@
 [MIT Taguar258 2019]
 # Raven-Storm Toolkit Documentation:
-A strong , costomizable dos and ddos framework with over 30 functions/commands for testing your own servers.
+A strong, costomizable dos and ddos framework with over 30 functions/commands for testing your own servers.
 
 ## Table of content:
+
 |A|Content|Description|
 |:-:|:----------:|:-----------------------:|
 |A1|Introduction|What makes Raven-Storm different?|
