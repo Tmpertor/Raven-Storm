@@ -14,7 +14,8 @@ And please feel free to open issues. >> Beta.
 <!--![MOSHED-2019-4-30-21-28-15](https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif)--><img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />
 
 ## Documentation:
-<a href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
+<a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
+<title>Raven-Storm</title>
 
 ## What makes it different?
 - [x] Automated.
