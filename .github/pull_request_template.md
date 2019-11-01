@@ -1,5 +1,4 @@
-## Proposed Changes
+## Proposed Changes:
 
-  -
   -
   -
