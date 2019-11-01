@@ -17,14 +17,12 @@ And please feel free to open issues. >> Beta.
 <a href="https://github.com/Taguar258/Raven-Storm/blob/master/documentation/raven-storm-documentation-2.4.md">Click Here</a>
 
 ## What makes it different?
-- [x] Pretty Costomizable
-- [x] Effective
-- [x] You wont need bots
-- [x] Simple
-- [x] Automated
-- [x] No root needed
-- [x] Test/Optimize
-- [x] Mostely needs no installation.
+- [x] Automated.
+- [x] Effective.
+- [x] No root/su/sudo needed.
+- [x] Testing supported.
+- [x] Supports ddos.
+- [X] Over 30 commands, for every use.
 
 - [ ] Please DONT use it ILLEGAL!
 
