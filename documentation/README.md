@@ -137,7 +137,8 @@ On the next startup you can see the action using the values command.
 ### #B3:
 You will need to create a file with following values you want to define inside.
 
-```ip = Set ip.
+```
+ip = Set ip.
 
 port = Set port.
 
