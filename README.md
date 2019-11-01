@@ -15,7 +15,6 @@ And please feel free to open issues. >> Beta.
 
 ## Documentation:
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
-<title>Raven-Storm</title>
 
 ## What makes it different?
 - [x] Automated.
