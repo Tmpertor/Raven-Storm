@@ -137,41 +137,39 @@ On the next startup you can see the action using the values command.
 ### #B3:
 You will need to create a file with following values you want to define inside.
 
-```
-ip = Set ip.
+```ip = Set ip.```
 
-port = Set port.
+```port = Set port.```
 
-threads = Set threads.
+```threads = Set threads.```
 
-message = Set message.
+```message = Set message.```
 
-repeat = Set repeat.
+```repeat = Set repeat.```
 
-sleep = Set delay.
+```sleep = Set delay.```
 
-output = true/false. Output toggle.
+```output = true/false. Output toggle.```
 
-stress = Activate stress mode.
+```stress = Activate stress mode.```
 
-stressstep = Set stress steping count.
+```stressstep = Set stress steping count.```
 
-mb = Set mb.
+```mb = Set mb.```
 
-autostart = Set start delay.
+```autostart = Set start delay.```
 
-autostop = Set auto stop.
+```autostop = Set auto stop.```
 
-autostep = Set the automated stepping.
+```autostep = Set the automated stepping.```
 
-hip = Redis ip.
+```hip = Redis ip.```
 
-hport = Redis port.
+```hport = Redis port.```
 
-runonstart = com1, com2 ... Run on start.
+```runonstart = com1, com2 ... Run on start.```
 
-method = tcp/udp.
-```
+```method = tcp/udp.```
 
 You will then be able to run this config file using:
 
