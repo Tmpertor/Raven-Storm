@@ -7,7 +7,7 @@ It is completely free, if you have problems with the script write me.
 
 If this is forked just look for the original repository, there are always updates.
 
-I would be thankful, if you would give me a star in case you like it.
+The best way you could help me is by giving me a star in case you like it and report a bug in case you find one.
 
 And please feel free to open issues. >> Beta.
 
