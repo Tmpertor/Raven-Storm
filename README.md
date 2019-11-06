@@ -34,15 +34,15 @@ Old picture.
 ## Python version:
 Python2
 
+## Test:
+A Fritzbox needs a restart after dosing it using 200 threads with 2 mb on port 80.
+
 ## Info:
 **MIT Taguar258 2019**
 
 **DO NOT USE IT ILLEGAL.**
 
 **DO NOT USE IT ON NOT OWNED SERVERS.**
-
-## Version
-(Beta)/Alpha 2.4
 
 <!--## Screenshot:
 
