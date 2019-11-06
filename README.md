@@ -11,7 +11,7 @@ The best way you could help me is by giving me a star in case you like it and re
 
 And please feel free to open issues. >> Beta.
 
-In next version: Bloutooth Ping of Death; Lan scan.
+In next version: Bloutooth Ping of Death; scans; imcp flood...
 
 <a href="https://m.youtube.com/watch?v=Vjaa3kdpbZs&feature=youtu.be">Quick Video about an older version of Raven-Storm.</a>
 
