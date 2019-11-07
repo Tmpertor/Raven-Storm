@@ -1,15 +1,5 @@
 # Raven-Storm Toolkit Beta [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Raven-Storm%20is%20a%20costumizable%20ddos%20Toolbox&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
-A strong, costomizable ddos + dos script with over 30 functions/commands for testing your own server!(^^)
-
-I wanted to make the most costomizable dos framework for you, here it is. (Still maintained)
-
-It is completely free, if you have problems with the script write me.
-
-If this is forked just look for the original repository, there are always updates.
-
-The best way you could help me is by giving me a star in case you like it and report a bug in case you find one.
-
-And please feel free to open issues. >> Beta.
+A strong, costomizable ddos + dos script with over 30 (soon 34) functions/commands for testing your own server!(^^)
 
 In next version: Bloutooth Ping of Death; scans; imcp flood...
 
