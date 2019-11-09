@@ -1,7 +1,7 @@
 # Raven-Storm Toolkit Beta [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Raven-Storm%20is%20a%20costumizable%20ddos%20Toolbox&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
 A strong, costomizable ddos + dos script with over 30 (soon 34) functions/commands for testing your own server!(^^)
 
-In next version: Bloutooth Ping of Death; scans; imcp flood...
+In next version: Bloutooth Ping of Death; scans; imcp flood... + **Open Source(Soon)**
 
 <a href="https://m.youtube.com/watch?v=Vjaa3kdpbZs&feature=youtu.be">Quick Video about an older version of Raven-Storm.</a>
 
