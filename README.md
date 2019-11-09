@@ -3,7 +3,9 @@ A strong, costomizable ddos + dos script with over 30 (soon 34) functions/comman
 
 This project will not be open source, because of security verifications.
 
-In next version: Bloutooth Ping of Death; scans; imcp flood...
+In next version: Scanning; imcp flood...
+
+Maybe in one of the next versions: Bluetooth POD, Mitm.
 
 <a href="https://m.youtube.com/watch?v=Vjaa3kdpbZs&feature=youtu.be">Quick Video about an older version of Raven-Storm.</a>
 
