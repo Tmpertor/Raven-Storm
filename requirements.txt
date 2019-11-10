@@ -1,1 +1,3 @@
 redis
+nmap
+wget
