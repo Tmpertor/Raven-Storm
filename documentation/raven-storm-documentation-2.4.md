@@ -112,7 +112,7 @@ Start your unix terminal and type in following:
 
 ```cd Raven-Storm```
 
-```pkg/apt-get/brew install redis```
+```pkg/apt-get/brew install redis nmap```
 
 ```pkg/apt-get/brew install python2```
 
