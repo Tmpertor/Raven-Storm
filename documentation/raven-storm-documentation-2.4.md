@@ -292,6 +292,7 @@ Set multiple Pod targets.
 
 ### #C34:
 Run a pod.
+Use sudo for better/strong pod.
 
 ### #C35:
 Delay between every pod thread.
