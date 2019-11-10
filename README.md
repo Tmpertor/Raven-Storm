@@ -19,7 +19,7 @@ Old picture.
 - [x] No root/su/sudo needed.
 - [x] Testing supported.
 - [x] Supports ddos.
-- [X] Over 30 commands, for every use.
+- [X] Over 38 commands, for every use.
 
 - [ ] Please DONT use it ILLEGAL!
 
