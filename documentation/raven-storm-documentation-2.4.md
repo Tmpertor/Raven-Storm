@@ -58,6 +58,15 @@ A strong, costomizable dos and ddos framework with over 30 functions/commands fo
 |C27|client connect|Start client.|
 |C28|server ip|Set redis IP.|
 |C29|server port|Set redis Port.|
+|C30|hbi|Get IP by domain.|
+|C31|lan scan|List all IPs connected to WiFi.|
+|C32|pod target|Set Pod target.|
+|C33|pod target list|Set multiple Pod targets.|
+|C34|pod run|Run pod.|
+|C35|pod sleep|Delay between pod thread.|
+|C36|pod threads|Set the Pod threads.|
+|C37|pod size|Set the pod packet size.|
+|C38|pod jammer|Set all devices as target.|
 
 
 ### #A1:
@@ -77,7 +86,7 @@ And please commit beta issues because it helps me updating the code.
 Taguar
 
 ### #A3:
-Raven-Storm is based on the UDP and TCP flood.
+Raven-Storm is based on the UDP and TCP flood, but also ICMP flood.
 
 #### DOS:
 The basic dos script is spaming messages to the server.
@@ -118,7 +127,7 @@ To run it again:
 ### #A6:
 First of take a quick internet search to the topics:
 
-DDOS, DOS, IP, Domain, UDP, TCP, Port, TCP Flood, UDP Flood, MB, Is DOS illegal?.
+DDOS, DOS, IP, Domain, UDP, TCP, Port, TCP Flood, UDP Flood, MB, Ping of Death, pod, ICMP flood, ICMP, Is DOS illegal?.
 
 And then you are ready to go, I guess.
 
@@ -130,7 +139,7 @@ Functions are in Raven-Storm defined as everything you normally don't use/need b
 
 ### #B2:
 Yes, Raven-Storm learns by it self.
-It reads all the values you entered and save it into: **ravenstorm-automated-list.ravenstormlist**.
+It reads all the values you entered in and save it into: **ravenstorm-automated-list.ravenstormlist**.
 
 On the next startup you can see the action using the values command.
 
@@ -268,3 +277,30 @@ Define the Redis IP.
 
 ### #C29:
 Define the Redis Port.
+
+### #C30:
+Basically get the IP of a domain.
+
+### #C31:
+List all IPs connected to the currentWiFi.
+
+### #C32:
+Set the ping of death target.
+
+### #C33:
+Set multiple Pod targets.
+
+### #C34:
+Run a pod.
+
+### #C35:
+Delay between every pod thread.
+
+### #C36:
+Set the Pod threads.
+
+### #C37:
+Set the pod packet size.
+
+### #C38:
+Set all devices as target | WiFi Jammer.
