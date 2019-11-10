@@ -1,9 +1,7 @@
 # Raven-Storm Toolkit Beta [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Raven-Storm%20is%20a%20costumizable%20ddos%20Toolbox&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
-A strong, costomizable ddos + dos script with over 30 (soon 34) functions/commands for testing your own server!(^^)
+A strong, costomizable ddos + dos + pod script with over 38 functions/commands for testing your own server!(^^)
 
 This project will not be open source, because of security verifications.
-
-In next version: Scanning; imcp flood...
 
 Maybe in one of the next versions: Bluetooth POD, Mitm.
 
@@ -21,7 +19,7 @@ Old picture.
 - [x] No root/su/sudo needed.
 - [x] Testing supported.
 - [x] Supports ddos.
-- [X] Over 30 commands, for every use.
+- [X] Over 38 commands, for every use.
 
 - [ ] Please DONT use it ILLEGAL!
 
