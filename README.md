@@ -15,7 +15,7 @@ Raven-Storm can **deal with strong servers** and is **able to be optimized** for
 - [x] Root/su/sudo **only** needed for stronger POD, but not required.
 - [x] **Testing** and **performing stronger attacks** is the goal of Raven-Storm.
 - [x] Raven-Storm supports a **ddos mode** to connect and make every attack stronger.
-- [X] Over **38 commands**, **350 commits** and **2000 lines of code**, for **optimized use**.
+- [X] Over **38 commands**, **350 commits** and **2000 lines of code**, for **optimizing your use**.
 
 - [ ] Please DONT use it ILLEGAL!
 
