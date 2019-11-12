@@ -26,6 +26,7 @@ Python2
 
 ## Test:
 A Fritzbox needs a restart after dosing it using 200 threads with 2 mb on port 80.
+An Android takes about 20 pod threads with 65500 kb to completly shutdown the connection.
 
 ## Info:
 **MIT Taguar258 2019**
