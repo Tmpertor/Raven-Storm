@@ -9,6 +9,8 @@ Old picture.
 ## Documentation:
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
 
+<a href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
+
 ## What makes it different?
 - [x] Automated.
 - [x] Effective.
