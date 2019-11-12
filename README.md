@@ -1,5 +1,5 @@
 # Raven-Storm Toolkit Beta <!--[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Raven-Storm%20is%20a%20costumizable%20ddos%20Toolbox&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)-->
-A strong, costomizable ddos + dos + pod script with over 38 functions/commands for stress-testing your servers.
+**A strong, costomizable ddos + dos + pod script with over 38 functions/commands for stress-testing your servers.**
 
 The aim of Raven-Storm is to **test, understand and learn from stress-testing** attacks.
 
