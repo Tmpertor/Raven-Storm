@@ -24,12 +24,12 @@ Raven-Storm can **deal with strong servers** and is **able to be optimized** for
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
 
-## Python version:
-Python2
-
 ## Test examples:
 A Fritzbox needs a restart after dosing it using 200 threads with 2 mb on port 80.
 An Android takes about 20 pod threads with 65500 kb to completly shutdown the connection.
+
+## Python version:
+Python2
 
 ## Info:
 **MIT Taguar258 2019**
