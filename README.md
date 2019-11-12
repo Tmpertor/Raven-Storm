@@ -31,20 +31,19 @@ An Android takes about 20 pod threads with 65500 kb to completly shutdown the co
 ## Python version:
 Python2
 
+<!--## Screenshot:
+
+![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)
+![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png)-->
+
+<img width="1440" alt="Bildschirmfoto 2019-08-26 um 16 00 14" src="https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png">
+
 ## Info:
 **MIT Taguar258 2019**
 
 **DO NOT USE IT ILLEGAL.**
 
 **DO NOT USE IT ON NOT OWNED SERVERS.**
-
-<!--## Screenshot:
-
-![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)
-![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png)-->
-
-<img width="1440" alt="Bildschirmfoto 2019-08-26 um 16 00 14" src="https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png">-->
-
 
 
 
