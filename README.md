@@ -1,7 +1,7 @@
 # Raven-Storm Toolkit Beta [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Raven-Storm%20is%20a%20costumizable%20ddos%20Toolbox&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)
 A strong, costomizable ddos + dos + pod script with over 38 functions/commands for testing your own server!(^^)
 
-<a href="https://m.youtube.com/watch?v=Vjaa3kdpbZs&feature=youtu.be">Quick Video about an older version of Raven-Storm.</a>
+<a style="color: grey" href="https://m.youtube.com/watch?v=Vjaa3kdpbZs&feature=youtu.be">Quick Video about an older version of Raven-Storm.</a>
 
 <!--![MOSHED-2019-4-30-21-28-15](https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif)--><img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />
 Old picture.
@@ -9,7 +9,7 @@ Old picture.
 ## Documentation:
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
 
-<a href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
 
 ## What makes it different?
 - [x] Automated.
