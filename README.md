@@ -17,7 +17,7 @@ Raven-Storm can **deal with strong servers** and is **able to be optimized** for
 - [x] Raven-Storm supports a **ddos mode** to connect and make every attack stronger.
 - [X] Over **38 commands**, **350 commits** and **2000 lines of code**, for **optimizing your use**.
 
-- [ ] Please DONT use it ILLEGAL!
+- [ ] Please DO NOT use it ILLEGAL!
 
 ## Documentation:
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
