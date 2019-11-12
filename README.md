@@ -9,20 +9,20 @@ Raven-Storm can **deal with strong servers** and is **able to be optimized** for
 
 <!--![MOSHED-2019-4-30-21-28-15](https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif)--><img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />
 
-## Documentation:
-<a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
-
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
-
 ## What makes it different?
 - [x] **Automated** and **helpful** for **advanced usage**.
 - [x] **Effective** and **powerful** in shuting down hosts and servers.
 - [x] Root/su/sudo **only** needed for stronger POD, but not required.
 - [x] **Testing** and **performing stronger attacks** is the goal of Raven-Storm.
-- [x] Raven-Storm supports a **ddos mode** to connect make every attack stronger.
-- [X] Over **38 commands** and **2000 lines of code**, for **optimized use**.
+- [x] Raven-Storm supports a **ddos mode** to connect and make every attack stronger.
+- [X] Over **38 commands**, **350 commits** and **2000 lines of code**, for **optimized use**.
 
 - [ ] Please DONT use it ILLEGAL!
+
+## Documentation:
+<a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
+
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
 
 ## Python version:
 Python2
