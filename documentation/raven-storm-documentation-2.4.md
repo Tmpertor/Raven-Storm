@@ -114,6 +114,8 @@ Start your unix terminal and type in following:
 
 ```pkg/apt-get/brew install redis nmap```
 
+```pkg/apt-get/brew install iputils-ping (in case needed)```
+
 ```pkg/apt-get/brew install python2```
 
 ```pip2 install -r requirements.txt```
