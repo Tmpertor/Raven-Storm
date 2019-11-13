@@ -5,7 +5,7 @@ The aim of Raven-Storm is to **test, understand and learn from stress-testing** 
 
 Raven-Storm can **deal with strong servers** and is **able to be optimized** for special targets.
 
-For example Raven-Storm can **kill the connection** of a device in your **WiFi**, and much more.
+Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 
 <a style="color: grey" href="https://m.youtube.com/watch?v=Vjaa3kdpbZs&feature=youtu.be">Quick Video about an older version of Raven-Storm.</a>
 
