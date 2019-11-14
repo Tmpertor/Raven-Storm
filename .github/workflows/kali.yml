@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: kali-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Installation
+      run: |
+        echo Installing
+        sudo apt-get upgrade
+        sudo apt-get install iputils-ping python2 python-pip nmap
+        pip2 install redis python-nmap wget
