@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: unix
+    runs-on: kali-latest, ubuntu-latest, Mac, unix
     strategy:
       max-parallel: 4
       matrix:
@@ -20,4 +20,4 @@ jobs:
     - name: Install dependencies
       run: |
         python2 -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip2 install -r requirements.txt
