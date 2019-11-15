@@ -35,6 +35,16 @@ An Android takes about 20 pod threads with 65500 kb to completly shutdown the co
 ## Python version:
 Python2
 
+## Update:
+Raven-Storm is **updated often** and so of course there is an **update tool included**.
+The next update will include:
+
+- [x] Muting tcp/udp reply messages.
+- [ ] Pod auto stop.
+- [ ] Pod intervall.
+- [ ] Bugfix.
+
+
 <!--## Screenshot:
 
 ![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)
