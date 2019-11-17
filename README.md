@@ -45,6 +45,7 @@ The next update will include:
 - [x] Bugfix.
 - [ ] Python3 support.
 
+(ticked: next version; unticked: further version.)
 
 <!--## Screenshot:
 
