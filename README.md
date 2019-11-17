@@ -43,6 +43,7 @@ The next update will include:
 - [ ] Pod auto stop.
 - [ ] Pod intervall.
 - [ ] Bugfix.
+- [ ] Python3 support.
 
 
 <!--## Screenshot:
