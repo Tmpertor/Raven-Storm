@@ -40,9 +40,9 @@ Raven-Storm is **updated often** and so of course there is an **update tool incl
 The next update will include:
 
 - [x] Muting tcp/udp reply messages.
-- [ ] Pod auto stop.
-- [ ] Pod intervall.
-- [ ] Bugfix.
+- [x] Pod auto stop.
+- [x] Pod intervall.
+- [x] Bugfix.
 - [ ] Python3 support.
 
 
