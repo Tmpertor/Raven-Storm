@@ -22,7 +22,6 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 
 ## Documentation and Installation:
 (Installation in the documentation)
-(First of try to install python2)
 
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
 
