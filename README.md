@@ -18,8 +18,7 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 - [x] **Testing** and **performing stronger attacks** is the goal of Raven-Storm.
 - [x] Raven-Storm supports a **ddos mode** to connect and make every attack stronger.
 - [X] Over **40 commands**, **400 commits** and **more than 2000 lines of code**, for **optimizing your usage**.
-
-- [ ] DO NOT use Raven-Storm ILLEGAL!
+<!--- [ ] DO NOT use Raven-Storm ILLEGAL!-->
 
 ## Documentation and Installation:
 (Installation in the documentation)
