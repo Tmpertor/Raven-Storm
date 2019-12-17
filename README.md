@@ -34,7 +34,7 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 An Android takes about 20 pod threads with 65500 kb to completly shutdown the connection.
 
 ## Python version:
-Python2 is used.
+It runs using the magic of python2.
 
 Python3 will be supported if needed.
 
