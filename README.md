@@ -54,6 +54,6 @@ __THE CREATOR DOES NOT TAKE ANY RESPONSIBILITY FOR AN ILLEGAL USAGE OF THE USER.
 
 
 
-Thanks to my few "fans".
+<!--Thanks to my few "fans".-->
 
 
