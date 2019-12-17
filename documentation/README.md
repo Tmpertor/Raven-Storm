@@ -67,6 +67,8 @@ A strong, costomizable dos and ddos framework with over 30 functions/commands fo
 |C36|pod threads|Set the Pod threads.|
 |C37|pod size|Set the pod packet size.|
 |C38|pod jammer|Set all devices as target.|
+|C39|pod auto stop|Auto stop the pod attack.|
+|C40|pod intervall|Set the intervall between the pod requests.|
 
 
 ### #A1:
@@ -307,3 +309,13 @@ Set the pod packet size.
 
 ### #C38:
 Set all devices as target | WiFi Jammer.
+
+### #C39:
+Automatically stop all the pod threads after a specific time.
+
+This only works for Mac, you can deactivate it by setting it to 0.
+
+### #C40:
+Define the intervall between every pod request.
+
+Disable it by setting it to 0.
