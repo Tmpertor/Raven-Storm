@@ -17,7 +17,7 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 - [x] Root/su/sudo **only** needed for stronger POD, but not required.
 - [x] **Testing** and **performing stronger attacks** is the goal of Raven-Storm.
 - [x] Raven-Storm supports a **ddos mode** to connect and make every attack stronger.
-- [X] Over **40 commands**, **400 commits** and **more than 2000 lines of code**, for **optimizing your usage**.
+- [X] Over **48 commands**, **420 commits** and **more than 2200 lines of code**, for **optimizing your usage**.
 <!--- [ ] DO NOT use Raven-Storm ILLEGAL!-->
 
 ## Documentation and Installation:
@@ -28,6 +28,12 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/tree/master/documentation#A5">Click here for the installation.</a>
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
+
+## 4 in one:
+- [ ] POD (isolated).
+- [ ] TCP dos.
+- [ ] UDP dos.
+- [ ] Scanning.
 
 ## Test examples:
 <!--A Fritzbox needs a restart after dosing it using 200 threads with 2 mb on port 80.-->
