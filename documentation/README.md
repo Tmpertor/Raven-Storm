@@ -1,6 +1,6 @@
 [MIT Taguar258 2019]
 # Raven-Storm Toolkit Documentation:
-A strong, costomizable dos and ddos framework with over 40 functions/commands for testing your own servers.
+A strong, costomizable dos and ddos framework with over 48 functions/commands for testing your own servers.
 
 ## Table of content:
 
@@ -20,6 +20,8 @@ A strong, costomizable dos and ddos framework with over 40 functions/commands fo
 |B3|CFile|How to load in a configuration File.|
 |B4|ROS|Run commands on start of Raven-Storm.|
 |B5|Fast Redis start|Start client/server using the command-line.
+|B6|Fast run dos|Start a dos attack the fastest way possible.|
+|B7|Fast run pod|Start a pod attack the fastest way possible.|
 
 |C|Command|Description|
 |:-:|:----------:|:-----------------------:|
@@ -69,6 +71,8 @@ A strong, costomizable dos and ddos framework with over 40 functions/commands fo
 |C38|pod jammer|Set all devices as target.|
 |C39|pod auto stop|Auto stop the pod attack.|
 |C40|pod intervall|Set the intervall between the pod requests.|
+|C41|speed down|Measure the time a website needs to load.|
+|C42|speed ping|Measure the time a ping needs.|
 
 
 ### #A1:
@@ -167,6 +171,12 @@ hip = Redis ip.
 hport = Redis port.
 runonstart = com1, com2 ... Run on start.
 method = tcp/udp.
+pod target = Pod target.
+pod threads = Pod threads.
+pod sleep = Pod, time between threads.
+pod size = Pod packet size.
+pod intervall = Pod intervall between packet.
+pod auto stop = Auto atop pod attack.
 ```
 
 You will then be able to run this config file using:
@@ -191,6 +201,17 @@ Type:
 ```python2 rs.pyo client connect ip port```
 
 To quickstart the connection to the Redis DB.
+
+### #B6:
+Type for a dos attack:
+
+```python2 rs.pyo -fd {target} {port} {threads}```
+
+### #B7:
+Type for a pod attack:
+
+```python2 rs.pyo -fp {target} {threads} {(size)} {(sleep)} {(intervall)} {(auto stop)}```
+
 
 ### #C1:
 _Not native english speakers are welcome._
@@ -319,3 +340,11 @@ This only works for Mac, you can deactivate it by setting it to 0.
 Define the intervall between every pod request.
 
 Disable it by setting it to 0.
+
+### #C41:
+Measure the time a website needs to load.
+
+Please do not forget the http(s):// .
+
+### #C42:
+Measure the time a ping needs.
