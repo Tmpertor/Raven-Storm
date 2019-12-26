@@ -29,12 +29,6 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
 
-## 4 in one:
-- [ ] POD (isolated).
-- [ ] TCP dos.
-- [ ] UDP dos.
-- [ ] Scanning.
-
 ## Test examples:
 <!--A Fritzbox needs a restart after dosing it using 200 threads with 2 mb on port 80.-->
 An Android takes about 20 pod threads with 65500 kb to completly shutdown the connection.
