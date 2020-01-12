@@ -111,20 +111,20 @@ Raven-Storm is constructed like a command-line, it requires command inputs with 
 Raven-Storm can be used with arguments, or basically inside.
 You will find the commands in the C-Topic.
 
-### #A5:
+### #A5 (Installation):
 Start your unix terminal and type in following:
 
 ```git clone https://github.com/Taguar258/Raven-Storm/```
 
 ```cd Raven-Storm```
 
-```pkg/apt-get/brew install redis nmap```
+```pkg/apt-get/brew/pacman install redis nmap```
 
-```pkg/apt-get/brew install iputils-ping (in case needed)```
+```pkg/apt-get/brew/pacman install iputils-ping (in case needed)```
 
-```pkg/apt-get/brew install python2```
+```pkg/apt-get/brew/pacman install python2```
 
-```pip2 install -r requirements.txt```
+```python2 -m pip install -r requirements.txt```
 
 ```python2 rs.pyo```
 
