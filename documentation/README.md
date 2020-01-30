@@ -80,12 +80,10 @@ Raven-Storm is complex ddos system with many features, for testing, accommodatio
 
 It's written in Python 2.7 and made for breaking the limit, testing your servers with the most common ddos method.
 
-It's also faster to define the target infos than it looks, because of a self learning algorithm.
+It's also faster to define the target info than it looks, because of a self learning algorithm.
 
 ### #A2:
 I basically made this tool, for testing the server with the most amount of features possible.
-
-Have fun using it.
 
 And please commit beta issues because it helps me updating the code.
 
@@ -111,20 +109,20 @@ Raven-Storm is constructed like a command-line, it requires command inputs with 
 Raven-Storm can be used with arguments, or basically inside.
 You will find the commands in the C-Topic.
 
-### #A5 (Installation):
+### #A5:
 Start your unix terminal and type in following:
 
 ```git clone https://github.com/Taguar258/Raven-Storm/```
 
 ```cd Raven-Storm```
 
-```pkg/apt-get/brew/pacman install redis nmap```
+```pkg/apt-get/brew install redis nmap```
 
-```pkg/apt-get/brew/pacman install iputils-ping (in case needed)```
+```pkg/apt-get/brew install iputils-ping (in case needed)```
 
-```pkg/apt-get/brew/pacman install python2```
+```pkg/apt-get/brew install python2```
 
-```python2 -m pip install -r requirements.txt```
+```pip2 install -r requirements.txt```
 
 ```python2 rs.pyo```
 
@@ -194,11 +192,11 @@ Type:
 
 ```python2 rs.pyo server start```
 
-```python2 rs.pyo server start ip port```
+```python2 rs.pyo server start IP port```
 
 ```python2 rs.pyo client connect```
 
-```python2 rs.pyo client connect ip port```
+```python2 rs.pyo client connect IP port```
 
 To quickstart the connection to the Redis DB.
 
@@ -214,7 +212,7 @@ Type for a pod attack:
 
 
 ### #C1:
-_Not native english speakers are welcome._
+Shows the help message.
 
 ### #C2:
 Define the target port.
@@ -223,10 +221,10 @@ Define the target port.
 Define the amount of threads to use.
 
 ### #C4:
-Define the target ip.
+Define the target IP.
 
 ### #C5:
-Define the target ip using the domain.
+Define the target IP using the domain.
 
 ### #C6:
 Define the time for the next thread to activate.
