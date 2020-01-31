@@ -32,14 +32,14 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 ### Quick-Installer:
 ```curl https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/documentation/installer.txt --output rs-install.sh ; bash rs-install.sh```
 
-## Test examples:
+<!--## Test examples:
 An Android takes about 20 pod threads with 65500 kb to completely shut down the connection.
 
 ## Python version:
 It runs using the magic of python2.
 
 Python3 will be supported if needed.
-
+-->
 <!--## Screenshot:
 
 ![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)
