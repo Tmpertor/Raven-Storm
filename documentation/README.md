@@ -126,6 +126,11 @@ Start your Unix terminal and type in following:
 
 ```python2 rs.pyo```
 
+#### OR!:
+Use the quick installer: (You might need to install curl)
+
+```bash "$(curl -fsSL https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/documentation/installer.txt)"```
+
 To run it again:
 
 ```cd Raven-Storm ; python2 rs.pyo```
