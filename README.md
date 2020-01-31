@@ -29,6 +29,9 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
 
+### Quick-Installer:
+```curl https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/documentation/installer.txt --output rs-install.sh ; bash rs-install.sh```
+
 ## Test examples:
 An Android takes about 20 pod threads with 65500 kb to completely shut down the connection.
 
