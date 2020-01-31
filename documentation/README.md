@@ -112,17 +112,17 @@ You will find the commands in the C-Topic.
 ### #A5 (INSTALLATION):
 Start your Unix terminal and type in following:
 
+```pkg/apt-get/brew install git python2 redis nmap```
+
 ```git clone https://github.com/Taguar258/Raven-Storm/```
 
 ```cd Raven-Storm```
 
-```pkg/apt-get/brew install redis nmap```
-
 ```pkg/apt-get/brew install iputils-ping (in case needed)```
 
-```pkg/apt-get/brew install python2```
+```pkg/apt-get/brew install python2-pip (in case needed)```
 
-```pip2 install -r requirements.txt```
+```pip2/python2 -m pip install -r requirements.txt```
 
 ```python2 rs.pyo```
 
