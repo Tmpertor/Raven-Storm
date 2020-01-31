@@ -129,7 +129,7 @@ Start your Unix terminal and type in following:
 #### OR!:
 Use the quick installer: (You might need to install curl)
 
-```bash "$(curl -fsSL https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/documentation/installer.txt)"```
+```curl https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/documentation/installer.txt --output rs-install.sh ; bash rs-install.sh```
 
 To run it again:
 
