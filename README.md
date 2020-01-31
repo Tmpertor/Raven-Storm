@@ -25,7 +25,7 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
 
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/tree/master/documentation#A5">Click here for the installation.</a>
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/tree/master/documentation#A5%20(INSTALLATION)">Click here for the installation.</a>
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
 
