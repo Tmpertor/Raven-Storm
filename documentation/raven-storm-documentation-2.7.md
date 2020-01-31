@@ -1,6 +1,6 @@
 [MIT Taguar258 2019]
 # Raven-Storm Toolkit Documentation:
-A strong, costomizable dos and ddos framework with over 48 functions/commands for testing your own servers.
+A strong, customizable dos and DDoS framework with over 48 functions/commands for testing your own servers.
 
 ## Table of content:
 
@@ -16,9 +16,9 @@ A strong, costomizable dos and ddos framework with over 48 functions/commands fo
 |B|Function|Description|
 |:-:|:----------:|:-----------------------:|
 |B1|Introduction|What is the definition of functions in Raven-Storm?|
-|B2|Self learning|How does Raven-Storm learn by it self?|
+|B2|Self-learning |How does Raven-Storm learn by itself?|
 |B3|CFile|How to load in a configuration File.|
-|B4|ROS|Run commands on start of Raven-Storm.|
+|B4|ROS|Run commands on the start of Raven-Storm.|
 |B5|Fast Redis start|Start client/server using the command-line.
 |B6|Fast run dos|Start a dos attack the fastest way possible.|
 |B7|Fast run pod|Start a pod attack the fastest way possible.|
@@ -76,11 +76,11 @@ A strong, costomizable dos and ddos framework with over 48 functions/commands fo
 
 
 ### #A1:
-Raven-Storm is complex ddos system with many features, for testing, accommodation and learning.
+Raven-Storm is a complex DDoS system with many features, for testing, accommodation, and learning.
 
-It's written in Python 2.7 and made for breaking the limit, testing your servers with the most common ddos method.
+It's written in Python 2.7 and made for breaking the limit, testing your servers with the most common DDoS method.
 
-It's also faster to define the target info than it looks, because of a self learning algorithm.
+It's also faster to define the target info than it looks, because of a self-learning algorithm.
 
 ### #A2:
 I basically made this tool, for testing the server with the most amount of features possible.
@@ -93,13 +93,13 @@ Taguar
 Raven-Storm is based on the UDP and TCP flood, but also ICMP flood.
 
 #### DOS:
-The basic dos script is spaming messages to the server.
+The basic dos script is spamming messages to the server.
 It supports UDP flood and TCP flood.
 TCP flood connects first then sends the spam message.
 UDP just floods.
 
 #### DDOS:
-You first need to setup Raven-Storm on multiple PCs and connect it to an Database (Topic: C26-C29) and so you can use multiple PCs as one.
+You first need to setup Raven-Storm on multiple PCs and connect it to a Database (Topic: C26-C29) and so you can use multiple PCs as one.
 
 ### #A4:
 Raven-Storm is constructed like a command-line, it requires command inputs with values and executes something.
@@ -110,7 +110,7 @@ Raven-Storm can be used with arguments, or basically inside.
 You will find the commands in the C-Topic.
 
 ### #A5:
-Start your unix terminal and type in following:
+Start your Unix terminal and type in following:
 
 ```git clone https://github.com/Taguar258/Raven-Storm/```
 
@@ -144,13 +144,13 @@ Functions are in Raven-Storm defined as everything you normally don't use/need b
 
 
 ### #B2:
-Yes, Raven-Storm learns by it self.
+Yes, Raven-Storm learns by itself.
 It reads all the values you entered in and save it into: **ravenstorm-automated-list.ravenstormlist**.
 
-On the next startup you can see the action using the values command.
+On the next startup, you can see the action using the values command.
 
 ### #B3:
-You will need to create a file with following values you want to define inside.
+You will need to create a file with the following values you want to define inside.
 
 ```ip = Set ip.
 port = Set port.
@@ -218,7 +218,7 @@ Shows the help message.
 Define the target port.
 
 ### #C3:
-Define the amount of threads to use.
+Define the number of threads to use.
 
 ### #C4:
 Define the target IP.
@@ -230,7 +230,7 @@ Define the target IP using the domain.
 Define the time for the next thread to activate.
 
 ### #C7:
-Toggle the sucess output.
+Toggle the success output.
 
 ### #C8:
 Print all defined settings.
@@ -254,13 +254,13 @@ Change flood method between UDP flood and TCP flood.
 Repeat the message to spam.
 
 ### #C15:
-Set MB instead of message.
+Set MB instead of the message.
 
 ### #C16:
-Port scann an ip.
+Port scan an IP.
 
 ### #C17:
-Port scann an domain.
+Port scan a domain.
 
 ### #C18:
 Activate the stress-testing-mode.
@@ -279,21 +279,21 @@ Define multiple target Domain.
 Define multiple target Ports.
 
 ### #C23:
-Run after defined time.
+Run after a defined time.
 
 ### #C24:
-Next thread after defined time.
+Next thread after a defined time.
 
 ### #C25:
-Stop threads after defined time.
+Stop threads after a defined time.
 
 ### #C26:
-First of you need to start the redis-server using: ```redis server```in the command line.
+First of you need to start the Redis-server using: ```redis server```in the command line.
 
 Then you connect 1 server to the Redis DB.
 
 ### #C27:
-After topic C26 connect clients to the ddos mode.
+After topic C26 connect clients to the DDoS mode.
 
 ### #C28:
 Define the Redis IP.
@@ -318,7 +318,7 @@ Run a pod.
 Use sudo for better/strong pod.
 
 ### #C35:
-Delay between every pod thread.
+Set the delay between every pod thread.
 
 ### #C36:
 Set the Pod threads.
@@ -335,7 +335,7 @@ Automatically stop all the pod threads after a specific time.
 This only works for Mac, you can deactivate it by setting it to 0.
 
 ### #C40:
-Define the intervall between every pod request.
+Define the interval between every pod request.
 
 Disable it by setting it to 0.
 
