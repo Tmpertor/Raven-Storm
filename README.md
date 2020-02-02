@@ -30,6 +30,8 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
 
 ### Quick-Installer:
+You might need to install curl.
+
 ```curl https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/documentation/installer.txt --output rs-install.sh ; bash rs-install.sh```
 
 <!--## Test examples:
