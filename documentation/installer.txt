@@ -1,48 +1,48 @@
 echo "[i] Installation"
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        sudo apt-get -y upgrade
-        git --help > /dev/null || sudo apt-get -y install git || echo "[!] Could not install git"
-        python2 --help > /dev/null || sudo apt-get -y install python2 || echo "[!] Could not install python2"
-        ping -h > /dev/null || sudo apt-get -y install iputils-ping || echo "[!] Could not install ping"
-        redis --help > /dev/null || sudo apt-get -y install redis || echo "[!] Could not install redis"
-        nmap --help > /dev/null || sudo apt-get -y install nmap || echo "[!] Could not install nmap"
-        git clone https://github.com/Taguar258/Raven-Storm/
-        cd Raven-Storm
-        python2 -m pip install -r requirements.txt
+        sudo apt-get -y upgrade > /dev/null 2>&1
+        git --help > /dev/null 2>&1 || sudo apt-get -y install git || echo "[!] Could not install git"
+        python2 --help > /dev/null 2>&1 || sudo apt-get -y install python2 || echo "[!] Could not install python2"
+        ping > /dev/null 2>&1 || sudo apt-get -y install iputils-ping || echo "[!] Could not install ping"
+        redis --help > /dev/null 2>&1 || sudo apt-get -y install redis || echo "[!] Could not install redis"
+        nmap --help > /dev/null 2>&1 || sudo apt-get -y install nmap || echo "[!] Could not install nmap"
+        git clone https://github.com/Taguar258/Raven-Storm/ > /dev/null 2>&1
+        cd Raven-Storm > /dev/null 2>&1 || echo "[i] Could not clone repository"
+        python2 -m pip install -r requirements.txt > /dev/null 2>&1 || echo "[i] Could not install requirements"
         echo "[i] Done"
         python2 rs.pyo || echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
 elif [[ "$OSTYPE" == "darwin"* ]]; then
-        brew --help > /dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-        git --help > /dev/null || brew install git || echo "[!] Could not install git"
-        python2 --help > /dev/null || brew install python2 || echo "[!] Could not install python2"
-        ping -h > /dev/null || brew install iputils-ping || echo "[!] Could not install ping"
-        redis --help > /dev/null || brew install redis || echo "[!] Could not install redis"
-        nmap --help > /dev/null || brew install nmap || echo "[!] Could not install nmap"
-        git clone https://github.com/Taguar258/Raven-Storm/
-        cd Raven-Storm
-        python2 -m pip install -r requirements.txt
+        brew --help > /dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        git --help > /dev/null 2>&1 || brew install git || echo "[!] Could not install git"
+        python2 --help > /dev/null 2>&1 || brew install python2 || echo "[!] Could not install python2"
+        ping > /dev/null 2>&1 || brew install iputils-ping || echo "[!] Could not install ping"
+        redis --help > /dev/null 2>&1 || brew install redis || echo "[!] Could not install redis"
+        nmap --help > /dev/null 2>&1 || brew install nmap || echo "[!] Could not install nmap"
+        git clone https://github.com/Taguar258/Raven-Storm/ > /dev/null 2>&1
+        cd Raven-Storm > /dev/null 2>&1 || echo "[i] Could not clone repository"
+        python2 -m pip install -r requirements.txt > /dev/null 2>&1 || echo "[i] Could not install requirements"
         echo "[i] Done"
         python2 rs.pyo || echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
 elif [ -f "/etc/arch-release" ]; then
-        git --help > /dev/null || sudo pacman -S git || echo "[!] Could not install git"
-        python2 --help > /dev/null || sudo pacman -S python2 || echo "[!] Could not install python2"
-        ping -h > /dev/null || sudo pacman -S iputils-ping || echo "[!] Could not install ping"
-        redis --help > /dev/null || sudo pacman -S redis || echo "[!] Could not install redis"
-        nmap --help > /dev/null || sudo pacman -S nmap || echo "[!] Could not install nmap"
-        git clone https://github.com/Taguar258/Raven-Storm/
-        cd Raven-Storm
-        python2 -m pip install -r requirements.txt
+        git --help > /dev/null 2>&1 || sudo pacman -S git || echo "[!] Could not install git"
+        python2 --help > /dev/null 2>&1 || sudo pacman -S python2 || echo "[!] Could not install python2"
+        ping > /dev/null 2>&1 || sudo pacman -S iputils-ping || echo "[!] Could not install ping"
+        redis --help > /dev/null 2>&1 || sudo pacman -S redis || echo "[!] Could not install redis"
+        nmap --help > /dev/null 2>&1 || sudo pacman -S nmap || echo "[!] Could not install nmap"
+        git clone https://github.com/Taguar258/Raven-Storm/ > /dev/null 2>&1
+        cd Raven-Storm > /dev/null 2>&1 || echo "[i] Could not clone repository"
+        python2 -m pip install -r requirements.txt > /dev/null 2>&1 || echo "[i] Could not install requirements"
         echo "[i] Done"
         python2 rs.pyo || echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
 else
         echo "[i] Please install manually"
-        git clone https://github.com/Taguar258/Raven-Storm/ > /dev/null || echo "[!] Please install git"
-        python2 --help > /dev/null || echo "[!] Please install python2"
-        ping -h > /dev/null || sudo echo "[!] Please install ping"
-        redis --help > /dev/null || echo "[!] Please install redis"
-        nmap --help > /dev/null || echo "[!] Please install nmap"
-        cd Raven-Storm || echo "[i] Could not clone repository"
-        python2 -m pip install -r requirements.txt || echo "[i] Could not install requirements"
+        git clone https://github.com/Taguar258/Raven-Storm/ > /dev/null 2>&1 || echo "[!] Please install git"
+        python2 --help > /dev/null 2>&1 || echo "[!] Please install python2"
+        ping > /dev/null 2>&1 || echo "[!] Please install ping"
+        redis --help > /dev/null 2>&1 || echo "[!] Please install redis"
+        nmap --help > /dev/null 2>&1 || echo "[!] Please install nmap"
+        cd Raven-Storm > /dev/null 2>&1 || echo "[i] Could not clone repository"
+        python2 -m pip install -r requirements.txt > /dev/null 2>&1 || echo "[i] Could not install requirements"
         echo "[!] PRESS ENTER TO TRY RUN SCRIPT"
         read
         python2 rs.pyo || echo "[i] Could not run script"
