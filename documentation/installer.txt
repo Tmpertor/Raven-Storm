@@ -10,7 +10,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
         cd Raven-Storm
         python2 -m pip install -r requirements.txt
         echo "[i] Done"
-        echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
+        python2 rs.pyo || echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
 elif [[ "$OSTYPE" == "darwin"* ]]; then
         brew --help > /dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
         git --help > /dev/null || brew install git || echo "[!] Could not install git"
@@ -22,16 +22,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
         cd Raven-Storm
         python2 -m pip install -r requirements.txt
         echo "[i] Done"
-        echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
-elif [[ "$OSTYPE" == "cygwin" ]]; then
-        # POSIX compatibility layer and Linux environment emulation for Windows
-        echo "[i] Please install manually"
-elif [[ "$OSTYPE" == "msys" ]]; then
-        # Lightweight shell and GNU utilities compiled for Windows (part of MinGW)
-        echo "[i] Please install manually"
-elif [[ "$OSTYPE" == "win32" ]]; then
-        # I'm not sure this can happen.
-        echo "[i] Please install manually"
+        python2 rs.pyo || echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
 elif [ -f "/etc/arch-release" ]; then
         git --help > /dev/null || sudo pacman -S git || echo "[!] Could not install git"
         python2 --help > /dev/null || sudo pacman -S python2 || echo "[!] Could not install python2"
@@ -42,7 +33,16 @@ elif [ -f "/etc/arch-release" ]; then
         cd Raven-Storm
         python2 -m pip install -r requirements.txt
         echo "[i] Done"
-        echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
+        python2 rs.pyo || echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
 else
         echo "[i] Please install manually"
+        git clone https://github.com/Taguar258/Raven-Storm/ > /dev/null || echo "[!] Please install git"
+        python2 --help > /dev/null || echo "[!] Please install python2"
+        ping -h > /dev/null || sudo echo "[!] Please install ping"
+        redis --help > /dev/null || echo "[!] Please install redis"
+        nmap --help > /dev/null || echo "[!] Please install nmap"
+        cd Raven-Storm || echo "[i] Could not clone repository"
+        python2 -m pip install -r requirements.txt || echo "[i] Could not install requirements"
+        python2 rs.pyo || echo "[i] Could not run script"
+        echo "[i] Done"
 fi
