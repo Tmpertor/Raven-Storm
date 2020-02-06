@@ -1,5 +1,5 @@
 # Raven-Storm Toolkit Beta <br><img src="https://img.shields.io/badge/Language-Python2-blue"><img src="https://img.shields.io/badge/Status-Beta-orange"><img src="https://img.shields.io/badge/Version-2.8-red"><img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"><!--[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Raven-Storm%20is%20a%20costumizable%20ddos%20Toolbox&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)Future maybe:nethogs-->
-**A strong, costomizable ddos + dos + pod script with over 48 functions/commands for stress-testing your servers.**
+**A strong, costomizable ddos + dos + pod script/app with over 48 functions/commands for stress-testing your servers.**
 
 The aim of Raven-Storm is to **test, understand and learn from stress-testing** attacks.
 
@@ -44,7 +44,7 @@ Linux users can also use the Raven-Storm-APP, which will open a new terminal win
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/releases/download/2.8/Raven-Storm-APP-LINUX.zip">Download the linux app.</a>
 
-### WINDOWS APP:
+### WINDOWS APP (unstable):
 Windows users can also use the Raven-Storm-APP, which will open a new terminal window.
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/releases/download/2.8/Raven-Storm-APP-WINDOWS-unstable.zip">Download the windows app.</a>
