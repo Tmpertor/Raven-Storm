@@ -1,3 +1,4 @@
 redis
 python-nmap
 wget
+readline
