@@ -1,6 +1,10 @@
 # Raven-Storm
 
 
+<a style="color: white;" href="https://github.com/Taguar258/Raven-Storm/tree/master/tutorial/installation#the-easy-way">Beginner</a> - <a style="color: white;" href="https://github.com/Taguar258/Raven-Storm/tree/master/tutorial/installation#lazy-installer">Advanced</a> - <a style="color: white;" href="https://github.com/Taguar258/Raven-Storm/tree/master/tutorial/installation#or-start-your-unix-terminal-and-type-in-following">Expert</a>
+
+
+## Lazy installer:
 
 To install Raven-Storm enter the following command:
 
@@ -29,3 +33,21 @@ To install Raven-Storm enter the following command:
 ```pip2/python2 -m pip install -r requirements.txt```
 
 ```python2 rs.pyo```
+
+## The easy way:
+Just download the matching file, unzip it and run it.
+
+### OSX APP:
+Mac users can also use the Raven-Storm-APP, which will open a new terminal window in the background.
+
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/releases/download/2.8/Raven-Storm-APP-MAC.zip">Download the mac app.</a>
+
+### LINUX APP:
+Linux users can also use the Raven-Storm-APP, which will open a new terminal window.
+
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/releases/download/2.8/Raven-Storm-APP-LINUX.zip">Download the linux app.</a>
+
+### WINDOWS APP (unstable):
+Windows users can also use the Raven-Storm-APP, which will open a new terminal window.
+
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/releases/download/2.8/Raven-Storm-APP-WINDOWS-unstable.zip">Download the windows app.</a>
