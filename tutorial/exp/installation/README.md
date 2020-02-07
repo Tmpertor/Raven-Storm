@@ -16,16 +16,16 @@ To install Raven-Storm enter the following command:
 
 ## Or start your Unix terminal and type in following:
 
-```pkg/apt-get/brew install git python2 redis nmap
+```sudo pkg/apt-get/brew install git python2 redis nmap```
 
-git clone https://github.com/Taguar258/Raven-Storm/
+```git clone https://github.com/Taguar258/Raven-Storm/```
 
-cd Raven-Storm
+```cd Raven-Storm```
 
-pkg/apt-get/brew/pacman install iputils-ping (in case needed)
+```sudo pkg/apt-get/brew/pacman install iputils-ping (in case needed)```
 
-pkg/apt-get/brew/pacman install python2-pip (in case needed)
+```sudo pkg/apt-get/brew/pacman install python2-pip (in case needed)```
 
-pip2/python2 -m pip install -r requirements.txt
+```pip2/python2 -m pip install -r requirements.txt```
 
-python2 rs.pyo```
+```python2 rs.pyo```
