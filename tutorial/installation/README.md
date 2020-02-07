@@ -5,6 +5,7 @@
 
 
 ## Lazy installer:
+(Advanced)
 
 To install Raven-Storm enter the following command:
 
@@ -19,6 +20,7 @@ To install Raven-Storm enter the following command:
 
 
 ## Or start your Unix terminal and type in following:
+(Expert)
 
 ```sudo pkg/apt-get/brew install git python2 redis nmap```
 
@@ -35,6 +37,8 @@ To install Raven-Storm enter the following command:
 ```python2 rs.pyo```
 
 ## The easy way:
+(Beginner)
+
 Just download the matching file, unzip it and run it.
 
 ### OSX APP:
