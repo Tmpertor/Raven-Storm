@@ -22,11 +22,11 @@ Adjust the text repeatition:
 
 Adjust size:
 - The message equals the size.
-- ```set mb {5}````
+- ```set mb {5}```
 - Each request would be 5 MB.
 
 Adjust request time:
 - Each threads send after 0 seconds the next request, you can change this though.
-- ```set sleep {0.5}````
+- ```set sleep {0.5}```
 
 (Threads x Requests per second)
