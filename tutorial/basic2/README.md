@@ -8,6 +8,11 @@ Adjust threads:
 - ```set threads {200}```
 - It can depend on the strength of the computer.
 
+Adjust the message:
+- This is the message that will be sent to the target.
+- You can change it using:
+- ```set message {test}```
+
 Adjust sleep:
 - This will define the time between each start of a new thread.
 - ```auto step {0.5}```
