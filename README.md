@@ -17,37 +17,18 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 - [x] Root/su/sudo **only** needed for stronger POD, but not required.
 - [x] **Testing** and **performing stronger attacks** is the goal of Raven-Storm.
 - [x] Raven-Storm supports a **ddos mode** to connect and make every attack stronger.
-- [X] Over **48 commands**, **420 commits** and **more than 2200 lines of code**, for **optimizing your usage**.
+- [X] Over **48 commands** and **more than 2200 lines of code**, for **optimizing your usage**.
 <!--- [ ] DO NOT use Raven-Storm ILLEGAL!-->
 
 ## Documentation and Installation:
-(Installation in the documentation)
+
+<a style="color: grey" href="https://taguar258.github.io/Raven-Storm/tutorial/installation/">Click here for the tutorial.</a>
 
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/documentation/">Click here for the documentation.</a>
 
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/tree/master/documentation#a5-installation">Click here for the installation.</a>
+<a style="color: grey" href="https://taguar258.github.io/Raven-Storm/tutorial/installation/"><b>Click here for the installation and download.</b></a>
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/wiki/FAQ">Click here for the frequent answers and questions.</a>
-
-### Quick-Installer:
-You might need to install curl.
-
-```curl https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/documentation/installer.txt --output rs-install.sh ; bash rs-install.sh```
-
-### OSX APP:
-Mac users can also use the Raven-Storm-APP, which will open a new terminal window in the background.
-
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/releases/download/2.8/Raven-Storm-APP-MAC.zip">Download the mac app.</a>
-
-### LINUX APP:
-Linux users can also use the Raven-Storm-APP, which will open a new terminal window.
-
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/releases/download/2.8/Raven-Storm-APP-LINUX.zip">Download the linux app.</a>
-
-### WINDOWS APP (unstable):
-Windows users can also use the Raven-Storm-APP, which will open a new terminal window.
-
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/releases/download/2.8/Raven-Storm-APP-WINDOWS-unstable.zip">Download the windows app.</a>
 
 
 <!--## Test examples:
