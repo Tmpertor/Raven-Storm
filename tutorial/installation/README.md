@@ -1,7 +1,7 @@
 # Raven-Storm
 
 
-<a style="color: white;" href="https://github.com/Taguar258/Raven-Storm/tree/master/tutorial/installation#the-easy-way">Beginner</a> - <a style="color: white;" href="https://github.com/Taguar258/Raven-Storm/tree/master/tutorial/installation#lazy-installer">Advanced</a> - <a style="color: white;" href="https://github.com/Taguar258/Raven-Storm/tree/master/tutorial/installation#or-start-your-unix-terminal-and-type-in-following">Expert</a>
+<a style="color: white;" href="https://taguar258.github.io/Raven-Storm/tutorial/installation#the-easy-way">Beginner</a> - <a style="color: white;" href="https://taguar258.github.io/Raven-Storm/tutorial/installation#lazy-installer">Advanced</a> - <a style="color: white;" href="https://taguar258.github.io/Raven-Storm/tutorial/installation#or-start-your-unix-terminal-and-type-in-following">Expert</a>
 
 
 ## Lazy installer:
