@@ -1,5 +1,5 @@
 # Raven-Storm Toolkit Beta <br><img src="https://img.shields.io/badge/Language-Python2-blue"><img src="https://img.shields.io/badge/Status-Beta-orange"><img src="https://img.shields.io/badge/Version-2.8-red"><img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"><!--[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Raven-Storm%20is%20a%20costumizable%20ddos%20Toolbox&url=https://github.com/Taguar258/Raven-Storm&hashtags=pentesting)Future maybe:nethogs-->
-**A strong, costomizable ddos + dos + pod script/app with over 48 functions/commands for stress-testing your servers. (Layer 3, Layer 4, (Layer 7 soon))**
+**Raven-Storm is a powerful plus various Layer 3, Layer 4 (and Layer 7) DDOS also DOS tool with up to 48 functions for penetration tests, written in python2.**
 
 The aim of Raven-Storm is to **test, understand and learn from stress-testing** attacks.
 
