@@ -9,7 +9,7 @@ You can perform port scans using:
 - ```get port w {target domain}```
 
 
-## Pre-Stress testing:
+## Pre-Stress testing (Layer 4):
 You can test for the number of threads the target can handle without complications:
 - First, run ```stress``` . to activate the mode.
 - Values like threads will be used for this mode as well.
