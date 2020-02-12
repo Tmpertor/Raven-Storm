@@ -15,19 +15,19 @@ If not use the IP:
 Define the port:
 - ```set port {80}```
 
-Define the amount of threads:
-- Threads are the amount of processes trying to connect to the target.
+Define the number of threads:
+- Threads are the number of processes trying to connect to the target.
 - ```set threads {200}```
 
 Now recheck everything:
-- We dont want to get in trouble so we should recheck all the data.
-- Please inform yourself about the law regarding to DDOS.
+- We don't want to get in trouble so we should recheck all the data.
+- Please inform yourself about the law regarding DDOS.
 - ```values```
-- You can ignore everything for now except the target, port and threads.
+- You can ignore everything for now except the target, port, and threads.
 
 Execute:
 - If you want to execute the attack, you need to enter ```run``` .
 - You can always stop the attack by using ctrl + z .
-- Wrong usage can be harmful.
+- The wrong usage can be harmful.
 
 ![render1581113767891](https://user-images.githubusercontent.com/36562445/74070215-cabc1280-4a00-11ea-9891-da81bb61e1bb.gif)
