@@ -10,7 +10,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
         cd Raven-Storm > /dev/null 2>&1 || echo "[i] Could not clone repository"
         python2 -m pip install -r requirements.txt > /dev/null 2>&1 || echo "[i] Could not install requirements"
         echo "[i] Done"
-        python2 rs.pyo || echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
+        python2 rs.py || echo "[i] Run: >cd Raven-Storm ; python2 rs.py< to start"
 elif [[ "$OSTYPE" == "darwin"* ]]; then
         brew --help > /dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
         git --help > /dev/null 2>&1 || brew install git || echo "[!] Could not install git"
@@ -22,7 +22,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
         cd Raven-Storm > /dev/null 2>&1 || echo "[i] Could not clone repository"
         python2 -m pip install -r requirements.txt > /dev/null 2>&1 || echo "[i] Could not install requirements"
         echo "[i] Done"
-        python2 rs.pyo || echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
+        python2 rs.py || echo "[i] Run: >cd Raven-Storm ; python2 rs.py< to start"
 elif [ -f "/etc/arch-release" ]; then
         git --help > /dev/null 2>&1 || sudo pacman -S git || echo "[!] Could not install git"
         python2 --help > /dev/null 2>&1 || sudo pacman -S python2 || echo "[!] Could not install python2"
@@ -33,7 +33,7 @@ elif [ -f "/etc/arch-release" ]; then
         cd Raven-Storm > /dev/null 2>&1 || echo "[i] Could not clone repository"
         python2 -m pip install -r requirements.txt > /dev/null 2>&1 || echo "[i] Could not install requirements"
         echo "[i] Done"
-        python2 rs.pyo || echo "[i] Run: >cd Raven-Storm ; python2 rs.pyo< to start"
+        python2 rs.py || echo "[i] Run: >cd Raven-Storm ; python2 rs.py< to start"
 else
         echo "[i] Please install some things manually"
         git clone https://github.com/Taguar258/Raven-Storm/ > /dev/null 2>&1 || echo "[!] Please install git"
@@ -45,6 +45,6 @@ else
         python2 -m pip install -r requirements.txt > /dev/null 2>&1 || echo "[i] Could not install requirements"
         echo "[!] PRESS ENTER TO TRY RUN SCRIPT"
         read
-        python2 rs.pyo || echo "[i] Could not run script"
+        python2 rs.py || echo "[i] Could not run script"
         echo "[i] Done"
 fi
