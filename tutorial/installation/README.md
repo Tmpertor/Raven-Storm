@@ -34,7 +34,7 @@ To install Raven-Storm enter the following command:
 
 ```pip2/python2 -m pip install -r requirements.txt```
 
-```python2 rs.pyo```
+```python2 rs.py```
 
 ## The easy way:
 (Beginner)
