@@ -124,7 +124,7 @@ Start your Unix terminal and type in following:
 
 ```pip2/python2 -m pip install -r requirements.txt```
 
-```python2 rs.pyo```
+```python2 rs.py```
 
 #### OR!:
 Use the quick installer: (You might need to install curl)
@@ -133,7 +133,7 @@ Use the quick installer: (You might need to install curl)
 
 To run it again:
 
-```cd Raven-Storm ; python2 rs.pyo```
+```cd Raven-Storm ; python2 rs.py```
 
 ### #A6:
 First of take a quick internet search to the topics:
@@ -184,36 +184,36 @@ pod auto stop = Auto atop pod attack.
 
 You will then be able to run this config file using:
 
-```python2 rs.pyo -c filename.txt```
+```python2 rs.py -c filename.txt```
 
 ### #B4:
 Type:
-```python2 rs.pyo -ros com1, com2, com3...```
+```python2 rs.py -ros com1, com2, com3...```
 
 To run commands at the startup.
 
 ### #B5:
 Type:
 
-```python2 rs.pyo server start```
+```python2 rs.py server start```
 
-```python2 rs.pyo server start IP port```
+```python2 rs.py server start IP port```
 
-```python2 rs.pyo client connect```
+```python2 rs.py client connect```
 
-```python2 rs.pyo client connect IP port```
+```python2 rs.py client connect IP port```
 
 To quickstart the connection to the Redis DB.
 
 ### #B6:
 Type for a dos attack:
 
-```python2 rs.pyo -fd {target} {port} {threads}```
+```python2 rs.py -fd {target} {port} {threads}```
 
 ### #B7:
 Type for a pod attack:
 
-```python2 rs.pyo -fp {target} {threads} {(size)} {(sleep)} {(intervall)} {(auto stop)}```
+```python2 rs.py -fp {target} {threads} {(size)} {(sleep)} {(intervall)} {(auto stop)}```
 
 
 ### #C1:
