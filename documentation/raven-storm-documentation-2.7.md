@@ -124,7 +124,7 @@ Start your Unix terminal and type in following:
 
 ```pip2/python2 -m pip install -r requirements.txt```
 
-```python2 rs.pyo```
+```python2 rs.py```
 
 #### OR!:
 Use the quick installer: (You might need to install curl)
@@ -133,7 +133,7 @@ Use the quick installer: (You might need to install curl)
 
 To run it again:
 
-```cd Raven-Storm ; python2 rs.pyo```
+```cd Raven-Storm ; python2 rs.py```
 
 ### #A6:
 First of take a quick internet search to the topics:
