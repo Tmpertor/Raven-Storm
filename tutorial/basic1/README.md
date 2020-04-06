@@ -3,7 +3,7 @@
 (For this topic you need to know the basics of computer networking.)
 
 
-### To run a basic attack, you just need to execute ```rs.pyo```and enter following:
+### To run a basic attack, you just need to execute ```rs.py``` and enter following:
 
 If your server has a domain use:
 - Note that you need to own the whole network or you will go illegal.
