@@ -488,81 +488,28 @@ if argvexit:
 if verbosed:
   raw_input("")
 
-# Test if I blocked application ( check if github repository is active. ). + Check if offline
-os.system("clear")
-checkstatusofrepository = ""
-checkstatustrue = "false"
-print("Starting...")
-try:
-   if verbosed:
-      print("[Check: Taguar258/Raven-Storm]")
-   checkstatusofrepository = urllib2.urlopen("https://github.com/Taguar258/Raven-Storm")
-   checkstatusofrepository = checkstatusofrepository.read()
-   #print(checkstatusofrepository)
-   time.sleep(0.2)
-   if "not found" in checkstatusofrepository:
-      print("Execution blocked, because github page doesnt exist anymore.")
-      sys.exit()
-      quit()
-   elif "" != checkstatusofrepository:
-    checkstatustrue = "true"
-   else:
-    print("Execution blocked, because github page doesnt exist anymore.")
-    sys.exit()
-    quit()
-except:
-  print("Check internet connection...")
-  try:
-    if verbosed:
-        print("[Check: Github")
-    checkstatusofrepository = ""
-    checkstatusofrepository = urllib2.urlopen("https://github.com").read()
-    time.sleep(0.2)
-    if "404" in checkstatusofrepository:
-      print("You are offline, you need to be online to use this tool.")
-      sys.exit()
-      quit()
-  except:
-    print("You are offline, you need to be online to use this tool.")
-    sys.exit()
-    quit()
-
-checkstatusofrepository = ""
-
-if checkstatustrue == "false":
-  print("Execution blocked, because github page doesnt exist anymore.")
-  sys.exit()
-  quit()
-
-
 # Update
 print("Checking for updates...")
 print("Current version: %s" % rsversion)
-checkstatusofrepository = "" #change back to normal
+checkstatusofrepository = ""
 if verbosed:
      print("[Check: Version]")
-checkstatusofrepository = urllib2.urlopen("https://github.com/Taguar258/Raven-Storm/wiki/Version").read()
-time.sleep(0.2)
-if not ("Version:%s" % rsversion) in checkstatusofrepository:
-  print("")
-  print("There is a new version, feel free to update it:")
-  print("")
-  
-  updateresult = re.search('Info:(.*):Info', checkstatusofrepository)
-  print(updateresult.group(1).replace("\\n", "\n"))
-  
-  print("")
-  if "forceupdate" in checkstatusofrepository or ("forceupdate%s" % rsversion) in checkstatusofrepository:
-    print("You need to update the program, to run it...")
-    print("You can update using RS itself, in the Raven-Storm folder.")
-    print("Just run: 'python2 %s --update'." % sys.argv[0])
-    sys.exit()
-    quit()
-  try:
-     raw_input("[Press enter]")
-  except:
-     sys.exit()
-     quit()
+try:
+  checkstatusofrepository = urllib2.urlopen("https://github.com/Taguar258/Raven-Storm/wiki/Version").read()
+  time.sleep(0.2)
+  if not ("Version:%s" % rsversion) in checkstatusofrepository:
+    print("")
+    print("There is a new version, feel free to update it:")
+    print("")
+    updateresult = re.search('Info:(.*):Info', checkstatusofrepository)
+    print(updateresult.group(1).replace("\\n", "\n"))
+    print("")
+    try:
+      raw_input("[Press enter]")
+    except:
+      pass
+except:
+  pass
 
 #os.system("clear")
 #SCREEN_WIDTH = 80
