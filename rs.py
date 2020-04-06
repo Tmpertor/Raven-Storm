@@ -458,16 +458,16 @@ try:
     checkstatusofrepository = urllib2.urlopen("https://github.com/Taguar258/Raven-Storm/wiki/Version").read()
     time.sleep(0.2)
     if not ("Version:%s" % rsversion) in checkstatusofrepository:
-    print("")
-    print("There is a new version, feel free to update it:")
-    print("")
-    updateresult = re.search('Info:(.*):Info', checkstatusofrepository)
-    print(updateresult.group(1).replace("\\n", "\n"))
-    print("")
-    try:
-        raw_input("[Press enter]")
-    except:
-        pass
+        print("")
+        print("There is a new version, feel free to update it:")
+        print("")
+        updateresult = re.search('Info:(.*):Info', checkstatusofrepository)
+        print(updateresult.group(1).replace("\\n", "\n"))
+        print("")
+        try:
+            raw_input("[Press enter]")
+        except:
+            pass
 except:
     pass
 
