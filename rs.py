@@ -493,15 +493,15 @@ def inporarg(label, comname, com):
     return zw
 
 def checkipexists(ip, port):
-    try:
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        result = sock.connect_ex((str(ip), int(port)))
-        if result == 0:
-            return True
-        else:
-            return False
-    except:
-        return False
+    # try:
+    #     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    #     result = sock.connect_ex((str(ip), int(port)))
+    #     if result == 0:
+    #         return True
+    #     else:
+    #         return False
+    # except:
+    return True
 
 def redisinbackground():
     os.system("redis-server  > /dev/null")
