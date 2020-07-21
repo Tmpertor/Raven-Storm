@@ -9,6 +9,8 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 
 I decided to archive this project, due to it being programmed badly and being too annoying to rewrite.
 
+Please contact me, if you want to contribute to this project.
+
 <!--<a style="color: grey" href="https://m.youtube.com/watch?v=Vjaa3kdpbZs&feature=youtu.be">Quick Video about an older version of Raven-Storm.</a>-->
 
 <!--![MOSHED-2019-4-30-21-28-15](https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif)--><img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />
