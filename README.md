@@ -53,6 +53,7 @@ Preview show old version 2.8
 - Now human-readable.
 - Improved Layer 4.
 - Easier to use.
+- Removed unused features such as running python through arguments or self learning.
 
 ## Info:
 
