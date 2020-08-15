@@ -46,6 +46,14 @@ Preview show old version 2.8
 
 Preview show old version 2.8
 
+## Changelog
+- Removed DDOS function.
+- Added new attack method.
+- Rewrite using CLIF.
+- Now human-readable.
+- Improved Layer 4.
+- Easier to use.
+
 ## Info:
 
 **MIT Taguar258 2020**
