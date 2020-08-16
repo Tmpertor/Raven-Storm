@@ -55,6 +55,8 @@ Preview shows an old version 2.8
 - Easier to use.
 - Removed unused features such as running Raven-Storm through arguments or self learning.
 
+Feel free to create costume modules.
+
 ## Info:
 
 **MIT Taguar258 2020**
