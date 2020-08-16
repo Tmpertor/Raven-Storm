@@ -9,7 +9,7 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 
 <img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />
 
-Preview show old version 2.8
+Preview shows an old version 2.8
 
 ## What makes it different?
 
@@ -36,15 +36,15 @@ For websites use: flood.
 
 ![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)
 
-Preview show old version 2.8
+Preview shows an old version 2.8
 
 ![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png)
 
-Preview show old version 2.8
+Preview shows an old version 2.8
 
 ![render1581110570685](https://user-images.githubusercontent.com/36562445/74067207-f9ce8600-49f8-11ea-9d54-97a056169cf7.gif)
 
-Preview show old version 2.8
+Preview shows an old version 2.8
 
 ## Changelog
 - Removed DDOS function.
