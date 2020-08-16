@@ -50,7 +50,7 @@ C_G (
 |   // _` |\\ V / / -_)| ' \\)) (_-<|  _|/ _ \\| '_|| '  \\C_G()C_V
 |_|_\\\\__,_| \\_/  \\___||_||_|  /__/ \\__|\\___/|_|  |_|_|_|C_W
  
-C_BoldStress-Testing-Toolkit by Taguar258 (c) | MIT 2020
+C_BoStress-Testing-Toolkit by Taguar258 (c) | MIT 2020
 Based on the CLIF Framework by Taguar258 (c) | MIT 2020C_W
 
 The creators of Raven-Storm are not responsible
