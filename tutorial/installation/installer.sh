@@ -39,7 +39,7 @@ else
         nmap --help > /dev/null 2>&1 || echo "[!] Please install nmap"
         cd Raven-Storm > /dev/null 2>&1 || echo "[i] Could not clone repository"
         python3 -m pip install -r requirements.txt > /dev/null 2>&1 || echo "[i] Could not install requirements"
-        echo "[!] PRESS ENTER TO TRY RUN SCRIPT"
+        echo "[!] PRESS ENTER TO TRY TO RUN THE SCRIPT"
         read
         python3 main.py || echo "[i] Could not run script"
         echo "[i] Done"
