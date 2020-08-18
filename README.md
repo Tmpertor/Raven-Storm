@@ -18,7 +18,7 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 - [x] Root/su/sudo **only** needed for stronger POD, but not required.
 - [x] **Testing** and **performing stronger attacks** is the goal of Raven-Storm.
 - [x] The old version of Raven-Storm supports a **ddos mode** to connect and make every attack stronger.
-- [x] Features 3 different layer attacks Layer 3, 4, and 7
+- [x] Features 3 different layer attacks Layer 3, Layer 4, and Layer 7
 
 ## What attack to use:
 
