@@ -34,13 +34,11 @@ For websites use: flood.
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/projects/1">Project status/ToDo</a>
 
-![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)
+<!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)-->
+![Screenshot (17)](https://user-images.githubusercontent.com/36562445/90558752-de5ce880-e19c-11ea-9953-243557a8eab8.png)
 
-Preview shows an old version 2.8
-
-![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png)
-
-Preview shows an old version 2.8
+![Screenshot (18)](https://user-images.githubusercontent.com/36562445/90558758-e3ba3300-e19c-11ea-8e93-6af6d8076ab3.png)
+<!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png)-->
 
 ![render1581110570685](https://user-images.githubusercontent.com/36562445/74067207-f9ce8600-49f8-11ea-9d54-97a056169cf7.gif)
 
