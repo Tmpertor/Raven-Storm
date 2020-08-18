@@ -7,9 +7,9 @@ Raven-Storm can **deal with strong servers** and is **able to be optimized** for
 
 Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 
-<img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />
-
-Preview shows an old version 2.8
+<!--<img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />-->
+<!--Preview shows an old version 2.8-->
+![MOSHED-2020-8-18-21-46-40](https://user-images.githubusercontent.com/36562445/90558504-77d7ca80-e19c-11ea-9dd5-6ba902934866.gif)
 
 ## What makes it different?
 
