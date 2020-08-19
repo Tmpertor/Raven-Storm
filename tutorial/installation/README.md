@@ -16,6 +16,7 @@ To install Raven-Storm enter the following command:
 
 ![render1581106644832](https://user-images.githubusercontent.com/36562445/74063147-2336e400-49f0-11ea-898c-ccdfa3481b29.gif)
 
+This shows an old preview of version 2.8.
 
 
 ## Or start your Unix terminal and type in following:
@@ -40,7 +41,7 @@ To install Raven-Storm enter the following command:
 
 Just download the matching file, unzip it and run it.
 
-**Those are old versions: 2.8.**
+**Those are old samples of versions: 2.8.**
 
 ### OSX APP:
 Mac users can also use the Raven-Storm-APP, which will open a new terminal window in the background.
