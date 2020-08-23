@@ -1,5 +1,5 @@
 # Raven-Storm Toolkit<br><img src="https://img.shields.io/badge/Language-Python3-blue"><img src="https://img.shields.io/badge/Status-Beta-orange"><img src="https://img.shields.io/badge/Version-3-red"><img src="https://img.shields.io/badge/Licence-MIT-yellowgreen">
-**Raven-Storm is a powerful plus various Layer 3, Layer 4 and Layer 7 (DDOS also) DOS tool for penetration tests, written in python3.**
+**Raven-Storm is a powerful DDoS tool for penetration tests including attacks for Layer 3, Layer 4 and Layer 7 written in python3.**
 
 The aim of Raven-Storm is to **test, understand and learn from stress-testing** attacks.
 
