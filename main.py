@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import CLIF_Framework.framework as framework
 
 console = framework.console()
