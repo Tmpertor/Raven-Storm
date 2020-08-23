@@ -1,11 +1,11 @@
 # Raven-Storm Toolkit<br><img src="https://img.shields.io/badge/Language-Python3-blue"><img src="https://img.shields.io/badge/Status-Beta-orange"><img src="https://img.shields.io/badge/Version-3-red"><img src="https://img.shields.io/badge/Licence-MIT-yellowgreen">
-**Raven-Storm is a powerful DDoS tool for penetration tests including attacks for Layer 3, Layer 4 and Layer 7 written in python3.**
+**Raven-Storm is a powerful DDoS tool for penetration tests including attacks for Layer 3, Layer 4, and Layer 7 written in python3.**
 
-The aim of Raven-Storm is to **test, understand and learn from stress-testing** attacks.
+Raven-Storm aims to **test, understand, and learn from stress-testing** attacks.
 
-Raven-Storm can **deal with strong servers** and is **able to be optimized** for special targets.
+Raven-Storm can **deal with strong servers** and **can be optimized** for special targets.
 
-Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
+Raven-Storm will fit your purpose, even if it is **jamming down wifi networks**.
 
 <!--<img align="center" style="center" src="https://user-images.githubusercontent.com/36562445/56987982-34b0ad00-6b8f-11e9-8c2f-9182a9fcd4f9.gif" />-->
 <!--Preview shows an old version 2.8-->
@@ -14,19 +14,19 @@ Raven-Storm will fit your purpose, even if it is **jamming down a wifi**.
 ## What makes it different?
 
 - [x] **Automated** and **helpful** for **advanced usage**.
-- [x] **Effective** and **powerful** in shuting down hosts and servers.
+- [x] **Effective** and **powerful** in shutting down hosts and servers.
 - [x] Root/su/sudo **only** needed for stronger POD, but not required.
 - [x] **Testing** and **performing stronger attacks** is the goal of Raven-Storm.
-- [x] The old version of Raven-Storm supports a **ddos mode** to connect and make every attack stronger.
+- [x] The old version of Raven-Storm supports a **DDoS mode** to connect and make every attack stronger.
 - [x] Features 3 different layer attacks Layer 3, Layer 4, and Layer 7
 
 ## What attack to use:
 
-For devices on your local network use: l3.
+For devices on your local network use the l3 module.
 
-For UPD/TCP services of devices use: l4.
+For UPD/TCP services of devices use the l4 module.
 
-For websites use: flood.
+For websites use the flood module.
 
 ## Documentation and Installation:
 
@@ -46,16 +46,16 @@ For websites use: flood.
 
 ![render1581110570685](https://user-images.githubusercontent.com/36562445/74067207-f9ce8600-49f8-11ea-9d54-97a056169cf7.gif)
 
-Preview shows an old version 2.8
+The preview shows an old version 2.8
 
 ## Changelog
 - Removed DDOS function.
-- Added new attack method.
+- Added new attack methods.
 - Rewrite using CLIF.
 - Now human-readable.
 - Improved Layer 4.
 - Easier to use.
-- Removed unused features such as running Raven-Storm through arguments or self learning.
+- Removed unused features such as running Raven-Storm through arguments or self-learning.
 
 Feel free to create costume modules.
 
