@@ -39,7 +39,7 @@ This shows an old preview of version 2.8.
 ## The easy way:
 (Beginner)
 
-Just download the matching file, unzip it and run it.
+Just download the matching file, unzip it, and run it.
 
 **Those are old samples of versions: 2.8.**
 
