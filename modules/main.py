@@ -84,6 +84,7 @@ C_Bo----------------------------------------------------------C_W""").replace("C
 		event.parser(self.run_shell_arg, ".")
 		event.help(["exit", "quit", "e", "q"], "Exit Raven-Storm.")
 		event.help("help", "View all commands.")
+		event.help("upgrade", "Upgrade Raven-Storm.")
 		event.help(".", "Run a shell command.")
 		event.help("clear", "Clear the screen.")
 		event.help("l4", "Load the layer4 module. (UDP/TCP)")
@@ -134,6 +135,13 @@ C_Bo----------------------------------------------------------C_W""").replace("C
 		event.help_title("\x1b[1;39mHelp:\x1b[0;39m")
 		tools.help("|-- ", " :: ", event)
 		print("\033[1;32;0m")
+
+	@event.command
+	def upgrade():
+		try:
+			system("git pull")
+		except:
+			print("Cound not upgrade Raven-Storm.")
 
 	@event.command
 	def clear():
