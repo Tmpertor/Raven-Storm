@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "[i] Installation"
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
         sudo apt-get -y upgrade > /dev/null 2>&1
