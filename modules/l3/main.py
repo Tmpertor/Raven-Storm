@@ -239,7 +239,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 			feat += ("-i %s " % podinterval)
 		if podautodl != 0:
 			feat += ("-w %s " % podautodl)
-		if type(target) is type([]):
+		if isinstance(target, list):
 			targets = target
 		else:
 			targets = [target]

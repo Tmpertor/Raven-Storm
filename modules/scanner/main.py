@@ -1,7 +1,6 @@
 from CLIF_Framework.framework import event
 from CLIF_Framework.framework import tools
 from os import system
-from time import sleep
 from time import time
 import urllib3
 import socket
