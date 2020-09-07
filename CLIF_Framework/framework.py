@@ -2,13 +2,16 @@
 
 import importlib
 
+
 class console_read_only(type):
 	def __setattr__(self, name, value):
 		if name == "objects":
 			raise Exception("Variable cannot be called objects.")
 
+
 class console:
 	__metaclass__ = console_read_only
+
 	def __init__(self):
 		self.objects = []
 		self.ps1 = ":: "
@@ -17,12 +20,16 @@ class console:
 		self.command_log = []
 		self.debug_command = False
 		self.run_command = []
+
 	def add(self, object_item, event):
 		self.objects.append([object_item, event])
+
 	def stop(self):
 		self.running = False
+
 	def input(self, command, show_print):
 		self.run_command = [command, show_print]
+
 	def _run_event(self, name):
 		self.command_log.append(str(name))
 		if isinstance(name, list):
@@ -46,7 +53,6 @@ class console:
 		self.running = True
 		self._run_event(["on_start", "on_ready"])
 
-
 		while self.running:
 			if len(self.run_command) == 2:
 				console_command = str(self.run_command[0])
@@ -62,13 +68,13 @@ class console:
 				continue
 
 			for object_item in self.objects:
-					event_object = object_item[1]
-					for event in event_object.event_events:
-						if event.__name__ == "on_command":
-							try:
-								event(console_command)
-							except:
-								event()
+				event_object = object_item[1]
+				for event in event_object.event_events:
+					if event.__name__ == "on_command":
+						try:
+							event(console_command)
+						except Exception:
+							event()
 
 			self.command_log.append(str(console_command))
 
@@ -98,8 +104,9 @@ class console:
 									parser_exists = True
 									break
 						try:
-							if not parser_exists: command[1](console_command)
-						except:
+							if not parser_exists:
+								command[1](console_command)
+						except Exception:
 							command[1]()
 
 			if not command_found:
@@ -110,7 +117,7 @@ class console:
 						if event.__name__ == "on_command_not_found":
 							try:
 								event(console_command)
-							except:
+							except Exception:
 								event()
 
 
@@ -121,6 +128,7 @@ def module(module, console, *args):
 	else:
 		new.setup(console, args)
 	del(new)
+
 
 class tools:
 	def __init__(self):
@@ -148,7 +156,7 @@ class tools:
 						max_len = len(", ".join(help_item[0]))
 				elif isinstance(help_item[0], str):
 					if len(help_item[0]) > max_len:
-						max_len  = len(help_item[0])
+						max_len = len(help_item[0])
 		for help_item in event.help_list:
 			# print(help_item)
 			if len(help_item) == 2:
@@ -167,6 +175,7 @@ class tools:
 		else:
 			return False
 
+
 class event:
 	def __init__(self):
 		self.event_events = []
@@ -180,26 +189,32 @@ class event:
 		print("Commands:", self.event_commands)
 		print("Parsers:", self.event_parsers)
 		print("Help:", self.help_list)
-		
+
 	def event(self, function):
 		self.event_events.append(function)
+
 	def command(self, function):
 		self.event_commands.append([function.__name__, function])
+
 	def help(self, function_name, message):
 		if isinstance(function_name, list):
 			self.help_list.append([str(function_name), message])
 		elif isinstance(function_name, str):
 			self.help_list.append([function_name, message])
+
 	def help_title(self, title):
 		self.help_text_title = str(title)
+
 	def help_comment(self, comment):
 		self.help_list.append([comment])
+
 	def commands(self, function, lt):
 		if isinstance(lt, list):
 			for name in lt:
 				self.event_commands.append([name, function])
 		elif isinstance(lt, str):
 			self.event_commands.append([lt, function])
+
 	def parser(self, function, command):
 		self.event_parsers.append([command, function])
 

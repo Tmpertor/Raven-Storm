@@ -4,11 +4,12 @@ from CLIF_Framework.framework import console
 from CLIF_Framework.framework import module
 from os import system
 try:
-	import readline
-except:
+	import readline  # noqa: F401
+except Exception:
 	pass
 event = event()
 tools = tools()
+
 
 class Main:
 	def __init__(selfie, console):
@@ -49,7 +50,7 @@ C_G (
 | _ \\C_G((C_DB_C_G)C_DB_ _C_G)((C_DB_C_G)(C_DB_C_G))  C_DB_C_G(C_DB_C_G/(  ((C_DB_C_G)C_DB| |C_G  ((C_DB_C_G) ((C_DB_C_G) C_DB_C_G((C_DB_C_G))C_DB
 |   // _` |\\ V / / -_)| ' \\)) (_-<|  _|/ _ \\| '_|| '  \\C_G()C_V
 |_|_\\\\__,_| \\_/  \\___||_||_|  /__/ \\__|\\___/|_|  |_|_|_|C_W
- 
+
 C_BoStress-Testing-Toolkit by Taguar258 (c) | MIT 2020
 Based on the CLIF Framework by Taguar258 (c) | MIT 2020C_W
 
@@ -140,7 +141,7 @@ C_Bo----------------------------------------------------------C_W""").replace("C
 	def upgrade():
 		try:
 			system("git pull")
-		except:
+		except Exception:
 			print("Cound not upgrade Raven-Storm.")
 
 	@event.command
