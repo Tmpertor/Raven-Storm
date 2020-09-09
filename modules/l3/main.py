@@ -74,7 +74,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		self.help()
 		if not geteuid_exists:
 			print("")
-			print("I am sorry, but this feature is currently not supported on stock Windows, try wsl.")
+			print("I am sorry, but this feature is currently not supported on stock Windows, try running it using wsl.")
 			print("You will be redirected to the main menu.")
 			print("")
 			input("[Press Enter]")
@@ -111,8 +111,17 @@ C_B----------------------------------------------------------C_W""").replace("C_
 			print(e)
 			try:
 				input("[Press enter to continue without nmap]")
+				print("")
 			except Exception:
 				quit()
+
+		if geteuid() != 0:
+			print("It is adviced to run the l3 attack with sudo privileges")
+			try:
+				input("[Press enter to continue without sudo]")
+			except Exception:
+				quit()
+
 		self.banner()
 
 	@event.event
