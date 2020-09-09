@@ -26,7 +26,7 @@ class Main:
 		var.C_Red = "\x1b[31m"
 
 		var.target = [""]
-		var.threads = 500
+		var.threads = 400
 		var.sleep = 0
 		var.interval = 0
 
