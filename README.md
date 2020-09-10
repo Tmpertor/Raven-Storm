@@ -32,7 +32,7 @@ For websites use the flood module.
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/README.md#info-and-warning"><b>Read me, please. (Terms)</b></a>
 
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/LICENCE.md">View the Licence.</a>
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/LICENCE">View the Licence.</a>
 
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/tutorial/installation/"><b>Click here for the installation and download.</b></a>
 
