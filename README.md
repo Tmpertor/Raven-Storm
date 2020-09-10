@@ -30,6 +30,8 @@ For websites use the flood module.
 
 ## Documentation and Installation:
 
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/README.md#info-and-warning">Read me, please.</a>
+
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/tutorial/installation/"><b>Click here for the installation and download.</b></a>
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/projects/1">Project status/ToDo</a>
