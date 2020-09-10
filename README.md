@@ -30,7 +30,9 @@ For websites use the flood module.
 
 ## Documentation and Installation:
 
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/README.md#info-and-warning">Read me, please.</a>
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/README.md#info-and-warning"><b>Read me, please. (Terms)</b></a>
+
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/LICENCE.mb">View the Licence.</a>
 
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/tutorial/installation/"><b>Click here for the installation and download.</b></a>
 
@@ -69,5 +71,6 @@ __THE CREATOR DID NOT INTEND TO CREATE RAVEN-STORM FOR ILLEGAL USAGE AND THEREFO
 
 **MIT Taguar258 2020**
 
-__THE CREATOR DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED BY RAVEN-STORM.
-BY USING THIS TOOL YOU MUST AGREE WITH THIS TERM.__
+__THE CREATOR DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED BY RAVEN-STORM AND DOES NOT TAKE ANY RESPONSIBILITY FOR ILLEGAL ACTIVITY DUE TO BAD USAGE OF RAVEN-STORM.__
+
+__BY USING THIS TOOL YOU MUST AGREE WITH THOSE TERMS AND YOU MUST TAKE FULL RESPONSIBILITY YOURSELF.__
