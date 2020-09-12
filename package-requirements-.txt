@@ -1,2 +1,0 @@
-nmap
-iputils-ping
