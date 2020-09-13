@@ -115,12 +115,15 @@ C_B----------------------------------------------------------C_W""").replace("C_
 			except Exception:
 				quit()
 
-		if geteuid() != 0:
-			print("It is adviced to run the l3 attack with sudo privileges")
-			try:
-				input("[Press enter to continue without sudo]")
-			except Exception:
-				quit()
+		try:
+			if geteuid() != 0:
+				print("It is adviced to run the l3 attack with sudo privileges")
+				try:
+					input("[Press enter to continue without sudo]")
+				except Exception:
+					quit()
+		except Exception:
+			pass
 
 		self.banner()
 

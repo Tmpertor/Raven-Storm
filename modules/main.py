@@ -90,13 +90,13 @@ C_Bo----------------------------------------------------------C_W""").replace("C
 		event.help("clear", "Clear the screen.")
 		event.help("l4", "Load the layer4 module. (UDP/TCP)")
 		event.help("l3", "Load the layer3 module. (ICMP)")
+		event.help("l7", "Load the layer7 module. (HTTP)")
 		event.help("scanner", "Load the scanner module.")
-		event.help("flood", "Load a very simple but effective dos module.")
 
 		var.modules["Layer4"] = console()
 		var.modules["Layer3"] = console()
+		var.modules["Layer7"] = console()
 		var.modules["Scanner"] = console()
-		var.modules["Flood"] = console()
 
 	def run_shell(self, command):
 		system(command)
@@ -123,14 +123,14 @@ C_Bo----------------------------------------------------------C_W""").replace("C
 		var.modules["Layer3"].run()
 
 	@event.command
+	def l7():
+		module("modules.l7.main", var.modules["Layer7"])
+		var.modules["Layer7"].run()
+
+	@event.command
 	def scanner():
 		module("modules.scanner.main", var.modules["Scanner"])
 		var.modules["Scanner"].run()
-
-	@event.command
-	def flood():
-		module("modules.downflood.main", var.modules["Flood"])
-		var.modules["Flood"].run()
 
 	def help(self):
 		event.help_title("\x1b[1;39mHelp:\x1b[0;39m")

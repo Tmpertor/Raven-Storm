@@ -42,10 +42,10 @@ class Main:
 
 		event.help("target", "Set the target.")
 		event.help("targets", "Set multiple targets.")
-		event.help("threads", "Threads to use.")
+		event.help("threads", "Amount of threads to use.")
 		event.help("sleep", "Delay between threads.")
 		event.help("interval", "Delay between each packet send.")
-		event.help("run", "Run the Ping of Death.")
+		event.help("run", "Run the stress test.")
 
 	def banner(self):
 		system("clear || cls")
@@ -99,7 +99,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		print("")
 
 	def help(self):
-		event.help_title("\x1b[1;39mPoD Help:\x1b[0;39m")
+		event.help_title("\x1b[1;39mL7 Help:\x1b[0;39m")
 		tools.help("|-- ", " :: ", event)
 		print("\033[1;32;0m")
 
@@ -168,5 +168,5 @@ C_B----------------------------------------------------------C_W""").replace("C_
 
 
 def setup(console):
-	console.ps1 = "\033[1;32;0mL3> "
+	console.ps1 = "\033[1;32;0mL7> "
 	console.add(Main(console), event)
