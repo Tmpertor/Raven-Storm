@@ -349,7 +349,7 @@ C_Bo-----------------------------------------------------------C_W""")
 			chdir("/tmp/Raven-Storm/")
 			system("sudo bash ./install_to_bin.sh")
 			print("[i] Do you want to delete the temporary stored Raven-Storm.")
-			system("sudo rm -irf /tmp/Raven-Storm/")
+			system("sudo rm -i -rf /tmp/Raven-Storm/")
 			var.stop()
 			quit()
 		except Exception:
