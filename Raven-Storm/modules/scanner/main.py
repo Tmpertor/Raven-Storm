@@ -1,24 +1,35 @@
-from CLIF_Framework.framework import event
-from CLIF_Framework.framework import tools
-from os import system
-from time import time
-import urllib3
+# 2020
+# The Raven-Storm Toolkit was programmed and developed by Taguar258.
+# The Raven-Storm Toolkit is published under the MIT Licence.
+# The Raven-Storm Toolkit is based on the CLIF-Framework.
+# The CLIF-Framework is programmed and developed by Taguar258.
+# The CLIF-Framework is published under the MIT Licence.
+
 import socket
+from os import system
+from time import sleep, time
+
+import requests
+import urllib3
+from CLIF_Framework.framework import event  # noqa: I003, I900
+from CLIF_Framework.framework import tools  # noqa: I900
+
 try:
 	import nmap
 except ImportError:
 	print("Please install the nmap module.")
 	quit()
+
 event = event()
 tools = tools()
 
 
 class Main:
-	def __init__(selfie, console):
+	def __init__(selfie, console):  # noqa: N805
 		global self
 		global var
 		self = selfie
-		var = console
+		var = console  # noqa: VNE002
 
 		self._add_commands()
 
@@ -91,7 +102,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 			print("Some functions will not work without it.")
 			print(e)
 			try:
-				input("[Press enter to continue without nmap]")
+				input("[Press enter to continue without nmap]")  # noqa: S322
 			except Exception:
 				quit()
 		self.banner()
@@ -102,10 +113,46 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		print("The command you entered does not exist.")
 		print("")
 
+	def check_session(self):
+		if var.session[1][0] and len(var.session[1][1]) >= 1:
+			if len(var.session[1][1][0]) >= 1:
+				run_following = [var.session[1][1][0][0], var.session[1][1][0][0]]
+				var.session[1][1][0] = var.session[1][1][0][1:]
+			else:
+				var.session[1][1] = var.session[1][1][1:]
+				run_following = [var.session[1][1][0][0], var.session[1][1][0][0]]
+				var.session[1][1][0] = var.session[1][1][0][1:]
+			var.run_command = run_following
+
+	@event.event
+	def on_input():
+		self.check_session()
+		if var.server[0] and not var.server[1]:
+			while True:
+				data = requests.post((var.server[2] + ("get/com%s" % var.server[4])), data={"password": var.server[3]}).text
+				if data != "500":
+					var.server[4] = var.server[4] + 1
+					var.run_command = [data, data]
+					print(var.ps1 + "\r")
+					break
+				else:
+					sleep(1)
+
 	@event.event
 	def on_interrupt():
 		print("")
 		var.stop()
+
+	@event.event
+	def on_command(command):
+		if var.session[0][0]:
+			var.session[0][1].write(command + "\n")
+		if var.server[0] and var.server[1]:
+			status = requests.post((var.server[2] + "set/com"), data={"password": var.server[3], "data": command}).text
+			if status != "200":
+				print("")
+				print("An error occured, while sending commands to the server.")
+				print("")
 
 	def help(self):
 		event.help_title("\x1b[1;39mScanner Help:\x1b[0;39m")

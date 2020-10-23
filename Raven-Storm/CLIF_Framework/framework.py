@@ -54,6 +54,7 @@ class console:
 		self._run_event(["on_start", "on_ready"])
 
 		while self.running:
+			self._run_event("on_input")
 			if len(self.run_command) == 2:
 				console_command = str(self.run_command[0])
 				if self.run_command[1]:
