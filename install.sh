@@ -27,7 +27,7 @@ if [ -f "/etc/debian_version" ]; then
         echo "[i] We will now install setuptools..."
         sudo apt-get install -y python3-setuptools  > /dev/null 2>&1 || echo "[!] Could not install setuptools."
         echo "[i] We will now install Raven-Storm..."
-        sudo bash ./install_to_bin.sh > /dev/null 2>&1 || echo "[!] Could not install Raven-Storm."
+        sudo bash ./install_to_bin.sh || echo "[!] Could not install Raven-Storm."
 elif [[ "$OSTYPE" == "darwin"* ]]; then
         echo "[i] Detected darwin."
         echo "[i] We will now install brew if not existing..."
@@ -53,7 +53,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
         echo "[i] We will now install setuptools..."
         sudo pip3 install setuptools  > /dev/null 2>&1  || echo "[!] Could not install setuptools."
         echo "[i] We will now install Raven-Storm..."
-        sudo bash ./install_to_bin.sh > /dev/null 2>&1  || echo "[!] Could not install Raven-Storm."
+        sudo bash ./install_to_bin.sh  || echo "[!] Could not install Raven-Storm."
 elif [ -f "/etc/arch-release" ]; then  # FIXME
         echo "[i] Detected Arch based Linux."
         echo "[i] We will now install git..."
@@ -78,7 +78,7 @@ elif [ -f "/etc/arch-release" ]; then  # FIXME
         echo "[i] We will now install setuptools..."
         sudo pacman --noconfirm -S python3-setuptools  > /dev/null 2>&1  || echo "[!] Could not install setuptools."
         echo "[i] We will now install Raven-Storm..."
-        sudo bash ./install_to_bin.sh > /dev/null 2>&1  || echo "[!] Could not install Raven-Storm."
+        sudo bash ./install_to_bin.sh || echo "[!] Could not install Raven-Storm."
 elif [[ "$OSTYPE" == "win32" ]]; then
         echo "[!] Please run on wsl."
 else
