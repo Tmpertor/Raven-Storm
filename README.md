@@ -16,7 +16,7 @@ Raven will fit your purpose, even if it is **jamming down wifi networks or bluet
 
 - [x] Raven-Storm includes tools for creating shorcuts and working more efficiently.
 - [x] Raven is **Effective** and **powerful** in shutting down hosts and servers.
-- [x] **Testing** and understanding are the goal of Raven-Storm.
+- [x] **Testing** and understanding are the goals of Raven-Storm.
 - [x] Raven lets you connects clients together to create a botnet.
 - [x] Features different protocols such as UDP/TCP, ICMP, HTTP, L2CAP, ARP and IEEE.
 
