@@ -1,10 +1,10 @@
 #!/bin/bash
 echo "[i] We will now install Raven-Storm to your bin path..."
-if [ -d "/usr/bin/Raven-Storm" ] ; then
+if [ -d "/usr/share/Raven-Storm" ] ; then
     echo "[i] Found an old version of Raven-Storm, proceeding to update..."
     echo "[i] Backing up old verison."
-    if [ -d "/usr/bin/Raven-Storm/Backup" ] ; then
-        sudo mv /usr/bin/Raven-Storm/Backup ./Backup
+    if [ -d "/usr/share/Raven-Storm/Backup" ] ; then
+        sudo mv /usr/share/Raven-Storm/Backup ./Backup
     else
         mkdir ./Backup
     fi
