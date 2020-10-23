@@ -56,7 +56,7 @@ curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.s
 
 ![render1581110570685](https://user-images.githubusercontent.com/36562445/74067207-f9ce8600-49f8-11ea-9d54-97a056169cf7.gif)
 
-The preview above shows an old version 2.8
+The previews above shows older versions down to 2.8
 
 ## Info and Warning
 
