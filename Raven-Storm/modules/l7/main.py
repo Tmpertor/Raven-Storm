@@ -328,6 +328,8 @@ C_B----------------------------------------------------------C_W""").replace("C_
 					status = requests.post((var.server[2] + "set/agreed"), data={"password": var.server[3], "data": "False"}).text
 					if status != "200":
 						print("An error occured, while sending data to the server.")
+			else:
+				execute()
 
 
 def setup(console):
