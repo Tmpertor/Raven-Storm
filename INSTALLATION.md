@@ -29,3 +29,10 @@ This above shows an old preview of version 2.8.
 
 ```sudo Raven-Storm```
 
+## Uninstall
+
+Just execute the folowing:
+
+```
+sudo bash /usr/share/Raven-Storm/uninstall.sh
+```
