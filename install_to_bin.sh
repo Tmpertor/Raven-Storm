@@ -33,5 +33,7 @@ else
     sudo ln -s /usr/share/Raven-Storm/rst /usr/bin/rst
 fi
 
-echo "[i] Run sudo rst to start Raven-Storm."
+echo "----------------------------------------"
+echo "[i] Run 'sudo rst' to start Raven-Storm."
+echo "----------------------------------------"
 exit 0

@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "----------------------------------------"
 echo "[i] Installation"
 echo "[i] We are now checking what system you are running."
 if [ -f "/etc/debian_version" ]; then
