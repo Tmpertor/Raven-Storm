@@ -4,7 +4,7 @@
 
 **Raven-Storm is a powerful DDoS toolkit for penetration tests, including attacks for several protocols written in python3.**
 
-Take down WiFi access points, devices in your network, servers, services and bluetooth devices with ease.
+Takedown WiFi access points, devices in your network, servers, services, and Bluetooth devices with ease.
 
 Raven(abbreviation) is desinged to help you to **test, understand, and learn from stress-testing** attacks.
 
