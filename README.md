@@ -14,7 +14,15 @@ Raven will fit your purpose, even if it is **jamming down wifi networks or bluet
 
 ![MOSHED-2020-8-18-21-46-40](https://user-images.githubusercontent.com/36562445/90558504-77d7ca80-e19c-11ea-9dd5-6ba902934866.gif)
 
-## Documentation and Installation
+## What makes it different
+
+- [x] Raven-Storm includes tools for creating shorcuts and working more efficiently.
+- [x] Raven is **Effective** and **powerful** in shutting down hosts and servers.
+- [x] **Testing** and understanding are the goals of Raven-Storm.
+- [x] Raven lets you connects clients together to create a botnet.
+- [x] Features different protocols such as UDP/TCP, ICMP, HTTP, L2CAP, ARP and IEEE.
+
+## Installation
 
 Just enter the following line to install Raven-Storm.
 
@@ -31,14 +39,6 @@ curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.s
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/projects/1">Project status/ToDo</a>
 
 <a style="color: grey" href="https://github.com/Taguar258/CLIF/">CLIF Framework</a>
-
-## What makes it different
-
-- [x] Raven-Storm includes tools for creating shorcuts and working more efficiently.
-- [x] Raven is **Effective** and **powerful** in shutting down hosts and servers.
-- [x] **Testing** and understanding are the goals of Raven-Storm.
-- [x] Raven lets you connects clients together to create a botnet.
-- [x] Features different protocols such as UDP/TCP, ICMP, HTTP, L2CAP, ARP and IEEE.
 
 ## What module to use
 
