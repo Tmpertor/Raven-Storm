@@ -36,7 +36,7 @@ This above shows an old preview of version 2.8.
 
 Just install python 3.8 and download this repository.
 
-You will then need to install the requirements (requiremnts.txt) and execute main.py.
+You will then need to install the requirements (requirements.txt) and execute main.py.
 
 ## Uninstall
 
