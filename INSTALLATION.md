@@ -1,6 +1,6 @@
 # Raven-Storm
 
-<a style="color: white;" href="https://taguar258.github.io/Raven-Storm/INSTALLATION.md#lazy-installer">Advanced</a> - <a style="color: white;" href="https://taguar258.github.io/Raven-Storm/INSTALLATION.md#or-start-your-unix-terminal-and-type-in-following">Expert</a>
+<a style="color: white;" href="https://taguar258.github.io/Raven-Storm/INSTALLATION.md#lazy-installer">Advanced</a> - <a style="color: white;" href="https://taguar258.github.io/Raven-Storm/INSTALLATION.md#or-start-your-unix-terminal-and-type-in-following">Expert</a> - <a style="color: white;" href="https://taguar258.github.io/Raven-Storm/INSTALLATION.md#other-operating-systems">Other operating systems</a> - <a style="color: white;" href="https://taguar258.github.io/Raven-Storm/INSTALLATION.md#uninstall">Uninstall</a>
 
 ## Lazy installer
 (Advanced)
@@ -28,6 +28,15 @@ This above shows an old preview of version 2.8.
 ```sudo python3 setup.py install```
 
 ```sudo Raven-Storm```
+
+## Other Operating Systems
+
+(Unix based systems like Linux and MacOS/OSX run Raven-Storm nativly.)
+(In case you want to use Raven-Storm on Windows, you will just need to perform the steps listed below, but keep in mind that it will not run as stable and not every module will work.)
+
+Just install python 3.8 and download this repository.
+
+You will then need to install the requirements (requiremnts.txt) and execute main.py.
 
 ## Uninstall
 
