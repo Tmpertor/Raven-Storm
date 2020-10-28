@@ -6,8 +6,9 @@
 # The CLIF-Framework is published under the MIT Licence.
 
 import socket
-from os import getcwd, path, system
+from os import getcwd, name, path, system
 from random import choice
+from sys import version
 from threading import Thread
 from time import sleep, time
 
@@ -480,6 +481,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 								mesalready = True
 								print("\nSuccess for %s with port %s!" % (ipvalue, portvalue))
 						# sleep(sleepy)
+						var.command_log.append("Sucessful execution.")
 					except socket.error as ex:
 						if not var.outtxtmute:
 							mesalready = False
@@ -552,7 +554,9 @@ C_B----------------------------------------------------------C_W""").replace("C_
 						output_file = open(output_to, write_method)
 						if write_method == "a":
 							output_file.write("------------- New Log -------------")
-						output_file.write(str(var.command_log))
+						output_file.write(str(name + "\n"))
+						output_file.write(str(version + "\n"))
+						output_file.write(str("\n".join(var.command_log)))
 						output_file.close()
 					print("Done.")
 					quit()
