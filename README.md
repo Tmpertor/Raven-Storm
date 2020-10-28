@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/Language-Python3-blue"><img src="https://img.shields.io/badge/Status-Beta-orange"><img src="https://img.shields.io/badge/Version-4-red"><img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"><!-- <a href="https://twitter.com/intent/tweet?text=Raven-Storm%20is%20a%20powerful%20DDoS%20tool%20for%20penetration%20tests%20including%20attacks%20for%20Layer%203,%20Layer%204,%20and%20Layer%207%20written%20in%20python3.&url=https://github.com/Taguar258/Raven-Storm/&via=Taguar258&hashtags=python,ddos,hacking"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"></a>-->
 
-**Raven-Storm is a powerful DDoS toolkit for penetration tests, including attacks for several protocols written in python 3.8.**
+**Raven-Storm is a powerful DDoS toolkit for penetration tests, including attacks for several protocols written in python(3.8).**
 
 Takedown WiFi access points, devices in your network, servers, services, and Bluetooth devices with ease.
 
@@ -24,13 +24,14 @@ Raven will fit your purpose, even if it is **jamming down wifi networks or bluet
 
 ## Installation
 
-Just enter the following line to install Raven-Storm.
+Just enter the following line to install Raven-Storm on Linux.
 
 ```bash
 curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.sh | sudo bash -s
 ```
 
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/INSTALLATION"><b>Click here for the more detailed installation guide.</b></a>
+
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/README.md#info-and-warning"><b>Read me, please. (Terms)</b></a>
 
@@ -70,7 +71,7 @@ __THE CREATOR DID NOT INTEND TO CREATE RAVEN-STORM FOR ILLEGAL USAGE AND THEREFO
 
 __THE CREATOR DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED BY RAVEN-STORM AND DOES NOT TAKE ANY RESPONSIBILITY FOR ILLEGAL ACTIVITY DUE TO ABUSE OF RAVEN-STORM.__
 
-__BY USING THIS TOOL YOU MUST AGREE WITH THOSE TERMS AND YOU MUST TAKE FULL RESPONSIBILITY YOURSELF.__
+__BY USING THIS SOFTWARE YOU MUST AGREE WITH THOSE TERMS AND MUST TAKE FULL RESPONSIBILITY FOR YOUR ACTIONS YOURSELF.__
 
 **MIT Taguar258 2020**
 
