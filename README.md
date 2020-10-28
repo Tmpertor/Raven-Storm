@@ -1,6 +1,6 @@
 # Raven-Storm Toolkit
 
-<img src="https://img.shields.io/badge/Language-Python3-blue"> <img src="https://img.shields.io/badge/Status-Beta-orange"> <img src="https://img.shields.io/badge/Version-4-red"> <img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"> ![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Ftaguar258.github.io%2FRaven-Storm%2F)
+<img src="https://img.shields.io/badge/Language-Python3-blue"> <img src="https://img.shields.io/badge/Status-Beta-orange"> <img src="https://img.shields.io/badge/Version-4-red"> <img src="https://img.shields.io/badge/Licence-MIT-yellowgreen">
 
 **Raven-Storm is a powerful DDoS toolkit for penetration tests, including attacks for several protocols written in python(3.8).**
 
