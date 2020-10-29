@@ -25,9 +25,9 @@ This above shows an old preview of version 2.8.
 
 ```cd Raven-Storm```
 
-```sudo python3 setup.py install```
+```sudo bash install_to_bin.sh```
 
-```sudo Raven-Storm```
+```sudo rst```
 
 ## Other Operating Systems
 
