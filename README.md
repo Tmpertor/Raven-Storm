@@ -54,7 +54,7 @@ curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.s
 | botnet | server |
 
 <!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)-->
-![Screenshot (17)](https://user-images.githubusercontent.com/36562445/90558752-de5ce880-e19c-11ea-9953-243557a8eab8.png)
+![Screenshot (155)](https://user-images.githubusercontent.com/36562445/98484349-152c2300-220f-11eb-84a0-1c3c57415d64.png)
 
 ![Screenshot (18)](https://user-images.githubusercontent.com/36562445/90558758-e3ba3300-e19c-11ea-8e93-6af6d8076ab3.png)
 <!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png)-->
