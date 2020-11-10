@@ -94,10 +94,9 @@ C_FIRE (
 C_BoStress-Testing-Toolkit by Taguar258 (c) | MIT 2020
 Based on the CLIF Framework by Taguar258 (c) | MIT 2020C_W
 
-The creators of Raven-Storm are not responsible
-for any of your activitys or issues caused by Raven-Storm!
-It is strictly illegal to exploit servers
-which are not owned by you.
+BY USING THIS SOFTWARE, YOU MUST AGREE TO TAKE FULL RESPONSIBILITY
+FOR ANY DAMAGE CAUSED BY RAVEN-STORM.
+RAVEN-STORM SHOULD NOT SUGGEST PEOPLE TO PERFORM ILLEGAL ACTIVITIES.
 C_Bo-----------------------------------------------------------C_W""")
 		banner_logo = banner_logo.replace("C_W", var.C_None)
 		banner_logo = banner_logo.replace("C_Bo", var.C_Bold)

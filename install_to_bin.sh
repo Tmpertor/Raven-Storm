@@ -33,6 +33,7 @@ else
     sudo ln -s /usr/share/Raven-Storm/rst /usr/bin/rst
 fi
 
+echo "[i] You can delete the Raven-Storm folder now."
 echo "----------------------------------------"
 echo "[i] Run 'sudo rst' to start Raven-Storm."
 echo "----------------------------------------"

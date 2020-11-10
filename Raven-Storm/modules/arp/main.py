@@ -90,10 +90,14 @@ class Main:
 		var.ip_forwarding_default = popen("sudo sysctl net.ipv4.ip_forward").read().replace("net.ipv4.ip_forward = ", "")
 
 		print(("""C_B----------------------------------------------------------C_W
-The creators of Raven-Storm are not responsible
-for any of your activitys or issues caused by Raven-Storm!
-It is strictly illegal to exploit servers
-which are not owned by you.
+THE CREATOR DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED.
+THE USER ALONE IS RESPONSIBLE, BE IT: ABUSING RAVEN-STORM
+TO FIT ILLEGAL PURPOSES OR ACCIDENTAL DAMAGE CAUSED BY RAVEN-STORM.
+BY USING THIS SOFTWARE, YOU MUST AGREE TO TAKE FULL RESPONSIBILITY
+FOR ANY DAMAGE CAUSED BY RAVEN-STORM.
+EVERY ATTACK WILL CAUSE TEMPORARY DAMAGE, BUT LOOGTIME DAMAGE IS
+DEFFINITIFLY POSSIBLE.
+RAVEN-STORM SHOULD NOT SUGGEST PEOPLE TO PERFORM ILLEGAL ACTIVITIES.
 C_B----------------------------------------------------------C_W""").replace("C_W", var.C_None).replace("C_B", var.C_Bold))
 		self.help()
 
