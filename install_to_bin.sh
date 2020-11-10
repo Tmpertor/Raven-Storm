@@ -10,11 +10,11 @@ if [ -d "/usr/share/Raven-Storm" ] ; then
     fi
     name="./Backup/Raven-Storm"
     if [ -d $name ] ; then
-        i = 0
+        i=0
         while [ -d "$name.bak$i" ] ; do
             let i++
         done
-            name="$name.bak$i}"
+            name="$name.bak$i"
     fi
     sudo mv /usr/share/Raven-Storm $name
     mv ./Backup ./Raven-Storm/
@@ -30,7 +30,7 @@ else
     echo "[i] Making Raven-Storm executable..."
     sudo mv /usr/share/Raven-Storm/main.py /usr/share/Raven-Storm/rst
     sudo chmod +x /usr/share/Raven-Storm/rst
-    sudo ln -s /usr/share/Raven-Storm/rst /usr/bin/rst
+    sudo ln -s /usr/share/Raven-Storm/rst /usr/bin/rst || echo "[i] Link already seems to exist."
 fi
 
 echo "[i] You can delete the Raven-Storm folder now."

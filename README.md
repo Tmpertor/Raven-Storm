@@ -12,7 +12,7 @@ Raven can **deal with strong servers** and **can be optimized** for non typical 
 
 Raven will fit your purpose, even if it is **jamming down wifi networks or bluetooth devices**.
 
-![MOSHED-2020-8-18-21-46-40](https://user-images.githubusercontent.com/36562445/90558504-77d7ca80-e19c-11ea-9dd5-6ba902934866.gif)
+![MOSHED](https://user-images.githubusercontent.com/36562445/90558504-77d7ca80-e19c-11ea-9dd5-6ba902934866.gif)
 
 ## What makes it different
 
@@ -54,12 +54,13 @@ curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.s
 | botnet | server |
 
 <!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)-->
-![Screenshot (155)](https://user-images.githubusercontent.com/36562445/98484349-152c2300-220f-11eb-84a0-1c3c57415d64.png)
+![Preview1](https://user-images.githubusercontent.com/36562445/98484349-152c2300-220f-11eb-84a0-1c3c57415d64.png)
 
-![Screenshot (18)](https://user-images.githubusercontent.com/36562445/90558758-e3ba3300-e19c-11ea-8e93-6af6d8076ab3.png)
+![Preview2](https://user-images.githubusercontent.com/36562445/98694260-8552ba00-2371-11eb-9e20-fd5432c90849.png)
 <!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png)-->
 
-![render1581110570685](https://user-images.githubusercontent.com/36562445/74067207-f9ce8600-49f8-11ea-9d54-97a056169cf7.gif)
+![Gif](https://user-images.githubusercontent.com/36562445/98694347-a0252e80-2371-11eb-95ec-925e8c98948f.gif)
+<!--![render1581110570685](https://user-images.githubusercontent.com/36562445/74067207-f9ce8600-49f8-11ea-9d54-97a056169cf7.gif)-->
 
 The previews above shows older versions down to 2.8
 
