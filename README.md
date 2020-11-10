@@ -62,8 +62,6 @@ curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.s
 ![Gif](https://user-images.githubusercontent.com/36562445/98694347-a0252e80-2371-11eb-95ec-925e8c98948f.gif)
 <!--![render1581110570685](https://user-images.githubusercontent.com/36562445/74067207-f9ce8600-49f8-11ea-9d54-97a056169cf7.gif)-->
 
-The previews above shows older versions down to 2.8
-
 ## Info and Warning
 
 __THE CREATOR (Taguar258) OF THE RAVEN-STORM TOOLKIT DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED. THE USER ALONE IS RESPONSIBLE, BE IT: ABUSING RAVEN-STORM TO FIT ILLEGAL PURPOSES OR ACCIDENTAL DAMAGE CAUSED BY RAVEN-STORM.
