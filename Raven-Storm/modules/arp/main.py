@@ -319,7 +319,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 					break
 				else:
 					sleep(1)
-		elif not tools.question("\nDo you agree to not use this tool for illegal purpose?"):
+		elif not tools.question("\nDo you agree to the terms of use?"):
 			print("Agreement not accepted.")
 			quit()
 		else:

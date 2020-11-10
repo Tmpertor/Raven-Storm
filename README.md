@@ -33,9 +33,9 @@ curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.s
 <a style="color: grey" href="https://taguar258.github.io/Raven-Storm/INSTALLATION"><b>Click here for the more detailed installation guide.</b></a>
 
 
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/README.md#info-and-warning"><b>Read me, please. (Terms)</b></a>
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/README.md#info-and-warning"><b>Terms of Use</b></a>
 
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/LICENSE">View the Licence.</a>
+<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/LICENSE">Licence</a>
 
 <a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/projects/1">Project status/ToDo</a>
 
