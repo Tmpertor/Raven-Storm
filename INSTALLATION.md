@@ -36,6 +36,24 @@ Just install python 3.8 and download this repository.
 
 You will then need to install the requirements (requirements.txt) and execute main.py.
 
+0. Install Python (3.8).
+
+1. Download Zip
+
+2. Unzip
+
+3. Open terminal in the Raven-Storm folder.
+
+4. Install the requirements.
+
+`pip install -r requirements.txt`
+
+5. Execute Raven-Storm.
+
+`python main.py`
+
+(You might need to add a 3 directly after python and pip.)
+
 ## Uninstall
 
 Just execute the folowing:
