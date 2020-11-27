@@ -42,7 +42,7 @@ You will then need to install the requirements (requirements.txt) and execute ma
 
 2. Unzip
 
-3. Open terminal in the Raven-Storm folder.
+3. Open terminal in the Raven-Storm folder. (On windows you should be able to just right click the folder while holding down the shift key, you can then click on open in Powershell (administrator).)
 
 4. Install the requirements.
 
