@@ -36,7 +36,7 @@ Just install python 3.8 and download this repository.
 
 You will then need to install the requirements (requirements.txt) and execute main.py.
 
-0. Install Python (3.8).
+0. Install Python (3.8) (3.6 should work as well.) (On windows, make sure to enable add to PATH.)
 
 1. Download Zip
 
