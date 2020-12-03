@@ -62,6 +62,19 @@ curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.s
 ![Gif](https://user-images.githubusercontent.com/36562445/98694347-a0252e80-2371-11eb-95ec-925e8c98948f.gif)
 <!--![render1581110570685](https://user-images.githubusercontent.com/36562445/74067207-f9ce8600-49f8-11ea-9d54-97a056169cf7.gif)-->
 
+## How to run a DDoS attack
+
+_You probably already know the difference between DoS and DDoS:_
+_A DoS Attack is run by a single Maschine and a DDoS Attack by multiple._
+
+_But how do we perform a DDoS Attack using Raven-Storm?_
+
+
+To connect multiple instances of Raven-Storm, you will then need to open a host.
+Just execute the command `server` and define a custom password to prevent others from interfering.
+When run, you will receive a URL that you can connect to when executing the `ddos` command.
+
+
 ## Info and Warning
 
 __THE CREATOR (Taguar258) OF THE RAVEN-STORM TOOLKIT DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED. THE USER ALONE IS RESPONSIBLE, BE IT: ABUSING RAVEN-STORM TO FIT ILLEGAL PURPOSES OR ACCIDENTAL DAMAGE CAUSED BY RAVEN-STORM.
