@@ -225,7 +225,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		while var.run_active:
 			for url in var.target:
 				try:
-					response = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': choice(var.user_agents)}))  # noqa
+					response = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': choice(var.user_agents), "Connection": "keep-alive", "Accept-Encoding": "gzip, deflate", "Keep-Alive": randint(110,120)}), timeout=999)  # noqa
 					var.command_log.append("Sucessful execution.")
 				except Exception as ex:
 					print("Request failed.")

