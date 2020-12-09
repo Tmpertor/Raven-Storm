@@ -7,7 +7,7 @@
 
 import urllib.request
 from os import getcwd, name, path, system
-from random import choice
+from random import choice, randint
 from sys import version
 from threading import Thread
 from time import sleep
