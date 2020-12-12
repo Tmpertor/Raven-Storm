@@ -53,6 +53,8 @@ curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.s
 | wifi | wifi |
 | botnet | server |
 
+_Try using the L4 attack if L7 fails._
+
 <!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)-->
 ![Preview1](https://user-images.githubusercontent.com/36562445/98484349-152c2300-220f-11eb-84a0-1c3c57415d64.png)
 
