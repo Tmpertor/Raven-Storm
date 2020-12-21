@@ -46,12 +46,15 @@ curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.s
 | Method | Module  |
 | ------- | --- |
 | ping | l3 |
-| udp/tcp services | l4 |
+| udp/tcp services like websites | l4 |
 | websites | l7 |
 | local devices | arp |
 | bluetooth | bl |
 | wifi | wifi |
 | botnet | server |
+
+_If l7 fails try l4._
+
 
 <!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)-->
 ![Preview1](https://user-images.githubusercontent.com/36562445/98484349-152c2300-220f-11eb-84a0-1c3c57415d64.png)

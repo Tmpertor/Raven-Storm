@@ -7,7 +7,7 @@
 
 from os import getcwd, name, path, popen, system
 from sys import version
-from threading import Thread
+from multiprocessing import Process
 from time import sleep
 
 import requests
@@ -261,14 +261,14 @@ C_B----------------------------------------------------------C_W""").replace("C_
 
 			sleep(3)
 			try:
-				t = Thread(target=self.dump)
+				t = Process(target=self.dump)
 				t.start()
 			except Exception:
 				print("Could not start thread.")
 			sleep(2)
 			for thread in range(var.threads):
 				try:
-					t = Thread(target=self.ddos)
+					t = Process(target=self.ddos)
 					t.start()
 				except Exception:
 					print("Could not start thread %s." % thread)
@@ -309,7 +309,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 						sleep(1)
 			try:
 				if var.server[0] and var.server[0]:
-					rec_t = Thread(target=check_stopped_execution)
+					rec_t = Process(target=check_stopped_execution)
 					rec_t.start()
 				input("\r")
 			except KeyboardInterrupt:

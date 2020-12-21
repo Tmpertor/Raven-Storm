@@ -8,7 +8,7 @@
 import socket
 from os import getcwd, name, path, system
 from sys import version
-from threading import Thread
+from multiprocessing import Process
 from time import sleep
 
 import requests
@@ -391,7 +391,7 @@ C_B----------------------------------------------------------C_W""").replace("C_
 						sleep(1)
 			try:
 				if var.server[0] and var.server[0]:
-					rec_t = Thread(target=check_stopped_execution)
+					rec_t = Process(target=check_stopped_execution)
 					rec_t.start()
 				input("\r")
 			except KeyboardInterrupt:
