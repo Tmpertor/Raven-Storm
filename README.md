@@ -12,6 +12,8 @@ Raven can **deal with strong servers** and **can be optimized** for non typical 
 
 Raven will fit your purpose, even if it is **jamming down wifi networks or bluetooth devices**.
 
+_I archived this repository because I currently do not want to work on it._
+
 ![MOSHED](https://user-images.githubusercontent.com/36562445/90558504-77d7ca80-e19c-11ea-9dd5-6ba902934866.gif)
 
 ## What makes it different
